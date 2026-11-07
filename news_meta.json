@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-11-07T12:30+09:00",
-  "added": 5,
+  "checked_at": "2026-11-07T12:34+09:00",
+  "added": 0,
   "total": 200,
   "sources": {
     "医療機能評価機構": {
@@ -190,8 +190,8 @@
       "last_ok": "2026-11-07"
     },
     "要約": {
-      "tried": 4,
-      "filled": 4,
+      "tried": 0,
+      "filled": 0,
       "remaining": 0
     },
     "香川県技師会の予定表": {
@@ -229,12 +229,12 @@
       "last_ok": "2026-11-07"
     },
     "メール通知": {
-      "result": "not-configured",
-      "items": 1
+      "result": "no-items",
+      "items": 0
     },
     "不調の通知": {
-      "result": "not-configured",
-      "items": 1
+      "result": "no-items",
+      "items": 0
     }
   }
 }
