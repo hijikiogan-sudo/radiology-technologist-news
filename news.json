@@ -1,6 +1,54 @@
 [
   {
     "date": "2026-11-06",
+    "category": "超音波",
+    "importance": "中",
+    "headline": "［案内板］日本産婦人科乳腺医学会 乳房超音波検査に関する各種講習会のお知らせ",
+    "summary": "本講習会は、過去2回にわたり開催し、経験豊富な講師陣による丁寧な指導が好評をいただいている講習会です。今回から名称を「ステップアップ乳房超音波講習会」に改め、乳房超音波検査に必要な基礎知識から、乳腺疾患の診断、画像の読影まで、実践的な知識と技術の習得を目指します。",
+    "why": "",
+    "source": "日本放射線技術学会",
+    "url": "https://www.jsrt.or.jp/data/news/70605/",
+    "track": "general",
+    "summary_tried": "2026-11-07"
+  },
+  {
+    "date": "2026-11-06",
+    "category": "学術",
+    "importance": "高",
+    "headline": "デジタル画像の取り扱いに関するガイドライン4.0版および診断用ディスプレイに関する指針",
+    "summary": "放射線診療におけるデジタル画像の取り扱い指針が11年ぶりに改訂されました。 4.0版では、3.0版以降の技術的進歩、読影環境の変化、画像診断用ディスプレイに関する制度的整理を踏まえ、以下の点を中心に改訂を行いました。",
+    "why": "推奨内容の変更点を確認し、普段の撮影条件やプロトコルと照らし合わせておきましょう。",
+    "source": "日本医学放射線学会",
+    "url": "https://www.radiology.jp/guideline/20261106_01.html",
+    "track": "official",
+    "summary_tried": "2026-11-07"
+  },
+  {
+    "date": "2026-11-06",
+    "category": "職能",
+    "importance": "中",
+    "headline": "告示研修（実技研修）東京都 申込受付開始のお知らせ - 日本診療放射線技師会",
+    "summary": "告示研修（実技研修）の申込受付が再開されました。2027年1月の開催に向けて、詳細をご確認ください。",
+    "why": "業務範囲の拡大に伴う告示研修です。未受講なら日程と申込方法を確認しておきましょう。",
+    "source": "日本診療放射線技師会",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5FWVR6MEczVV9vLWdWbDVxU0tHQWtyS2tRTUYyVFUtczNKeDllVXI1Tlk4dElNMXpuRkRkREt1VmdzYXJTcXdDLVB1b1dJTU9uMlE?oc=5",
+    "track": "official",
+    "summary_tried": "2026-11-07"
+  },
+  {
+    "date": "2026-11-05",
+    "category": "教育",
+    "importance": "中",
+    "headline": "【重要】JARTIS復旧に伴うワクチン注射行為実技講習の受講に関する特例措置について - 日本診療放射線技師会",
+    "summary": "JARTISの一時閉鎖からの再開に伴い、ワクチン注射行為実技講習に関する特例措置をお知らせします。受講者は内容を確認してください。",
+    "why": "",
+    "source": "日本診療放射線技師会",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBjd255bjQ5a0RCY1JPNVIybWdRQ3ZjSWZISEtPcFhXM3pkeVlzTDJVMExoZmphSXpKV2FWU2VCTVYwMFk5MjVJUVpydTlYUko5NFN3?oc=5",
+    "track": "official",
+    "summary_tried": "2026-11-07"
+  },
+  {
+    "date": "2026-11-06",
     "category": "教育",
     "importance": "中",
     "headline": "［お知らせ］第54回中部支部学術セミナー",
@@ -2409,60 +2457,6 @@
     "why": "",
     "source": "GIGAZINE",
     "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5VMkgtUGFhWWhRajBkNV9ZMjFZZ09GQkEzOTBmb3o5X0VGalJYSmpnM0xWVVBieHJUdHUzekF6OUMyOTI1V2NKMGhWdkZFQmo1c0ZtMHBnUV9SUQ?oc=5",
-    "track": "general",
-    "summary_tried": "2026-11-04"
-  },
-  {
-    "date": "2026-09-26",
-    "category": "学術",
-    "importance": "中",
-    "headline": "［案内板］【日本学術会議】若手アカデミー候補者〔連携会員（特任）候補者〕の募集について - 公益社団法人 日本放射線技術学会",
-    "summary": "日本学術会議若手アカデミーでは、このたび、若手アカデミーの活動をさらに発展させるため、新たに活動に参画する若手アカデミー候補者〔連携会員（特任）候補者〕を広く募集いたします。",
-    "why": "応募条件と締切を確認しておきましょう。",
-    "source": "日本放射線技術学会",
-    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5tTzhPRW9lakRJSGNpQ0dYN1RJWjVLZzZJbmsxXzAweHVxOHV0dzc2bVlaSVNtdV93N2M2Mkp5UXhSTGs4X3R5bE5UOEFsdkEt?oc=5",
-    "track": "general",
-    "summary_tried": "2026-11-04"
-  },
-  {
-    "date": "2026-09-24",
-    "category": "職能",
-    "importance": "中",
-    "headline": "告示研修（実技研修）2026年度 開催日程（2026/9/24更新） - 日本診療放射線技師会",
-    "summary": "告示研修（実技研修）の2026年度開催日程をお知らせします。最新情報を確認の上、お申し込みください。",
-    "why": "業務範囲の拡大に伴う告示研修です。未受講なら日程と申込方法を確認しておきましょう。",
-    "source": "日本診療放射線技師会",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFA3QUdCakdsS2Rjd3Y1UG5iUk1uNDZ3Q0lJNTRicXNueFlsTzUyVGhVdXdrMTdnaXBzeUJKUWNqczd5dERwRlBYTU94bW1IcXZMaGdF?oc=5",
-    "track": "official",
-    "summary_tried": "2026-11-04"
-  },
-  {
-    "date": "2026-09-25",
-    "category": "安全管理",
-    "importance": "高",
-    "headline": "［案内板］令和8年度「医療放射線安全管理講習会（WEB）」の開催案内 - 公益社団法人 日本放射線技術学会",
-    "summary": "立入検査、タスク・シフト、グリーンラジオロジー、IVR、核医学治療などを扱う講習会。",
-    "why": "立入検査への対応、医療放射線の安全管理、タスク・シフトの要点をまとめて学べます。",
-    "source": "日本診療放射線技師会",
-    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9rVHJINUJKeUdPWUpLVWxTOWRoYkpzN3Bqb1F4dE81RG1UQXpFQXZnMGJ4Y0xCU1JlYnc1a3dFdGtDbkpreU9oOFpoTGdaMWRV?oc=5",
-    "track": "official",
-    "featured_date": "2026-09-22",
-    "also": [
-      {
-        "source": "日本診療放射線技師会",
-        "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE01NXhmMDd5cGh5NEFaT0twZXF3Yk9uMjlxa1o0U1BfWUhrb3N5NDJPRDRlZ1hsTTZPVUJJSEM4QWpsc0w5VzR5VElFZGY5eE8wNGJoeg?oc=5"
-      }
-    ]
-  },
-  {
-    "date": "2026-09-24",
-    "category": "核医学",
-    "importance": "中",
-    "headline": "［案内板］日本癌治療学会「第2回核医学治療教育セミナー・施設見学会」のご案内 - 公益社団法人 日本放射線技術学会",
-    "summary": "",
-    "why": "",
-    "source": "日本放射線技術学会",
-    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5VRHdMOV9OT3BnSkw0ZGZrMVRWVzNaajVFVnVwRkw3d2NOXzR3bXRLTW55anhDblRySkZJT0JreHFMME5IcXRVTVZZQzBPSHdD?oc=5",
     "track": "general",
     "summary_tried": "2026-11-04"
   }

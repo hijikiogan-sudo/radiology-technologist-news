@@ -1,239 +1,240 @@
 {
-  "checked_at": "2026-11-06T12:31+09:00",
+  "checked_at": "2026-11-07T12:30+09:00",
   "added": 5,
   "total": 200,
   "sources": {
     "医療機能評価機構": {
       "picked": 3,
-      "last_ok": "2026-11-06"
+      "last_ok": "2026-11-07"
     },
     "PMDA": {
       "picked": 0,
-      "last_ok": "2026-11-06"
+      "last_ok": "2026-11-07"
     },
     "日本放射線技術学会": {
-      "listed": 38,
+      "listed": 40,
       "picked": 5,
-      "last_ok": "2026-11-06"
+      "last_ok": "2026-11-07"
     },
     "日本医学放射線学会": {
       "listed": 10,
       "picked": 5,
-      "last_ok": "2026-11-06"
+      "last_ok": "2026-11-07"
     },
     "日本核医学会": {
       "listed": 10,
       "picked": 3,
-      "last_ok": "2026-11-06"
+      "last_ok": "2026-11-07"
     },
     "厚生労働省": {
-      "listed": 119,
+      "listed": 132,
       "picked": 1,
-      "last_ok": "2026-11-06"
+      "last_ok": "2026-11-07"
     },
     "日本消化器がん検診学会": {
       "listed": 43,
       "picked": 5,
-      "last_ok": "2026-11-06"
+      "last_ok": "2026-11-07"
     },
     "日本磁気共鳴専門技術者認定機構": {
       "listed": 79,
       "picked": 0,
-      "last_ok": "2026-11-06"
+      "last_ok": "2026-11-07"
     },
     "香川県診療放射線技師会": {
       "listed": 10,
       "picked": 5,
-      "last_ok": "2026-11-06"
+      "last_ok": "2026-11-07"
     },
     "日本放射線技術学会 中国・四国支部": {
       "listed": 10,
       "picked": 2,
-      "last_ok": "2026-11-06"
+      "last_ok": "2026-11-07"
     },
     "岡山県診療放射線技師会": {
       "listed": 10,
       "picked": 1,
-      "last_ok": "2026-11-06"
+      "last_ok": "2026-11-07"
     },
     "愛媛県診療放射線技師会": {
       "listed": 5,
       "picked": 0,
-      "last_ok": "2026-11-06"
+      "last_ok": "2026-11-07"
     },
     "徳島県診療放射線技師会": {
       "error": "URLError: <urlopen error timed out>",
       "last_ok": "2026-11-04",
       "failing_since": "2026-11-05",
-      "failing_days": 2
+      "failing_days": 3,
+      "alerted": true
     },
     "高知県診療放射線技師会": {
       "listed": 165,
       "picked": 5,
-      "last_ok": "2026-11-06"
+      "last_ok": "2026-11-07"
     },
     "DCIS研究会": {
       "listed": 10,
       "picked": 0,
-      "last_ok": "2026-11-06"
+      "last_ok": "2026-11-07"
     },
     "日本放射線腫瘍学会": {
       "listed": 31,
       "picked": 1,
-      "last_ok": "2026-11-06"
+      "last_ok": "2026-11-07"
     },
     "日本医学物理学会": {
       "listed": 10,
       "picked": 2,
-      "last_ok": "2026-11-06"
+      "last_ok": "2026-11-07"
     },
     "日本磁気共鳴医学会": {
       "listed": 10,
       "picked": 3,
-      "last_ok": "2026-11-06"
+      "last_ok": "2026-11-07"
     },
     "日本IVR学会": {
       "listed": 10,
-      "picked": 1,
-      "last_ok": "2026-11-06"
+      "picked": 0,
+      "last_ok": "2026-11-07"
     },
     "日本超音波医学会": {
       "listed": 10,
       "picked": 5,
-      "last_ok": "2026-11-06"
+      "last_ok": "2026-11-07"
     },
     "日本核医学技術学会": {
       "listed": 10,
       "picked": 0,
-      "last_ok": "2026-11-06"
+      "last_ok": "2026-11-07"
     },
     "日本CT技術学会": {
       "listed": 5,
       "picked": 0,
-      "last_ok": "2026-11-06"
+      "last_ok": "2026-11-07"
     },
     "日本乳癌検診学会": {
       "listed": 30,
       "picked": 1,
-      "last_ok": "2026-11-06"
+      "last_ok": "2026-11-07"
     },
     "日本CT検診学会": {
       "listed": 340,
       "picked": 1,
-      "last_ok": "2026-11-06"
+      "last_ok": "2026-11-07"
     },
     "日本放射線治療専門放射線技師認定機構": {
       "listed": 1,
       "picked": 0,
-      "last_ok": "2026-11-06"
+      "last_ok": "2026-11-07"
     },
     "日本乳腺甲状腺超音波医学会": {
       "listed": 10,
       "picked": 0,
-      "last_ok": "2026-11-06"
+      "last_ok": "2026-11-07"
     },
     "日本超音波検査学会": {
       "listed": 10,
       "picked": 2,
-      "last_ok": "2026-11-06"
+      "last_ok": "2026-11-07"
     },
     "日本X線CT専門技師認定機構": {
       "listed": 82,
       "picked": 3,
-      "last_ok": "2026-11-06"
+      "last_ok": "2026-11-07"
     },
     "日本乳癌学会": {
       "listed": 10,
       "picked": 1,
-      "last_ok": "2026-11-06"
+      "last_ok": "2026-11-07"
     },
     "MRIfan.net": {
       "listed": 10,
       "picked": 5,
-      "last_ok": "2026-11-06"
+      "last_ok": "2026-11-07"
     },
     "PMDA回収クラスI": {
       "listed": 0,
       "picked": 0,
       "empty_ok": true,
-      "last_ok": "2026-11-06"
+      "last_ok": "2026-11-07"
     },
     "PMDA回収クラスII": {
       "listed": 28,
-      "picked": 5,
-      "last_ok": "2026-11-06"
+      "picked": 4,
+      "last_ok": "2026-11-07"
     },
     "造影剤の供給状況": {
       "listed": 235,
       "limited": 28,
-      "last_ok": "2026-11-06"
+      "last_ok": "2026-11-07"
     },
     "日本放射線技術学会雑誌": {
       "listed": 1,
       "feed_entries": 1,
       "added": 0,
-      "last_ok": "2026-11-06"
+      "last_ok": "2026-11-07"
     },
     "日本消化器がん検診学会雑誌": {
       "listed": 0,
       "feed_entries": 0,
       "empty_ok": true,
       "added": 0,
-      "last_ok": "2026-11-06"
+      "last_ok": "2026-11-07"
     },
     "日本乳癌検診学会誌": {
       "listed": 0,
       "feed_entries": 0,
       "empty_ok": true,
       "added": 0,
-      "last_ok": "2026-11-06"
+      "last_ok": "2026-11-07"
     },
     "要約": {
       "tried": 4,
-      "filled": 3,
+      "filled": 4,
       "remaining": 0
     },
     "香川県技師会の予定表": {
       "listed": 5,
-      "last_ok": "2026-11-06"
+      "last_ok": "2026-11-07"
     },
     "愛媛県技師会の行事予定": {
       "listed": 3,
-      "last_ok": "2026-11-06"
+      "last_ok": "2026-11-07"
     },
     "JABTS学術集会": {
       "listed": 1,
       "empty_ok": true,
-      "last_ok": "2026-11-06"
+      "last_ok": "2026-11-07"
     },
     "MR認定研究会・セミナー": {
       "listed": 23,
-      "last_ok": "2026-11-06"
+      "last_ok": "2026-11-07"
     },
     "精中機構の講習会": {
       "listed": 5,
-      "last_ok": "2026-11-06"
+      "last_ok": "2026-11-07"
     },
     "技師会の研修一覧": {
       "listed": 48,
       "upcoming": 46,
-      "last_ok": "2026-11-06"
+      "last_ok": "2026-11-07"
     },
     "香川県技師会のお知らせ(別枠)": {
       "listed": 10,
-      "last_ok": "2026-11-06"
+      "last_ok": "2026-11-07"
     },
     "香川県技師会の求人": {
       "listed": 2,
-      "last_ok": "2026-11-06"
+      "last_ok": "2026-11-07"
     },
     "メール通知": {
-      "result": "no-items",
-      "items": 0
+      "result": "not-configured",
+      "items": 1
     },
     "不調の通知": {
-      "result": "no-items",
-      "items": 0
+      "result": "not-configured",
+      "items": 1
     }
   }
 }
