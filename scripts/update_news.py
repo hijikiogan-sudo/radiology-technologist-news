@@ -1341,9 +1341,16 @@ JOURNALS = (
     ('日本放射線技術学会雑誌', 'jjrt', None),
     ('日本消化器がん検診学会雑誌', 'jsgcs', '検診'),
     ('日本乳癌検診学会誌', 'jjabcs', 'マンモグラフィ'),
+    ('日本磁気共鳴医学会雑誌', 'jjmrm', 'MRI'),
+    ('医学物理', 'jjmp', '学術'),
+    ('核医学', 'kakuigaku', '核医学'),
+    ('医用画像情報学会雑誌', 'mii', '学術'),
+    ('Medical Imaging Technology', 'mit', '学術'),
+    ('日本インターベンショナルラジオロジー学会雑誌', 'ivr', '血管撮影'),
+    ('超音波検査技術', 'jss', '超音波'),
 )
 PAPER_DAYS = 180     # これより古い論文は残さない
-PAPER_MAX = 150
+PAPER_MAX = 300
 
 
 PAPER_SKIP = re.compile(r'^(講演プログラム|プログラム|日程表|会場案内|扉|表紙|目次|奥付|会告|編集後記|投稿規定|執筆要項|正誤表|お知らせ|学会記事|会員名簿|役員名簿|索引|広告)|抄録集|講演抄録$')
@@ -1361,9 +1368,9 @@ def parse_jstage_atom(xml):
             continue
         txt = unescape(re.sub(r'<!\[CDATA\[|\]\]>', '', m.group(1)))
         def field(name):
-            f = re.search(r'\[\s*' + name + r'\s*\](.*?)(?=\[\s*(?:タイトル|著者|公開日|DOI)\s*\]|$)', txt, re.S)
+            f = re.search(r'\[\s*' + name + r'\s*\](.*?)(?=\[\s*(?:タイトル|著者|早期公開日|公開日|DOI)\s*\]|$)', txt, re.S)
             return re.sub(r'\s+', ' ', f.group(1)).strip() if f else ''
-        title, authors, day, doi = field('タイトル'), field('著者'), field('公開日'), field('DOI')
+        title, authors, day, doi = field('タイトル'), field('著者'), (field('公開日') or field('早期公開日')), field('DOI')
         title = clean_html(title)   # <I>Helicobacter pylori</I> などの斜体タグ
         # 学術集会の抄録号(Supplement)は講演名が大量に並ぶので除く
         ident = re.search(r'<id>(.*?)</id>', ent, re.S)
@@ -1377,39 +1384,101 @@ def parse_jstage_atom(xml):
     return out
 
 
+def parse_jstage_contents(page):
+    """最新号の目次から書誌情報だけを読む。本文・抄録は取り込まない。"""
+    out = []
+    blocks = re.split(r'<div\b[^>]*class=["\'][^"\']*\bsearchlist-title\b[^"\']*["\'][^>]*>', page)
+    for block in blocks[1:]:
+        block = block.split('</li>', 1)[0]
+        link = re.search(r'<a\b[^>]*href=["\']([^"\']+)["\'][^>]*>(.*?)</a>', block, re.S)
+        info = re.search(r'<div\b[^>]*class=["\'][^"\']*\bsearchlist-additional-info\b[^"\']*["\'][^>]*>(.*?)</div>', block, re.S)
+        if not link or not info:
+            continue
+        article_url, title = unescape(link.group(1)), clean_html(link.group(2))
+        if not re.match(r'https://www\.jstage\.jst\.go\.jp/article/[^/]+/[^/]+/[^/]+/[^/]+/_article/', article_url):
+            continue
+        if re.search(r'/supplement[^/]*/', article_url, re.I) or PAPER_SKIP.search(title):
+            continue
+        if re.search(r'^(巻頭言|編集委員長就任|特集のねらい|今回の特集を企画)|先生を偲|追悼', title):
+            continue
+        day = re.search(r'公開日\s*:\s*(\d{4}/\d{2}/\d{2})', clean_html(info.group(1)))
+        if not day:
+            continue
+        published = day.group(1).replace('/', '-')
+        try:
+            datetime.strptime(published, '%Y-%m-%d')
+        except ValueError:
+            continue
+        # J-STAGEは副題にもauthortagsを使う。書誌情報より前の最後が著者欄。
+        author_fields = re.findall(r'<div\b([^>]*class=["\'][^"\']*\bsearchlist-authortags\b[^"\']*["\'][^>]*)>(.*?)</div>', block[:info.start()], re.S)
+        author_values = []
+        for attrs, content in author_fields:
+            full = re.search(r'\btitle=["\']([^"\']*)["\']', attrs)
+            author_values.append(clean_html(full.group(1) if full else content))
+        authors = ''
+        if author_values:
+            authors = author_values[-1]
+            if len(author_values) > 1:
+                title = ' '.join([title] + author_values[:-1])
+        doi = re.search(r'https://doi\.org/[^"<>\s]+', block)
+        out.append({'title': title, 'url': unescape(doi.group(0)) if doi else article_url,
+                    'published': published + 'T00:00:00+09:00', 'authors': authors})
+    return out
+
+
 def update_papers():
-    """各誌の新着論文を papers.json に追記する(前回分は残し、古いものから落とす)。"""
+    """新着配信と最新号の目次を照合し、前回分を保って論文一覧を更新する。"""
     try:
         old = json.loads(PAPERS_JSON.read_text(encoding='utf-8')).get('items', [])
     except Exception:
         old = []
     found = {x['url']: x for x in old}
     now = datetime.now(JST)
+    cutoff = (now - timedelta(days=PAPER_DAYS)).date().isoformat()
+    today = now.date().isoformat()
     for name, code, default_cat in JOURNALS:
-        url = JSTAGE_RSS.format(code=code)
+        items, errors, st = [], [], {}
+        succeeded = False
         try:
-            page = fetch(url)
-            items = parse_jstage_atom(page) if '<feed' in page[:500] else parse_rss(page)
+            page = fetch(JSTAGE_RSS.format(code=code))
+            feed_items = parse_jstage_atom(page) if '<feed' in page[:500] else parse_rss(page)
+            items.extend(feed_items)
+            st.update({'feed_entries': page.count('<entry'), 'rss_items': len(feed_items)})
+            succeeded = True
         except Exception as e:
-            SOURCE_STATUS[name] = {'error': f'{type(e).__name__}: {e}'[:160]}
+            errors.append('RSS: ' + str(e)[:120])
+        try:
+            page = fetch(f'https://www.jstage.jst.go.jp/browse/{code}/list/-char/ja')
+            if 'search-resultslist-wrap' not in page:
+                raise ValueError('最新号の論文一覧を確認できませんでした')
+            contents = parse_jstage_contents(page)
+            items.extend(contents)
+            st['contents_items'] = len(contents)
+            succeeded = True
+        except Exception as e:
+            errors.append('目次: ' + str(e)[:120])
+        if not succeeded:
+            SOURCE_STATUS[name] = {'error': '; '.join(errors)[:240]}
             continue
-        st = {'listed': len(items), 'feed_entries': page.count('<entry')}
-        if not items and ('<feed' in page[:500] or '<rss' in page[:500]):   # 新着がないだけ
+        st['listed'] = len({x['url'] for x in items})
+        if errors:
+            st['warning'] = '; '.join(errors)[:240]
+        if not items:
             st['empty_ok'] = True
         added = 0
         for x in items:
             title = re.sub(r'\s+', ' ', x['title']).strip()
-            if not title or x['url'] in found:
+            day = x['published'][:10]
+            # 目次には古い号の情報もある。公開日が半年以内のものだけ補充する。
+            if not title or x['url'] in found or not (cutoff <= day <= today):
                 continue
             cat = category({'headline': title, 'summary': '', 'source': ''})
-            found[x['url']] = {'journal': name, 'title': title, 'url': x['url'], 'published': x['published'][:10],
-                               'authors': x.get('authors', ''),
-                               'added': now.date().isoformat(),
+            found[x['url']] = {'journal': name, 'title': title, 'url': x['url'], 'published': day,
+                               'authors': x.get('authors', ''), 'added': today,
                                'category': cat if cat != 'その他' or not default_cat else default_cat}
             added += 1
         st['added'] = added
         SOURCE_STATUS[name] = st
-    cutoff = (now - timedelta(days=PAPER_DAYS)).date().isoformat()
     keep = sorted((x for x in found.values() if max(x['published'], x.get('added', '')) >= cutoff),
                   key=lambda x: (x.get('added', ''), x['published']), reverse=True)[:PAPER_MAX]
     PAPERS_JSON.write_text(json.dumps({'checked_at': now.isoformat(timespec='minutes'), 'items': keep},

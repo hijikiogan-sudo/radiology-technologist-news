@@ -635,7 +635,7 @@ function renderPapers(){
   const all=papers.map(paperAsItem).filter(n=>srcShown(n)&&matchQ(n)&&(cat==='all'||n.category===cat)&&(!unreadOnly||!isRead(n))&&!newOnly).sort((a,b)=>(!!watchHit(b)-!!watchHit(a))||String(b.date).localeCompare(String(a.date))||String(b.published).localeCompare(String(a.published)));
   if(!all.length)return '';
   const shown=showAllPapers?all:all.slice(0,5);
-  return `<section class="section" aria-labelledby="h-papers"><h2 id="h-papers">学会誌の新着論文<span class="count">${all.length}件</span></h2><p class="lead">J-STAGEに載った日本放射線技術学会雑誌・日本消化器がん検診学会雑誌・日本乳癌検診学会誌の新しい論文</p><div class="list">${shown.map(n=>row(n)).join('')}${all.length>shown.length?`<button type="button" class="more" data-morepapers>残り${all.length-shown.length}件を見る</button>`:''}</div></section>`;
+  return `<section class="section" aria-labelledby="h-papers"><h2 id="h-papers">学会誌の新着論文<span class="count">${all.length}件</span></h2><p class="lead">J-STAGEで公開された、放射線・画像診断・検診など10誌の新しい論文。最新号と早期公開の情報を確認しています</p><div class="list">${shown.map(n=>row(n)).join('')}${all.length>shown.length?`<button type="button" class="more" data-morepapers>残り${all.length-shown.length}件を見る</button>`:''}</div></section>`;
 }
 // ---- スワイプとトースト ----
 let swipeOn=store.get('rtn-swipe','on')!=='off';
@@ -752,7 +752,7 @@ const SRC_GROUPS=[
   {g:'職能団体・学会',items:[['jart','日本診療放射線技師会'],['jsrt','日本放射線技術学会'],['jrs','日本医学放射線学会'],['jsnm','日本核医学会'],['jsnmt','日本核医学技術学会'],['jastro','日本放射線腫瘍学会'],['jsmp','日本医学物理学会'],['jsmrm','日本磁気共鳴医学会'],['jsir','日本IVR学会'],['jsum','日本超音波医学会'],['jsct','日本CT技術学会'],['jsgcs','日本消化器がん検診学会'],['jabcs','日本乳癌検診学会'],['jscts','日本CT検診学会'],['jabts','日本乳腺甲状腺超音波医学会(JABTS)',['日本乳腺甲状腺超音波医学会']],['jss','日本超音波検査学会(JSS)',['日本超音波検査学会']],['jbcs','日本乳癌学会'],['dcis','DCIS研究会']]},
   {g:'認定機構',items:[['jmrts','日本磁気共鳴専門技術者認定機構'],['rtt','日本放射線治療専門放射線技師認定機構'],['qabcs','精中機構(乳がん検診精度管理中央機構)',['精中機構','日本乳がん検診精度管理中央機構']],['jxct','日本X線CT専門技師認定機構']]},
   {g:'行政・安全情報',items:[['mhlw','厚生労働省'],['pmda','PMDA(医療機器の回収など)',['PMDA','医薬品医療機器総合機構']],['jcqhc','日本医療機能評価機構'],['nra','原子力規制委員会']]},
-  {g:'学会誌の論文',items:[['p_jjrt','日本放射線技術学会雑誌'],['p_jsgcs','日本消化器がん検診学会雑誌'],['p_jabcs','日本乳癌検診学会誌']]},
+  {g:'学会誌の論文',items:[['p_jjrt','日本放射線技術学会雑誌'],['p_jsgcs','日本消化器がん検診学会雑誌'],['p_jabcs','日本乳癌検診学会誌'],['p_jjmrm','日本磁気共鳴医学会雑誌'],['p_jjmp','医学物理'],['p_kakuigaku','核医学'],['p_mii','医用画像情報学会雑誌'],['p_mit','Medical Imaging Technology'],['p_ivr','日本インターベンショナルラジオロジー学会雑誌'],['p_jss','超音波検査技術']]},
   {g:'地域',items:[['kagawa','香川県診療放射線技師会'],['chushi','日本放射線技術学会 中国・四国支部'],['okayama','岡山県診療放射線技師会'],['ehime','愛媛県診療放射線技師会'],['tokushima','徳島県診療放射線技師会'],['kochi','高知県診療放射線技師会']]},
   {g:'そのほか',items:[['mrifan','MRIfan.net'],['media','一般メディア(新聞・ニュースサイトなど)',[]]]}
 ];
