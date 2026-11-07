@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-07T12:34+09:00",
+  "checked_at": "2026-11-07T13:16+09:00",
   "added": 0,
   "total": 200,
   "sources": {
@@ -94,9 +94,10 @@
       "last_ok": "2026-11-07"
     },
     "日本IVR学会": {
-      "listed": 10,
-      "picked": 0,
-      "last_ok": "2026-11-07"
+      "error": "URLError: <urlopen error timed out>",
+      "last_ok": "2026-11-07",
+      "failing_since": "2026-11-07",
+      "failing_days": 1
     },
     "日本超音波医学会": {
       "listed": 10,
@@ -170,23 +171,83 @@
       "last_ok": "2026-11-07"
     },
     "日本放射線技術学会雑誌": {
-      "listed": 1,
       "feed_entries": 1,
+      "rss_items": 1,
+      "contents_items": 2,
+      "listed": 3,
       "added": 0,
       "last_ok": "2026-11-07"
     },
     "日本消化器がん検診学会雑誌": {
-      "listed": 0,
       "feed_entries": 0,
-      "empty_ok": true,
-      "added": 0,
+      "rss_items": 0,
+      "contents_items": 14,
+      "listed": 14,
+      "added": 14,
       "last_ok": "2026-11-07"
     },
     "日本乳癌検診学会誌": {
-      "listed": 0,
       "feed_entries": 0,
-      "empty_ok": true,
-      "added": 0,
+      "rss_items": 0,
+      "contents_items": 29,
+      "listed": 29,
+      "added": 29,
+      "last_ok": "2026-11-07"
+    },
+    "日本磁気共鳴医学会雑誌": {
+      "feed_entries": 2,
+      "rss_items": 2,
+      "contents_items": 13,
+      "listed": 15,
+      "added": 15,
+      "last_ok": "2026-11-07"
+    },
+    "医学物理": {
+      "feed_entries": 0,
+      "rss_items": 0,
+      "contents_items": 7,
+      "listed": 7,
+      "added": 7,
+      "last_ok": "2026-11-07"
+    },
+    "核医学": {
+      "feed_entries": 11,
+      "rss_items": 1,
+      "contents_items": 10,
+      "listed": 10,
+      "added": 6,
+      "last_ok": "2026-11-07"
+    },
+    "医用画像情報学会雑誌": {
+      "feed_entries": 0,
+      "rss_items": 0,
+      "contents_items": 5,
+      "listed": 5,
+      "added": 5,
+      "last_ok": "2026-11-07"
+    },
+    "Medical Imaging Technology": {
+      "feed_entries": 0,
+      "rss_items": 0,
+      "contents_items": 5,
+      "listed": 5,
+      "added": 5,
+      "last_ok": "2026-11-07"
+    },
+    "日本インターベンショナルラジオロジー学会雑誌": {
+      "feed_entries": 0,
+      "rss_items": 0,
+      "contents_items": 7,
+      "listed": 7,
+      "added": 7,
+      "last_ok": "2026-11-07"
+    },
+    "超音波検査技術": {
+      "feed_entries": 0,
+      "rss_items": 0,
+      "contents_items": 3,
+      "listed": 3,
+      "added": 3,
       "last_ok": "2026-11-07"
     },
     "要約": {

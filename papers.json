@@ -1,6 +1,825 @@
 {
- "checked_at": "2026-11-07T12:34+09:00",
+ "checked_at": "2026-11-07T13:15+09:00",
  "items": [
+  {
+   "journal": "核医学",
+   "title": "心臓交感神経PETイメージングの新展開： 18 F-fluproxadine（ 18 F-AF78）の開発と臨床展開",
+   "url": "https://doi.org/10.18893/kakuigaku.ra.2602",
+   "published": "2026-10-22",
+   "authors": "能勢 直子,樋口 隆弘",
+   "added": "2026-11-07",
+   "category": "核医学"
+  },
+  {
+   "journal": "日本磁気共鳴医学会雑誌",
+   "title": "磁気共鳴画像診断装置の安全管理に対する関連医療職の認識と教育システム開発の課題",
+   "url": "https://doi.org/10.2463/jjmrm.2026-1881",
+   "published": "2026-10-20",
+   "authors": "本城 進也,石原 啓之,榊原 修平,和佐 勝史",
+   "added": "2026-11-07",
+   "category": "安全管理"
+  },
+  {
+   "journal": "医用画像情報学会雑誌",
+   "title": "生成AIによる医用画像の言語的記述",
+   "url": "https://doi.org/10.11318/mii.43.45",
+   "published": "2026-10-20",
+   "authors": "森 健策",
+   "added": "2026-11-07",
+   "category": "AI"
+  },
+  {
+   "journal": "医用画像情報学会雑誌",
+   "title": "数理と言語の知識がもたらす医用画像特徴の秩序",
+   "url": "https://doi.org/10.11318/mii.43.50",
+   "published": "2026-10-20",
+   "authors": "酒井 智弥",
+   "added": "2026-11-07",
+   "category": "学術"
+  },
+  {
+   "journal": "医用画像情報学会雑誌",
+   "title": "乳房MRIの現在と未来： マルチパラメトリックMRIから腫瘍微小環境・precision medicineへの展開",
+   "url": "https://doi.org/10.11318/mii.43.56",
+   "published": "2026-10-20",
+   "authors": "山口 健",
+   "added": "2026-11-07",
+   "category": "MRI"
+  },
+  {
+   "journal": "医用画像情報学会雑誌",
+   "title": "乳がんにおけるMRI Radiomics特徴量と体細胞ゲノム変化量との関連性",
+   "url": "https://doi.org/10.11318/mii.43.67",
+   "published": "2026-10-20",
+   "authors": "坂田 碧羽, 宇都宮 あかね, 市田 隆雄, 崇風 まあぜん, 内山 良一",
+   "added": "2026-11-07",
+   "category": "MRI"
+  },
+  {
+   "journal": "医用画像情報学会雑誌",
+   "title": "AI の原点をPRML で勉強する（第1回）",
+   "url": "https://doi.org/10.11318/mii.43.73",
+   "published": "2026-10-20",
+   "authors": "桂川 茂彦",
+   "added": "2026-11-07",
+   "category": "AI"
+  },
+  {
+   "journal": "日本磁気共鳴医学会雑誌",
+   "title": "新築移転病院における1.5T MRIシステム障害の事例報告—高湿度環境によるMRI検査室内結露の発生と注意喚起—",
+   "url": "https://doi.org/10.2463/jjmrm.2026-1868",
+   "published": "2026-10-16",
+   "authors": "矢部 邦宏,樋口 裕平",
+   "added": "2026-11-07",
+   "category": "MRI"
+  },
+  {
+   "journal": "核医学",
+   "title": "甲状腺癌の放射性ヨウ素内用療法におけるRI治療病室稼働状況の実態調査報告（第7報）",
+   "url": "https://doi.org/10.18893/kakuigaku.rp.2637",
+   "published": "2026-10-01",
+   "authors": "日本核医学会分科会 腫瘍・免疫核医学研究会 甲状腺RI治療委員会, 阿部 光一郎, 伊藤 公一, 伊藤 充, 尾身 葉子, 絹谷 清剛, 久山 順平, 小泉 潔, 渋谷 洋, 菅原 茂耕, 戸川 貴史, 東 達也, 樋口 徹也, 横山 邦彦, 吉村 真奈, 渡邊 奈津子, 江副 美沙",
+   "added": "2026-11-07",
+   "category": "核医学"
+  },
+  {
+   "journal": "日本乳癌検診学会誌",
+   "title": "BRCA1/2 から HRD 関連遺伝子に広がる遺伝性乳癌診療",
+   "url": "https://doi.org/10.3804/jjabcs.35.132",
+   "published": "2026-09-30",
+   "authors": "有賀 智之",
+   "added": "2026-11-07",
+   "category": "マンモグラフィ"
+  },
+  {
+   "journal": "日本乳癌検診学会誌",
+   "title": "乳癌発症リスクの高い消化器関連の遺伝性腫瘍症候群",
+   "url": "https://doi.org/10.3804/jjabcs.35.136",
+   "published": "2026-09-30",
+   "authors": "隈元 謙介, 阿部 宣子",
+   "added": "2026-11-07",
+   "category": "マンモグラフィ"
+  },
+  {
+   "journal": "日本乳癌検診学会誌",
+   "title": "BRCA1/2以外の乳癌易罹患性遺伝子のgermline pathogenic variant（GPV）保持者の乳腺マネジメント：multigene panel testing時代に備える",
+   "url": "https://doi.org/10.3804/jjabcs.35.142",
+   "published": "2026-09-30",
+   "authors": "田辺 真彦",
+   "added": "2026-11-07",
+   "category": "マンモグラフィ"
+  },
+  {
+   "journal": "日本乳癌検診学会誌",
+   "title": "当院におけるHBOC乳房サーベイランスの実際",
+   "url": "https://doi.org/10.3804/jjabcs.35.148",
+   "published": "2026-09-30",
+   "authors": "中村 卓, 近藤 裕太, 島 宏彰",
+   "added": "2026-11-07",
+   "category": "マンモグラフィ"
+  },
+  {
+   "journal": "日本乳癌検診学会誌",
+   "title": "当院におけるMRIガイド下乳房組織生検",
+   "url": "https://doi.org/10.3804/jjabcs.35.151",
+   "published": "2026-09-30",
+   "authors": "岩本 奈織子, 鈴木 瑞佳, 髙木 康伸, 堀口 慎一郎, 桑山 隆志",
+   "added": "2026-11-07",
+   "category": "MRI"
+  },
+  {
+   "journal": "日本乳癌検診学会誌",
+   "title": "当院でのBRCA VUSへの乳房サーベイランスの状況",
+   "url": "https://doi.org/10.3804/jjabcs.35.155",
+   "published": "2026-09-30",
+   "authors": "宮本 健志, 徳田 尚子, 荒木 和浩, 大川 美樹, 柳田 康弘, 藤澤 知巳",
+   "added": "2026-11-07",
+   "category": "マンモグラフィ"
+  },
+  {
+   "journal": "日本乳癌検診学会誌",
+   "title": "「当院における遺伝性乳癌卵巣癌症候群（HBOC）サーベイランスの現状と課題」",
+   "url": "https://doi.org/10.3804/jjabcs.35.161",
+   "published": "2026-09-30",
+   "authors": "岩熊 伸高, 岡部 実奈, 杉本 美来, 樋脇 遥, 松林（名本） 路花, 槇野 晋也, 唐 宇飛, 藤田 文彦",
+   "added": "2026-11-07",
+   "category": "マンモグラフィ"
+  },
+  {
+   "journal": "日本乳癌検診学会誌",
+   "title": "ライフステージに応じたHBOC乳房サーベイランスを支える多職種連携 ― 当院における遺伝カウンセリング症例の検討から ―",
+   "url": "https://doi.org/10.3804/jjabcs.35.165",
+   "published": "2026-09-30",
+   "authors": "林 早織, 松崎 佐和子, 石川 亜希子, 久保 真",
+   "added": "2026-11-07",
+   "category": "マンモグラフィ"
+  },
+  {
+   "journal": "日本乳癌検診学会誌",
+   "title": "徳島県の検診マンモグラフィにおける読影の現状と課題",
+   "url": "https://doi.org/10.3804/jjabcs.35.169",
+   "published": "2026-09-30",
+   "authors": "原井 夕子",
+   "added": "2026-11-07",
+   "category": "マンモグラフィ"
+  },
+  {
+   "journal": "日本乳癌検診学会誌",
+   "title": "デジタルトランスフォーメーションがもたらす乳がん検診の新たな課題",
+   "url": "https://doi.org/10.3804/jjabcs.35.174",
+   "published": "2026-09-30",
+   "authors": "立花 和之進, 野田 勝, 大竹 徹",
+   "added": "2026-11-07",
+   "category": "マンモグラフィ"
+  },
+  {
+   "journal": "日本乳癌検診学会誌",
+   "title": "AIが乳がん検診で“果たせる”役割 ～検診フローと画像診断～",
+   "url": "https://doi.org/10.3804/jjabcs.35.178",
+   "published": "2026-09-30",
+   "authors": "片岡 正子",
+   "added": "2026-11-07",
+   "category": "マンモグラフィ"
+  },
+  {
+   "journal": "日本乳癌検診学会誌",
+   "title": "自治体検診DX推進モデル事業の問題点の検討（鎌倉市実証実験から）",
+   "url": "https://doi.org/10.3804/jjabcs.35.182",
+   "published": "2026-09-30",
+   "authors": "土井 卓子, 井上 謙一, 加藤 大典, 川崎 あいか, 海野 敬子, 有泉 千草",
+   "added": "2026-11-07",
+   "category": "検診"
+  },
+  {
+   "journal": "日本乳癌検診学会誌",
+   "title": "乳房構成判定アトラスに基づく高濃度乳房の自動定量化システムと加齢に伴う変化の大規模調査",
+   "url": "https://doi.org/10.3804/jjabcs.35.191",
+   "published": "2026-09-30",
+   "authors": "井上 謙一, 川崎 あいか, 海野 敬子, 北田 翼, 土井 卓子",
+   "added": "2026-11-07",
+   "category": "マンモグラフィ"
+  },
+  {
+   "journal": "日本乳癌検診学会誌",
+   "title": "大規模言語モデルによる乳がん情報の質評価を基盤としたAI活用型検診啓発戦略",
+   "url": "https://doi.org/10.3804/jjabcs.35.198",
+   "published": "2026-09-30",
+   "authors": "伏見 淳, 寺田 満雄, 岩瀬 まどか, 中澤 祐子, 田原 梨絵, 柴山 朋子, 家里 明日美, 山下 奈真",
+   "added": "2026-11-07",
+   "category": "検診"
+  },
+  {
+   "journal": "日本乳癌検診学会誌",
+   "title": "AIは乳房超音波診断に役立つのか？",
+   "url": "https://doi.org/10.3804/jjabcs.35.204",
+   "published": "2026-09-30",
+   "authors": "森田 孝子, 須田 波子, 高橋 優子, 高田 優子, 遠藤 登喜子",
+   "added": "2026-11-07",
+   "category": "超音波"
+  },
+  {
+   "journal": "日本乳癌検診学会誌",
+   "title": "日本における組織型乳がん検診の実現に向けた精度管理の現状と課題 ―精密検査受診率の推移と自治体規模別格差の分析―",
+   "url": "https://doi.org/10.3804/jjabcs.35.207",
+   "published": "2026-09-30",
+   "authors": "古元 重和",
+   "added": "2026-11-07",
+   "category": "マンモグラフィ"
+  },
+  {
+   "journal": "日本乳癌検診学会誌",
+   "title": "国際的な組織型検診の実際",
+   "url": "https://doi.org/10.3804/jjabcs.35.210",
+   "published": "2026-09-30",
+   "authors": "雑賀 公美子",
+   "added": "2026-11-07",
+   "category": "検診"
+  },
+  {
+   "journal": "日本乳癌検診学会誌",
+   "title": "受診者から見た検診の課題と解決策 ～誰もが気軽に安心して受けられるがん検診を～",
+   "url": "https://doi.org/10.3804/jjabcs.35.214",
+   "published": "2026-09-30",
+   "authors": "寺田 真由美",
+   "added": "2026-11-07",
+   "category": "検診"
+  },
+  {
+   "journal": "日本乳癌検診学会誌",
+   "title": "職域検診における課題と解決策 ―事業者・保険者におけるがん検診実務と職域検診実施機関への調査から―",
+   "url": "https://doi.org/10.3804/jjabcs.35.223",
+   "published": "2026-09-30",
+   "authors": "岡田 結生子, 岡村 智教",
+   "added": "2026-11-07",
+   "category": "検診"
+  },
+  {
+   "journal": "日本乳癌検診学会誌",
+   "title": "当院の乳癌検診におけるデジタル乳房トモシンセシスの有用性と需要の検討",
+   "url": "https://doi.org/10.3804/jjabcs.35.234",
+   "published": "2026-09-30",
+   "authors": "富永 晴子, 三宅 佳乃子, 松本 壮平, 細井 孝純",
+   "added": "2026-11-07",
+   "category": "マンモグラフィ"
+  },
+  {
+   "journal": "日本乳癌検診学会誌",
+   "title": "超音波検査による乳房構成分類の経年変化 ―年齢や閉経等による影響",
+   "url": "https://doi.org/10.3804/jjabcs.35.241",
+   "published": "2026-09-30",
+   "authors": "吉田 泰子, 角田 博子, 向井 理枝, 剱 さおり, 河内 伸江, 松岡 由紀, 川久保 衣里子, 八木下 和代, 木村 武志, 田中 晴菜",
+   "added": "2026-11-07",
+   "category": "超音波"
+  },
+  {
+   "journal": "日本乳癌検診学会誌",
+   "title": "国際検索トレンドに基づく乳がん啓発活動の可視化 - ピンクリボン係数を用いた分析 -",
+   "url": "https://doi.org/10.3804/jjabcs.35.250",
+   "published": "2026-09-30",
+   "authors": "梶 友香, 伏見 淳",
+   "added": "2026-11-07",
+   "category": "マンモグラフィ"
+  },
+  {
+   "journal": "日本乳癌検診学会誌",
+   "title": "神奈川県域における2023年度乳がん集団検診の実施状況と精度管理の検討",
+   "url": "https://doi.org/10.3804/jjabcs.35.258",
+   "published": "2026-09-30",
+   "authors": "米山 公康, 原 明日香, 龍 美紗, 福田 護",
+   "added": "2026-11-07",
+   "category": "検診"
+  },
+  {
+   "journal": "日本乳癌検診学会誌",
+   "title": "マンモグラフィ受診者快適性を規定する因子の包括的解析",
+   "url": "https://doi.org/10.3804/jjabcs.35.262",
+   "published": "2026-09-30",
+   "authors": "泉 陽美, 菅原 美紅, 日渡 由佳理, 山口 志啓夫, 弥栄 将洋",
+   "added": "2026-11-07",
+   "category": "マンモグラフィ"
+  },
+  {
+   "journal": "日本乳癌検診学会誌",
+   "title": "乳房画像診断における技師の読影補助に関する制度の検討 ：医師・技師アンケートの統計解析から",
+   "url": "https://doi.org/10.3804/jjabcs.35.271",
+   "published": "2026-09-30",
+   "authors": "植松 孝悦, 鯉淵 幸生, 伊東 孝宏, 宇佐美 伸, 小山 智美, 下村 昭彦, 高松 潔, 前里 美和子, 山口 倫, 吉岡 泰彦, 大内 憲明",
+   "added": "2026-11-07",
+   "category": "制度"
+  },
+  {
+   "journal": "日本乳癌検診学会誌",
+   "title": "神奈川県域乳がん検診における要精検率の医療機関間差の検討 –判定カテゴリー分布および乳房構成の影響–",
+   "url": "https://doi.org/10.3804/jjabcs.35.279",
+   "published": "2026-09-30",
+   "authors": "米山 公康, 原 明日香, 龍 美紗, 福田 護",
+   "added": "2026-11-07",
+   "category": "マンモグラフィ"
+  },
+  {
+   "journal": "日本乳癌検診学会誌",
+   "title": "「乳がん検診受診行動促進のための要因分析と自治体施策の有効性の検証」 -かながわ乳がん検診受診率向上モデル構築事業3年間の実装研究-",
+   "url": "https://doi.org/10.3804/jjabcs.35.284",
+   "published": "2026-09-30",
+   "authors": "野澤 亜樹, 西浦 素子, 丸山 裕美, 杉本 明日美, 二宮 省悟",
+   "added": "2026-11-07",
+   "category": "マンモグラフィ"
+  },
+  {
+   "journal": "日本乳癌検診学会誌",
+   "title": "AI搭載乳房超音波装置がMRI要生検病変のtargeted USとして有用だった2例",
+   "url": "https://doi.org/10.3804/jjabcs.35.298",
+   "published": "2026-09-30",
+   "authors": "角田 ゆう子, 坂本 尚美, 町田 洋一, 福間 英祐",
+   "added": "2026-11-07",
+   "category": "超音波"
+  },
+  {
+   "journal": "日本乳癌検診学会誌",
+   "title": "乳癌検診で発見され局所放射線治療で寛解状態の乳腺原発悪性リンパ腫の１例",
+   "url": "https://doi.org/10.3804/jjabcs.35.303",
+   "published": "2026-09-30",
+   "authors": "中熊 尊士, 山﨑 香奈, 上野 聡一郎, 田部井 敏夫, 泉福 恭敬, 大庭 華子, 杉谷 雅彦",
+   "added": "2026-11-07",
+   "category": "放射線治療"
+  },
+  {
+   "journal": "Medical Imaging Technology",
+   "title": "特集／若手研究者による研究解説特集―計算機支援診断のための医用画像解析 ―序文―",
+   "url": "https://doi.org/10.11409/mit.44.153",
+   "published": "2026-09-30",
+   "authors": "伊東 隼人",
+   "added": "2026-11-07",
+   "category": "学術"
+  },
+  {
+   "journal": "Medical Imaging Technology",
+   "title": "がん化に伴う細胞組織の形態変化観察に向けた拡散モデルによる反事実病理画像の生成",
+   "url": "https://doi.org/10.11409/mit.44.155",
+   "published": "2026-09-30",
+   "authors": "古賀 諒一",
+   "added": "2026-11-07",
+   "category": "学術"
+  },
+  {
+   "journal": "Medical Imaging Technology",
+   "title": "医用視覚言語モデルは医用画像の識別的特徴を捉えているか？",
+   "url": "https://doi.org/10.11409/mit.44.161",
+   "published": "2026-09-30",
+   "authors": "武田 啓太, 酒井 智弥",
+   "added": "2026-11-07",
+   "category": "AI"
+  },
+  {
+   "journal": "Medical Imaging Technology",
+   "title": "入力因子・画像情報からの治療結果予測―体外衝撃波結石破砕術を例として―",
+   "url": "https://doi.org/10.11409/mit.44.169",
+   "published": "2026-09-30",
+   "authors": "中前 有香子",
+   "added": "2026-11-07",
+   "category": "学術"
+  },
+  {
+   "journal": "Medical Imaging Technology",
+   "title": "医用画像に内在するデータ構造を活用した少数教師学習",
+   "url": "https://doi.org/10.11409/mit.44.174",
+   "published": "2026-09-30",
+   "authors": "原田 翔太",
+   "added": "2026-11-07",
+   "category": "学術"
+  },
+  {
+   "journal": "超音波検査技術",
+   "title": "僧帽弁下組織の評価が僧帽弁逆流の原因検索に有用であった2症例",
+   "url": "https://doi.org/10.11272/jss.466",
+   "published": "2026-09-30",
+   "authors": "大野 主税, 古島 早苗, 倉橋 舞, 浅田 綾子, 井手 愛子, 川浪 のぞみ, 山田 勝也, 吉牟田 剛, 南 貴子, 松丸 一朗, 三浦 崇, 前村 浩二",
+   "added": "2026-11-07",
+   "category": "超音波"
+  },
+  {
+   "journal": "超音波検査技術",
+   "title": "三尖弁形成術の術前エコー",
+   "url": "https://doi.org/10.11272/jss.r621",
+   "published": "2026-09-30",
+   "authors": "尾長谷 喜久子",
+   "added": "2026-11-07",
+   "category": "超音波"
+  },
+  {
+   "journal": "超音波検査技術",
+   "title": "第2回 膵疾患の超音波像",
+   "url": "https://doi.org/10.11272/jss.t617",
+   "published": "2026-09-30",
+   "authors": "米山 昌司",
+   "added": "2026-11-07",
+   "category": "超音波"
+  },
+  {
+   "journal": "日本インターベンショナルラジオロジー学会雑誌",
+   "title": "腹部大動脈ステントグラフト内挿術における術前・術中IVRの役割",
+   "url": "https://doi.org/10.11407/ivr.41.2",
+   "published": "2026-09-25",
+   "authors": "中井 資貴, 佐口 徹, 岩橋 徹, 鈴木 隼, 安富 美香, 河合 亮兒, 蓼原 郁斗, 坂東 周治, 杉原 英治, 加納 正樹, 福田 尚司, 島原 佑介, 齋藤 和博",
+   "added": "2026-11-07",
+   "category": "血管撮影"
+  },
+  {
+   "journal": "日本インターベンショナルラジオロジー学会雑誌",
+   "title": "大動脈ステントグラフトのエンドリークの疫学とエビデンスについて 長期成績改善に向けたTypeⅡエンドリーク対策を中心に",
+   "url": "https://doi.org/10.11407/ivr.41.13",
+   "published": "2026-09-25",
+   "authors": "市橋 成夫, 岩越 真一, 中井 貴大, 大島 圭裕, 清水 翔, 田中 利洋",
+   "added": "2026-11-07",
+   "category": "血管撮影"
+  },
+  {
+   "journal": "日本インターベンショナルラジオロジー学会雑誌",
+   "title": "EVAR術後のtypeⅡエンドリークに対するIVR手技について",
+   "url": "https://doi.org/10.11407/ivr.41.19",
+   "published": "2026-09-25",
+   "authors": "山本 高靖, 永富 暁",
+   "added": "2026-11-07",
+   "category": "血管撮影"
+  },
+  {
+   "journal": "日本インターベンショナルラジオロジー学会雑誌",
+   "title": "EVAR後の画像診断",
+   "url": "https://doi.org/10.11407/ivr.41.31",
+   "published": "2026-09-25",
+   "authors": "亀井 俊佑, 小川 普久, 村田 亮洋, 民本 隆一, 古屋 秀和, 西 宏之, 長谷部 光泉",
+   "added": "2026-11-07",
+   "category": "血管撮影"
+  },
+  {
+   "journal": "日本インターベンショナルラジオロジー学会雑誌",
+   "title": "大動脈ステントグラフト術後TypeⅡ以外のエンドリークに対する血管内治療",
+   "url": "https://doi.org/10.11407/ivr.41.41",
+   "published": "2026-09-25",
+   "authors": "本郷 哲央, 道津 剛明, 大地 克樹, 浅山 良樹",
+   "added": "2026-11-07",
+   "category": "血管撮影"
+  },
+  {
+   "journal": "日本インターベンショナルラジオロジー学会雑誌",
+   "title": "第83回北海道血管造影・Interventional Radiology研究会",
+   "url": "https://doi.org/10.11407/ivr.41.51",
+   "published": "2026-09-25",
+   "authors": "",
+   "added": "2026-11-07",
+   "category": "血管撮影"
+  },
+  {
+   "journal": "日本インターベンショナルラジオロジー学会雑誌",
+   "title": "CTガイド下内臓神経ブロックに関するガイドライン2026",
+   "url": "https://doi.org/10.11407/ivr.41.53",
+   "published": "2026-09-25",
+   "authors": "日本IVR学会",
+   "added": "2026-11-07",
+   "category": "CT"
+  },
+  {
+   "journal": "日本消化器がん検診学会雑誌",
+   "title": "全国集計調査データの研究活用の開始",
+   "url": "https://doi.org/10.11404/jsgcs.64.783",
+   "published": "2026-09-15",
+   "authors": "山道 信毅",
+   "added": "2026-11-07",
+   "category": "学術"
+  },
+  {
+   "journal": "日本消化器がん検診学会雑誌",
+   "title": "第65回日本消化器がん検診学会総会会長報告～消化器がん検診の新たな挑戦―10年後を見据えて―～",
+   "url": "https://doi.org/10.11404/jsgcs.64.784",
+   "published": "2026-09-15",
+   "authors": "松田 尚久",
+   "added": "2026-11-07",
+   "category": "検診"
+  },
+  {
+   "journal": "日本消化器がん検診学会雑誌",
+   "title": "所見認識から追加撮影への判断機序を科学する",
+   "url": "https://doi.org/10.11404/jsgcs.64.786",
+   "published": "2026-09-15",
+   "authors": "西戸 伸之",
+   "added": "2026-11-07",
+   "category": "検診"
+  },
+  {
+   "journal": "日本消化器がん検診学会雑誌",
+   "title": "撮影技師チェック・読影補助による胃がん検診の精度向上：違和感からの4Stepプロセス",
+   "url": "https://doi.org/10.11404/jsgcs.64.801",
+   "published": "2026-09-15",
+   "authors": "田内 慎一",
+   "added": "2026-11-07",
+   "category": "検診"
+  },
+  {
+   "journal": "日本消化器がん検診学会雑誌",
+   "title": "胃Ｘ線検査における異常所見の拾い上げ",
+   "url": "https://doi.org/10.11404/jsgcs.64.814",
+   "published": "2026-09-15",
+   "authors": "髙橋 伸之",
+   "added": "2026-11-07",
+   "category": "検診"
+  },
+  {
+   "journal": "日本消化器がん検診学会雑誌",
+   "title": "上部消化管Ｘ線検査における圧迫技術の到達点と臨床的有用性 ― 撮影条件の最適化と基準撮影法への統合的アプローチ ―",
+   "url": "https://doi.org/10.11404/jsgcs.64.829",
+   "published": "2026-09-15",
+   "authors": "石黒 徹也, 本田 亘",
+   "added": "2026-11-07",
+   "category": "検診"
+  },
+  {
+   "journal": "日本消化器がん検診学会雑誌",
+   "title": "道具と技術を駆使した前壁撮影：横胃に対する長フトンの有効性と腹臥位圧迫撮影",
+   "url": "https://doi.org/10.11404/jsgcs.64.842",
+   "published": "2026-09-15",
+   "authors": "鵜沼 清仁, 輿水 創太, 竹内 信行, 吉田 貴浩, 高倉 徹也, 倉内 克憲, 田中 靖",
+   "added": "2026-11-07",
+   "category": "検診"
+  },
+  {
+   "journal": "日本消化器がん検診学会雑誌",
+   "title": "還元難消化性デキストリン配合水の配布が胃がん検診Ｘ線検査後の電話相談に与える影響について",
+   "url": "https://doi.org/10.11404/jsgcs.64.852",
+   "published": "2026-09-15",
+   "authors": "佐藤 真由美, 淺沼 清孝, 面川 奈津子, 盛田 美樹, 千葉 隆士, 加藤 勝章",
+   "added": "2026-11-07",
+   "category": "検診"
+  },
+  {
+   "journal": "日本消化器がん検診学会雑誌",
+   "title": "鎮痙剤が大腸CT検査の腸管拡張に与える影響の検討",
+   "url": "https://doi.org/10.11404/jsgcs.64.865",
+   "published": "2026-09-15",
+   "authors": "久保田 憲宏, 村田 宗二, 小野寺 健, 釜沢 政慶, 一方井 正宏, 金濱 雄悦, 女鹿 隆徳",
+   "added": "2026-11-07",
+   "category": "CT"
+  },
+  {
+   "journal": "日本消化器がん検診学会雑誌",
+   "title": "和歌山市対策型胃内視鏡検診における食道がん発見率と当院上部消化管スクリーニングでの内視鏡AI使用経験",
+   "url": "https://doi.org/10.11404/jsgcs.64.873",
+   "published": "2026-09-15",
+   "authors": "前北 隆雄, 井口 幹崇, 吉田 岳市, 瀧 真也, 桑島 史明, 木下 淳, 高尾 政輝, 向井 陽祐, 和田 梓, 北野 雅之",
+   "added": "2026-11-07",
+   "category": "検診"
+  },
+  {
+   "journal": "日本消化器がん検診学会雑誌",
+   "title": "大腸CT検査において回盲弁をどう読影するか―正常例の分析と症例提示から―",
+   "url": "https://doi.org/10.11404/jsgcs.64.882",
+   "published": "2026-09-15",
+   "authors": "馬嶋 健一郎, 藤原 正則, 村木 洋介",
+   "added": "2026-11-07",
+   "category": "CT"
+  },
+  {
+   "journal": "日本消化器がん検診学会雑誌",
+   "title": "胃がん検診専門技師と読影補助認定技師の現状と課題",
+   "url": "https://doi.org/10.11404/jsgcs.64.895",
+   "published": "2026-09-15",
+   "authors": "西川 孝, 田中 努, 小田 丈二",
+   "added": "2026-11-07",
+   "category": "検診"
+  },
+  {
+   "journal": "日本消化器がん検診学会雑誌",
+   "title": "検診の胃Ｘ線検査で発見した十二指腸神経内分泌腫瘍の1例",
+   "url": "https://doi.org/10.11404/jsgcs.64.903",
+   "published": "2026-09-15",
+   "authors": "武藤 桃太郎, 栁川 伸幸",
+   "added": "2026-11-07",
+   "category": "検診"
+  },
+  {
+   "journal": "日本消化器がん検診学会雑誌",
+   "title": "医療法人山下病院 健診センター",
+   "url": "https://doi.org/10.11404/jsgcs.64.909",
+   "published": "2026-09-15",
+   "authors": "服部 昌志, 杉山 和久, 泉 千明, 乾 和郎",
+   "added": "2026-11-07",
+   "category": "検診"
+  },
+  {
+   "journal": "日本磁気共鳴医学会雑誌",
+   "title": "ISMRM参加記",
+   "url": "https://doi.org/10.2463/jjmrm.2026-1885",
+   "published": "2026-09-15",
+   "authors": "片岡 正子, 原 祥子, 伏見 育崇, 尾崎 公美, 飯間 麻美, 山田 惠, 桑鶴 良季, 尾藤 良孝",
+   "added": "2026-11-07",
+   "category": "MRI"
+  },
+  {
+   "journal": "日本磁気共鳴医学会雑誌",
+   "title": "PET/MRI装置の概要と技術的留意点",
+   "url": "https://doi.org/10.2463/jjmrm.2026-1880",
+   "published": "2026-09-15",
+   "authors": "板垣 孝治",
+   "added": "2026-11-07",
+   "category": "核医学"
+  },
+  {
+   "journal": "日本磁気共鳴医学会雑誌",
+   "title": "23 Na-MRIの基礎から臨床応用まで",
+   "url": "https://doi.org/10.2463/jjmrm.2026-1879",
+   "published": "2026-09-15",
+   "authors": "寺田 康彦",
+   "added": "2026-11-07",
+   "category": "MRI"
+  },
+  {
+   "journal": "日本磁気共鳴医学会雑誌",
+   "title": "CS-AIを使用した一回息止めマルチダイナミック3D GraSE MRCP［大会長賞記録］",
+   "url": "https://doi.org/10.2463/jjmrm.2026-1882",
+   "published": "2026-09-15",
+   "authors": "小川 拓実, 加藤 真奈, 米山 正巳, 長尾 充展, 勝又 康友, 須藤 秦矢, 小平 和男, 濱谷 豊, 椎名 勲, 後藤 康裕, 坂井 修二",
+   "added": "2026-11-07",
+   "category": "AI"
+  },
+  {
+   "journal": "日本磁気共鳴医学会雑誌",
+   "title": "MRIを用いた多発性硬化症患者の脳クリアランス機能と慢性炎症との関連調査［バイエル研究助成制度成果報告］",
+   "url": "https://doi.org/10.2463/jjmrm.2026-1883",
+   "published": "2026-09-15",
+   "authors": "菊田 潤子",
+   "added": "2026-11-07",
+   "category": "MRI"
+  },
+  {
+   "journal": "日本磁気共鳴医学会雑誌",
+   "title": "南アフリカ・ケープタウンでのISMRMに参加して［ISMRM Travel Award記録］",
+   "url": "https://doi.org/10.2463/jjmrm.2026-1894",
+   "published": "2026-09-15",
+   "authors": "守田 裕一",
+   "added": "2026-11-07",
+   "category": "MRI"
+  },
+  {
+   "journal": "日本磁気共鳴医学会雑誌",
+   "title": "ISMRM Travel Award 2025受賞記録［ISMRM Travel Award記録］",
+   "url": "https://doi.org/10.2463/jjmrm.2026-1890",
+   "published": "2026-09-15",
+   "authors": "常 裕輔",
+   "added": "2026-11-07",
+   "category": "MRI"
+  },
+  {
+   "journal": "日本磁気共鳴医学会雑誌",
+   "title": "Noninvasive Assessment of Human Skeletal Muscle Fiber Type after Biopsy Using Diffusion Tensor Imaging and Q-space Imaging［ISMRM Travel Award記録］",
+   "url": "https://doi.org/10.2463/jjmrm.2026-1893",
+   "published": "2026-09-15",
+   "authors": "水田 光洋",
+   "added": "2026-11-07",
+   "category": "MRI"
+  },
+  {
+   "journal": "日本磁気共鳴医学会雑誌",
+   "title": "ISMRM Travel Award 2025受賞記録［ISMRM Travel Award記録］",
+   "url": "https://doi.org/10.2463/jjmrm.2026-1887",
+   "published": "2026-09-15",
+   "authors": "石田 翔太",
+   "added": "2026-11-07",
+   "category": "MRI"
+  },
+  {
+   "journal": "日本磁気共鳴医学会雑誌",
+   "title": "Optimal Parameters for Shortening Imaging Time in Fluid-attenuated Inversion Recovery Images of Acute Cerebral Infarction［ISMRM Travel Award記録］",
+   "url": "https://doi.org/10.2463/jjmrm.2026-1888",
+   "published": "2026-09-15",
+   "authors": "大川 竜也, 林 則夫, 安居 剛, 美原 盤",
+   "added": "2026-11-07",
+   "category": "MRI"
+  },
+  {
+   "journal": "日本磁気共鳴医学会雑誌",
+   "title": "初めて国際学会に参加して［ISMRM Travel Award記録］",
+   "url": "https://doi.org/10.2463/jjmrm.2026-1891",
+   "published": "2026-09-15",
+   "authors": "髙荒 愛結",
+   "added": "2026-11-07",
+   "category": "学術"
+  },
+  {
+   "journal": "日本磁気共鳴医学会雑誌",
+   "title": "2026 ISMRM & ISMRT Annual Meeting & Exhibition in Cape Town参加報告［ISMRM Travel Award記録］",
+   "url": "https://doi.org/10.2463/jjmrm.2026-1892",
+   "published": "2026-09-15",
+   "authors": "相山 優香",
+   "added": "2026-11-07",
+   "category": "MRI"
+  },
+  {
+   "journal": "日本磁気共鳴医学会雑誌",
+   "title": "ISMRM in Cape Town参加報告［ISMRM Travel Award記録］",
+   "url": "https://doi.org/10.2463/jjmrm.2026-1884",
+   "published": "2026-09-15",
+   "authors": "碇 智亮",
+   "added": "2026-11-07",
+   "category": "MRI"
+  },
+  {
+   "journal": "核医学",
+   "title": "第7回 日本核医学会 中国・四国支部会",
+   "url": "https://doi.org/10.18893/kakuigaku.arm.2637",
+   "published": "2026-09-04",
+   "authors": "",
+   "added": "2026-11-07",
+   "category": "核医学"
+  },
+  {
+   "journal": "核医学",
+   "title": "第105回 日本核医学会 関東甲信越地方会",
+   "url": "https://doi.org/10.18893/kakuigaku.arm.2636",
+   "published": "2026-09-01",
+   "authors": "",
+   "added": "2026-11-07",
+   "category": "核医学"
+  },
+  {
+   "journal": "核医学",
+   "title": "核医学検査後の国際空港での放射線検知トラブルを未然に防ぐ ～海外渡航予定の問診～",
+   "url": "https://doi.org/10.18893/kakuigaku.tr.2601",
+   "published": "2026-08-04",
+   "authors": "鹿島 文, 東野 博, 西原 リカ, 秋山 喜満恵, 佐伯 未来, 平田 香奈美, 武内 亜珠美, 田中 政行, 川条 文隆, 池水 暁彦, 松下 皓, 伊田 勝典, 藤枝 裕之, 阿部 充伯",
+   "added": "2026-11-07",
+   "category": "核医学"
+  },
+  {
+   "journal": "医学物理",
+   "title": "日本医学物理学会会長インタビュー～新しい研究シーズが生まれる学会へ～",
+   "url": "https://doi.org/10.11323/jjmp.46.1_1",
+   "published": "2026-07-31",
+   "authors": "西尾 禎治",
+   "added": "2026-11-07",
+   "category": "学術"
+  },
+  {
+   "journal": "医学物理",
+   "title": "日本医学物理学会教育委員会インタビュー 知識を「知恵」に変え，未来の医学物理を創る教育の好循環―AI時代を生き抜くためのストロングポイントと遊び心―",
+   "url": "https://doi.org/10.11323/jjmp.46.1_7",
+   "published": "2026-07-31",
+   "authors": "石原 佳知",
+   "added": "2026-11-07",
+   "category": "AI"
+  },
+  {
+   "journal": "医学物理",
+   "title": "Radiomicsは「終わった」のか―画像を読み解き，臨床を説明するための医学物理―",
+   "url": "https://doi.org/10.11323/jjmp.46.1_11",
+   "published": "2026-07-31",
+   "authors": "角谷 倫之, 有村 秀孝, 馬込 大貴, 家子 義朗",
+   "added": "2026-11-07",
+   "category": "学術"
+  },
+  {
+   "journal": "医学物理",
+   "title": "画面の中の線量分布が，臨床の現実へとつながった日―Sheikh-Bagheri & Rogersのリニアック光子スペクトル論文から始まった，私の医学物理の歩み―",
+   "url": "https://doi.org/10.11323/jjmp.46.1_18",
+   "published": "2026-07-31",
+   "authors": "安井 啓祐",
+   "added": "2026-11-07",
+   "category": "放射線治療"
+  },
+  {
+   "journal": "医学物理",
+   "title": "第131回日本医学物理学会学術大会開催報告―「線量の細胞選択性」への挑戦：Nuclear Energy for Radiologyが示した放射線医学の新しい未来―",
+   "url": "https://doi.org/10.11323/jjmp.46.1_21",
+   "published": "2026-07-31",
+   "authors": "納冨 昭弘",
+   "added": "2026-11-07",
+   "category": "学術"
+  },
+  {
+   "journal": "医学物理",
+   "title": "第132回日本医学物理学会学術大会開催直前特別座談会 Crossing the Bridge―新潟の地で紡がれる，基礎科学と臨床の架け橋―",
+   "url": "https://doi.org/10.11323/jjmp.46.1_27",
+   "published": "2026-07-31",
+   "authors": "角谷 倫之, 宇都宮 悟, 棚邊 哲史, 坂井 まどか",
+   "added": "2026-11-07",
+   "category": "学術"
+  },
+  {
+   "journal": "医学物理",
+   "title": "転移性脊椎腫瘍に対する体幹部定位放射線治療の放射線治療計画に関する研究",
+   "url": "https://doi.org/10.11323/jjmp.46.1_35",
+   "published": "2026-07-31",
+   "authors": "鶴巻 郁也",
+   "added": "2026-11-07",
+   "category": "放射線治療"
+  },
+  {
+   "journal": "核医学",
+   "title": "第60回 日本核医学会 中国・四国地方会",
+   "url": "https://doi.org/10.18893/kakuigaku.arm.2635",
+   "published": "2026-07-23",
+   "authors": "",
+   "added": "2026-11-07",
+   "category": "核医学"
+  },
   {
    "journal": "日本放射線技術学会雑誌",
    "title": "3D phase-sensitive inversion recovery法における淡い造影効果の描出性改善",
