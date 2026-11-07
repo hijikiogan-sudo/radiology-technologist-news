@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-11-07T13:16+09:00",
+  "checked_at": "2026-11-07T14:12+09:00",
   "added": 0,
   "total": 200,
   "sources": {
@@ -94,10 +94,9 @@
       "last_ok": "2026-11-07"
     },
     "日本IVR学会": {
-      "error": "URLError: <urlopen error timed out>",
-      "last_ok": "2026-11-07",
-      "failing_since": "2026-11-07",
-      "failing_days": 1
+      "listed": 10,
+      "picked": 0,
+      "last_ok": "2026-11-07"
     },
     "日本超音波医学会": {
       "listed": 10,
@@ -183,7 +182,7 @@
       "rss_items": 0,
       "contents_items": 14,
       "listed": 14,
-      "added": 14,
+      "added": 0,
       "last_ok": "2026-11-07"
     },
     "日本乳癌検診学会誌": {
@@ -191,7 +190,7 @@
       "rss_items": 0,
       "contents_items": 29,
       "listed": 29,
-      "added": 29,
+      "added": 0,
       "last_ok": "2026-11-07"
     },
     "日本磁気共鳴医学会雑誌": {
@@ -199,7 +198,7 @@
       "rss_items": 2,
       "contents_items": 13,
       "listed": 15,
-      "added": 15,
+      "added": 0,
       "last_ok": "2026-11-07"
     },
     "医学物理": {
@@ -207,7 +206,7 @@
       "rss_items": 0,
       "contents_items": 7,
       "listed": 7,
-      "added": 7,
+      "added": 0,
       "last_ok": "2026-11-07"
     },
     "核医学": {
@@ -215,7 +214,7 @@
       "rss_items": 1,
       "contents_items": 10,
       "listed": 10,
-      "added": 6,
+      "added": 0,
       "last_ok": "2026-11-07"
     },
     "医用画像情報学会雑誌": {
@@ -223,7 +222,7 @@
       "rss_items": 0,
       "contents_items": 5,
       "listed": 5,
-      "added": 5,
+      "added": 0,
       "last_ok": "2026-11-07"
     },
     "Medical Imaging Technology": {
@@ -231,7 +230,7 @@
       "rss_items": 0,
       "contents_items": 5,
       "listed": 5,
-      "added": 5,
+      "added": 0,
       "last_ok": "2026-11-07"
     },
     "日本インターベンショナルラジオロジー学会雑誌": {
@@ -239,7 +238,7 @@
       "rss_items": 0,
       "contents_items": 7,
       "listed": 7,
-      "added": 7,
+      "added": 0,
       "last_ok": "2026-11-07"
     },
     "超音波検査技術": {
@@ -247,7 +246,7 @@
       "rss_items": 0,
       "contents_items": 3,
       "listed": 3,
-      "added": 3,
+      "added": 0,
       "last_ok": "2026-11-07"
     },
     "要約": {
