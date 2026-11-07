@@ -1,5 +1,41 @@
 [
  {
+  "date": "2026-09-28",
+  "category": "AI",
+  "importance": "低",
+  "headline": "検出対象を6所見に拡大、胸部X線画像読影支援AI新版を発売：医療機器ニュース - monoist.itmedia.co.jp",
+  "summary": "エルピクセルは、胸部X線画像読影支援AI「EIRL Chest Screening」の新バージョンを発売した。検出対象に多発粒状影と空洞影を追加して6所見に拡大したほか、コンカレントリードに対応した。",
+  "why": "",
+  "source": "monoist.itmedia.co.jp",
+  "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFAtUkNpdmwxX01jeFlwOWRFY05ZdXJKV0hzVW8yRzdKOWFOcjU1Mk1kUXVSVVFZcmEwdGVmNHFKLWJ2ZUI5SkJFeVo2QWFMb3JtaVZsZWtielM3RDI1bEI1THV1Z0NCaGR6UXo3M3dPMA?oc=5",
+  "track": "general",
+  "summary_tried": "2026-11-04"
+ },
+ {
+  "date": "2026-09-28",
+  "category": "安全管理",
+  "importance": "中",
+  "headline": "厚生労働省より「医療情報システム安全管理ガイドライン対応研修プログラム」のご案内 - 日本診療放射線技師会",
+  "summary": "厚生労働省による令和8年度「医療情報セキュリティ対面研修」のご案内です。医療機関のサイバーセキュリティ対策を学ぶ無料研修です。",
+  "why": "",
+  "source": "日本診療放射線技師会",
+  "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE95Ni1XSWNqVnVpWlFCTW9rRGM4YzQwVlVVb0tPbWNoT3ltd1VwdjlQX0VKTDBfS0xFNUFYaVRkbVhFV1daRVdaYjctV3ZtUDFBNmZVSNIBZEFVX3lxTE4tMG5oY0otTnpXbGgzUWJuSjFYRkV6dnJXcVBNUFZRMGp4aU41amdvN040dF9BRGtGb3luaHAwOFJvbWpSOVNhV2Q0SVd4ZW5xX1Bod2hnTExfT1lOUnBLLWRtZ0c?oc=5",
+  "track": "official",
+  "summary_tried": "2026-11-04"
+ },
+ {
+  "date": "2026-09-28",
+  "category": "CT",
+  "importance": "低",
+  "headline": "CTスキャンを読み取りガンを含む約150種類の腹部疾患を特定できる医療用画像言語モデル「RADAR」をAlibaba傘下のDamo Academyがオープンソース化し公開 - GIGAZINE",
+  "summary": "放射線診断ワークフローにおいて診断時に悪性腫瘍の見落としが発生すると重大な問題に繋がります。「RADAR」はCTスキャンの画像を元に約150種類の腹部疾患を特定できる医療用画像言語モデルであり、Alibaba傘下のDamo Academyがオープンソース化しGitHubで公開され…",
+  "why": "",
+  "source": "GIGAZINE",
+  "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5VMkgtUGFhWWhRajBkNV9ZMjFZZ09GQkEzOTBmb3o5X0VGalJYSmpnM0xWVVBieHJUdHUzekF6OUMyOTI1V2NKMGhWdkZFQmo1c0ZtMHBnUV9SUQ?oc=5",
+  "track": "general",
+  "summary_tried": "2026-11-04"
+ },
+ {
   "date": "2026-09-26",
   "category": "学術",
   "importance": "中",
