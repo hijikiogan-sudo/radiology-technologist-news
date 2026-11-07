@@ -1,0 +1,1273 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>診療放射線技師ニュース</title>
+<meta name="description" content="診療放射線技師向けに、制度・安全管理・学会のお知らせ・装置の話題を毎朝まとめています。">
+<meta name="color-scheme" content="light dark">
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<meta name="apple-mobile-web-app-title" content="技師ニュース">
+<meta name="theme-color" content="#f3f5fb" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1b2030" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="website">
+<meta property="og:title" content="診療放射線技師ニュース">
+<meta property="og:description" content="制度・安全情報・研修の案内・装置の話題を毎朝まとめて確認できます。">
+<meta property="og:url" content="https://hijikiogan-sudo.github.io/radiology-technologist-news/">
+<meta property="og:image" content="https://hijikiogan-sudo.github.io/radiology-technologist-news/icon-512.png">
+<meta name="twitter:card" content="summary">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Maru+Gothic:wght@500;700;900&family=BIZ+UDPGothic:wght@400;700&display=swap" rel="stylesheet">
+<script>try{const t=localStorage.getItem("rtn-theme");if(t==="light"||t==="dark")document.documentElement.dataset.theme=t;const z=JSON.parse(localStorage.getItem("rtn-size")||'""');if(z==="l"||z==="xl")document.documentElement.dataset.size=z;}catch(e){}</script>
+<style>
+/* ---- 色: 病院のシーツのような青みの白と、やわらかい紺。要確認はローズ、お知らせははちみつ色 ---- */
+:root{
+  color-scheme:light;
+  --bg:#f3f5fb;          /* シーツの白 */
+  --surface:#ffffff;
+  --surface-2:#eaeef8;
+  --line:#dbe1ee;
+  --ink:#2d3550;         /* やわらかい紺(本文) */
+  --ink-soft:#66708c;
+  --blue:#5571d8;        /* 検査着のブルー(操作・リンク) */
+  --blue-soft:#e3e9fb;
+  --rose:#d9536f;        /* 要確認 */
+  --rose-soft:#fde8ec;
+  --honey:#b67a10;       /* お知らせ */
+  --honey-soft:#fdf1d8;
+  --sage:#5f8f76;        /* 話題 */
+  --sage-soft:#e4f1ea;
+  --bubble:#fff7f8;
+  --on-blue:#ffffff;
+  --shadow:0 6px 18px rgba(45,53,80,.08);
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  color-scheme:dark;
+  --bg:#1b2030; --surface:#242a3d; --surface-2:#2c3349; --line:#384059;
+  --ink:#e7eaf4; --ink-soft:#a5adc6;
+  --blue:#93a8f5; --blue-soft:#323c5e;
+  --rose:#f28da2; --rose-soft:#46293a;
+  --honey:#f0c062; --honey-soft:#43392a;
+  --sage:#93c4aa; --sage-soft:#2b3d39;
+  --bubble:#2f2a3a; --on-blue:#1b2030; --shadow:0 6px 18px rgba(0,0,0,.25);
+}}
+:root[data-theme="dark"]{
+  color-scheme:dark;
+  --bg:#1b2030; --surface:#242a3d; --surface-2:#2c3349; --line:#384059;
+  --ink:#e7eaf4; --ink-soft:#a5adc6;
+  --blue:#93a8f5; --blue-soft:#323c5e;
+  --rose:#f28da2; --rose-soft:#46293a;
+  --honey:#f0c062; --honey-soft:#43392a;
+  --sage:#93c4aa; --sage-soft:#2b3d39;
+  --bubble:#2f2a3a; --on-blue:#1b2030; --shadow:0 6px 18px rgba(0,0,0,.25);
+}
+
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"BIZ UDPGothic","Hiragino Sans","Noto Sans JP",sans-serif;font-size:15px;line-height:1.7;-webkit-font-smoothing:antialiased}
+h1,h2,h3{font-family:"Zen Maru Gothic","BIZ UDPGothic",sans-serif}
+a{color:inherit}
+button{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--blue);outline-offset:2px;border-radius:8px}
+.wrap{max-width:1120px;margin:0 auto;padding:0 18px}
+@media (min-width:1300px){.wrap{max-width:1320px}}
+
+/* ---- あいさつ ---- */
+.hello{padding:28px 0 18px}
+.hello-top{display:flex;justify-content:space-between;align-items:center;gap:12px}
+.brand{font-family:"Zen Maru Gothic",sans-serif;font-weight:700;font-size:14px;color:var(--ink-soft);display:flex;align-items:center;gap:8px;margin:0;min-width:0;white-space:nowrap}
+@media (max-width:420px){.brand .bn{display:none}.brand .bs{display:inline!important}}
+.brand svg{flex-shrink:0}
+.themebtn{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:5px 12px;font-size:12.5px;color:var(--ink-soft);cursor:pointer}
+.themebtn:hover{color:var(--ink)}
+@media (max-width:420px){.themebtn{padding:5px 8px;font-size:12px}.hello-tools{gap:4px}}
+@media (max-width:360px){.brand .bs{display:none!important}}
+.hello h1{font-size:clamp(26px,6vw,34px);font-weight:900;line-height:1.35;margin:14px 0 4px;letter-spacing:.01em}
+.hello .sub{margin:0;color:var(--ink-soft);font-size:14px}
+.hello-tools{display:flex;gap:6px;flex-shrink:0}
+.pill.focus{background:transparent;color:var(--blue);border:1px solid var(--blue);padding:0 9px}
+.chips button.is-focus::before{content:"";display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--blue);margin-right:6px;vertical-align:middle}
+.chips button.is-focus[aria-pressed="true"]::before{background:var(--on-blue)}
+dialog.settings{border:1px solid var(--line);border-radius:20px;background:var(--surface);color:var(--ink);padding:20px;max-width:420px;width:calc(100% - 32px);box-shadow:var(--shadow)}
+dialog.settings::backdrop{background:rgba(27,32,48,.35)}
+dialog.settings h2{margin:0 0 4px;font-size:18px}
+dialog.settings p{margin:0 0 14px;color:var(--ink-soft);font-size:13.5px}
+dialog.settings h3{margin:0 0 2px;font-size:15.5px}
+.scope-grid{flex-direction:column;flex-wrap:nowrap;margin-bottom:6px}
+.scope-grid label{display:flex;align-items:flex-start;border-radius:12px}
+.scope-grid input{margin-top:3px}
+.scope-grid small.scope-n{display:block;color:var(--ink-soft);font-size:12px;font-weight:400}
+.notes:empty,.notes:has(> .stale[hidden]:only-child){display:none}
+.focus-grid{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px}
+.src-grid{margin-bottom:6px}
+.src-grid label small{color:var(--ink-soft);font-size:11.5px}
+.sec-list{list-style:none;margin:0 0 10px;padding:0;display:grid;gap:6px}
+.sec-list li{display:flex;align-items:center;gap:6px;border:1px solid var(--line);border-radius:12px;padding:5px 6px 5px 10px}
+.sec-list label{flex:1;display:flex;align-items:center;gap:8px;font-size:14px;cursor:pointer;min-width:0}
+.sec-list input{accent-color:var(--blue);width:16px;height:16px;margin:0}
+.sec-list li:has(input:not(:checked)) label{color:var(--ink-soft)}
+.sec-list small{color:var(--ink-soft);font-size:11.5px;white-space:nowrap}
+.sec-list button{border:1px solid var(--line);background:var(--surface-2);color:var(--ink);border-radius:8px;width:32px;height:30px;font-size:15px;cursor:pointer}
+.sec-list button:disabled{opacity:.35;cursor:default}
+.focus-grid label{display:inline-flex;align-items:center;gap:6px;border:1px solid var(--line);border-radius:999px;padding:6px 12px;font-size:14px;cursor:pointer}
+.focus-grid input{accent-color:var(--blue);width:16px;height:16px;margin:0}
+.focus-grid label:has(input:checked){border-color:var(--blue);background:var(--blue-soft)}
+.dlg-actions{display:flex;justify-content:flex-end;gap:8px}
+.btn{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:7px 16px;font-size:14px;cursor:pointer}
+.btn.primary{background:var(--blue);border-color:var(--blue);color:var(--on-blue);font-weight:700}
+.memo{margin-top:8px}
+.memo textarea{width:100%;min-height:58px;border:1px solid var(--line);border-radius:12px;background:var(--surface-2);color:var(--ink);padding:8px 10px;font:inherit;font-size:14px;resize:vertical}
+.memo textarea:focus{outline:none;border-color:var(--blue);background:var(--surface)}
+.memo-line{margin-top:6px;font-size:13px;color:var(--ink-soft)}
+.memo-line b{color:var(--ink);font-weight:700;margin-right:4px}
+.notes{display:grid;gap:8px;margin-top:12px}
+.qual-note{background:var(--blue-soft);color:var(--ink);border-radius:12px;padding:9px 12px;font-size:13.5px}
+.qual-note b{color:var(--blue)}
+.pill.urgent{background:var(--rose-soft);color:var(--rose)}
+.supply summary{cursor:pointer;font-weight:700;list-style:none;display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.supply summary::-webkit-details-marker{display:none}
+.supply summary::after{content:'＋';margin-left:auto;color:var(--ink-soft)}
+.supply[open] summary::after{content:'－'}
+.supply ul{list-style:none;margin:10px 0 0;padding:0;display:grid;gap:8px}
+.supply li{border-top:1px solid var(--line);padding-top:8px;font-size:14px;line-height:1.6}
+.supply li .meta{color:var(--ink-soft);font-size:12.5px}
+.row.read .title,.must-item.read .title{color:var(--ink-soft);font-weight:400}
+.row.read,.must-item.read{background:color-mix(in srgb,var(--surface) 70%,var(--bg))}
+.fixbtn{border:0;background:none;color:var(--ink-soft);font-size:12px;cursor:pointer;padding:2px 4px;text-decoration:underline;text-underline-offset:2px}
+.fixbtn:hover{color:var(--blue)}
+.pill.fixed{background:var(--surface-2);color:var(--ink-soft);font-weight:400}
+.chips button.unread{border-style:dashed}
+.chips .sep{flex-shrink:0;width:1px;background:var(--line);margin:4px 2px}
+.week{background:var(--surface);border:1px solid var(--line);border-radius:20px;padding:16px 18px;margin-top:18px;box-shadow:var(--shadow)}
+.week-head{display:flex;justify-content:space-between;align-items:baseline;gap:10px}
+.week h2{margin:0;font-size:18px}
+.week h3{font-size:14px;margin:12px 0 4px;color:var(--ink-soft);font-family:"BIZ UDPGothic",sans-serif;font-weight:700}
+.week ul{margin:0;padding-left:1.2em}
+.week li{margin:3px 0;font-size:14.5px}
+.week li a{text-decoration:none}
+.week li a:hover{color:var(--blue);text-decoration:underline}
+.week li small{color:var(--ink-soft);margin-left:6px}
+.set-sec{border-top:1px solid var(--line)}
+.set-sec h3{margin:0;font-size:15.5px}
+.set-sec>summary,.src-group>summary{list-style:none;cursor:pointer;display:flex;align-items:center;gap:8px;min-height:44px}
+.set-sec>summary::-webkit-details-marker,.src-group>summary::-webkit-details-marker{display:none}
+.set-sec>summary::after,.src-group>summary::after{content:"";margin-left:auto;margin-right:4px;width:7px;height:7px;border-right:2px solid var(--ink-soft);border-bottom:2px solid var(--ink-soft);transform:rotate(45deg);flex-shrink:0}
+.set-sec[open]>summary::after,.src-group[open]>summary::after{transform:rotate(-135deg)}
+.set-sec[open]{padding-bottom:14px}
+.src-group{border:1px solid var(--line);border-radius:12px;padding:0 10px;margin-bottom:6px}
+.src-group>summary{font-size:14px;font-weight:700}
+.src-group>summary small{font-weight:400;font-size:12px;color:var(--ink-soft)}
+.src-group[open]{padding-bottom:4px}
+.fix-grid{display:grid;gap:10px;margin-bottom:16px}
+.fix-grid label{display:grid;gap:4px;font-size:13.5px;color:var(--ink-soft)}
+.fix-grid select{border:1px solid var(--line);border-radius:10px;background:var(--surface-2);color:var(--ink);padding:8px 10px;font:inherit;font-size:15px}
+.dlg-scroll{max-height:min(70vh,640px);overflow:auto;margin:0 -4px;padding:0 4px}
+.src-status{max-width:1120px;margin:0 auto 6px;padding:0 18px;color:var(--ink-soft);font-size:12.5px;text-align:center}
+.stale{margin:12px 0 0;background:var(--honey-soft);color:var(--ink);border-radius:12px;padding:9px 12px;font-size:13.5px}
+.stale b{color:var(--honey)}
+.hello h1 .wd{font-size:.55em;font-weight:700;color:var(--ink-soft);margin-left:.5em;letter-spacing:.04em}
+
+/* ---- 検索と絞り込み(スクロールしても上に残る) ---- */
+.bar{position:sticky;top:0;z-index:5;background:color-mix(in srgb,var(--bg) 90%,transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);padding:10px 0 8px;border-bottom:1px solid transparent}
+.bar.stuck{border-bottom-color:var(--line)}
+.bar-row{display:flex;gap:10px;align-items:center}
+.search{flex:1;min-width:0;position:relative;display:block}
+.search input{width:100%;border:1px solid var(--line);background:var(--surface);color:var(--ink);border-radius:999px;padding:10px 38px 10px 40px;font:inherit;font-size:15px;-webkit-appearance:none;appearance:none}
+.search input::-webkit-search-cancel-button{display:none}
+.search input::placeholder{color:var(--ink-soft)}
+.search input:focus{outline:none;border-color:var(--blue);box-shadow:0 0 0 3px var(--blue-soft)}
+.search svg{position:absolute;left:14px;top:50%;transform:translateY(-50%);color:var(--ink-soft)}
+.search .clear{position:absolute;right:6px;top:50%;transform:translateY(-50%);border:0;background:none;width:30px;height:30px;border-radius:50%;cursor:pointer;color:var(--ink-soft);display:none}
+.search .clear.show{display:block}
+.seg{display:flex;background:var(--surface-2);border-radius:999px;padding:3px;flex-shrink:0}
+.seg button{border:0;background:none;border-radius:999px;padding:7px 14px;font-size:13.5px;font-weight:700;color:var(--ink-soft);cursor:pointer;white-space:nowrap}
+@media (max-width:640px){.bar-row{flex-wrap:wrap;gap:8px}.search{flex-basis:100%}.seg{width:100%}.seg button{flex:1;padding:6px 2px;font-size:12.5px}}
+.seg button[aria-pressed="true"]{background:var(--surface);color:var(--ink);box-shadow:0 1px 3px rgba(45,53,80,.15)}
+.chips{display:flex;gap:6px;margin-top:9px;overflow-x:auto;scrollbar-width:none;padding-bottom:2px;margin-left:-18px;margin-right:-18px;padding-left:18px;padding-right:18px}
+.chips::-webkit-scrollbar{display:none}
+.chips button{flex-shrink:0;border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:5px 12px;font-size:13px;color:var(--ink-soft);cursor:pointer}
+.chips button .n{margin-left:5px;font-size:12px;opacity:.8}
+.chips button[aria-pressed="true"]{background:var(--blue);border-color:var(--blue);color:var(--on-blue)}
+@media (min-width:720px){.chips{flex-wrap:wrap;overflow:visible;margin-left:0;margin-right:0;padding-left:0;padding-right:0}}
+
+/* ---- レイアウト ---- */
+.layout{display:grid;gap:26px;padding:18px 0 40px}
+@media (min-width:960px){.layout.recent{grid-template-columns:minmax(0,1.7fr) minmax(0,1fr);align-items:start}.layout.recent.single{grid-template-columns:minmax(0,1fr)}}
+.section h2{font-size:19px;font-weight:700;margin:0 0 2px;display:flex;align-items:baseline;gap:8px}
+.section h2 .count{font-family:"BIZ UDPGothic",sans-serif;font-size:13px;font-weight:400;color:var(--ink-soft)}
+.section .lead{margin:0 0 12px;color:var(--ink-soft);font-size:13.5px}
+.section+.section{margin-top:28px}
+.section .sub-h{font-size:15px;margin:16px 0 8px;display:flex;align-items:baseline;gap:8px}
+.section .sub-h .count{font-size:12.5px;font-weight:400;color:var(--ink-soft)}
+.jobs{display:grid;gap:10px}
+.job{border:1px solid var(--line);border-radius:14px;padding:10px 12px;background:var(--surface)}
+.job-head{display:flex;flex-wrap:wrap;align-items:center;gap:6px}
+.job-head small{color:var(--ink-soft);font-size:12px}
+.job p{margin:6px 0 0;font-size:14px;line-height:1.6}
+.job .job-note{color:var(--ink-soft);font-size:13px}
+
+/* 確認しておきたいこと: このページでいちばん目立たせる部分 */
+.must{display:grid;gap:14px}
+.must-item{background:var(--surface);border-radius:20px;padding:16px 18px 18px 22px;box-shadow:var(--shadow);border:1px solid var(--line);position:relative}
+.must-item::before{content:"";position:absolute;left:0;top:18px;bottom:18px;width:5px;border-radius:0 5px 5px 0;background:var(--rose)}
+.meta{display:flex;flex-wrap:wrap;align-items:center;gap:6px 10px;font-size:12.5px;color:var(--ink-soft);margin-bottom:5px}
+.pill{display:inline-block;border-radius:999px;padding:1px 10px;font-size:12px;font-weight:700;line-height:1.7}
+.pill.hi{background:var(--rose-soft);color:var(--rose)}
+.pill.mid{background:var(--honey-soft);color:var(--honey)}
+.pill.lo{background:var(--sage-soft);color:var(--sage)}
+.pill.cat{background:var(--surface-2);color:var(--ink-soft);font-weight:400}
+.title{font-size:15.5px;font-weight:700;line-height:1.6;margin:0;text-decoration:none;display:block}
+.title:hover{color:var(--blue);text-decoration:underline;text-underline-offset:3px}
+.must-item .title{font-size:17.5px}
+.src{font-size:12.5px;color:var(--ink-soft);margin-top:3px}
+.sum{margin:6px 0 0;font-size:14px;color:var(--ink-soft);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+
+/* 記事ごとのポイント(吹き出し) */
+.note{display:flex;gap:10px;align-items:flex-start;margin-top:12px}
+.note .face{flex-shrink:0;width:34px;height:34px;border-radius:50%;background:var(--blue-soft);color:var(--blue);display:grid;place-items:center;font-family:"Zen Maru Gothic",sans-serif;font-weight:900;font-size:14px}
+.note .say{margin:0;background:var(--bubble);border:1px solid var(--line);border-radius:4px 16px 16px 16px;padding:8px 12px;font-size:14px;line-height:1.65}
+.note.shared{margin:0 0 12px}
+.note .say small{display:block;font-size:11.5px;color:var(--ink-soft);margin-bottom:1px}
+
+/* お知らせ・ほかのニュース: 落ち着いた一覧 */
+.list{background:var(--surface);border:1px solid var(--line);border-radius:16px;overflow:hidden}
+.row{padding:13px 16px;border-top:1px solid var(--line)}
+.row:first-child{border-top:0}
+.row .note{margin-top:8px}
+.row .note .face{width:26px;height:26px;font-size:12px}
+.row .note .say{font-size:13.5px;padding:6px 10px}
+.pill.new{background:var(--blue);color:var(--on-blue)}
+.save{margin-left:auto;display:inline-flex;align-items:center;gap:4px;border:1px solid var(--line);background:var(--surface);color:var(--ink-soft);border-radius:999px;padding:2px 10px 2px 8px;font-size:12px;cursor:pointer;min-height:28px}
+.save:hover{color:var(--ink);border-color:var(--blue)}
+.save[aria-pressed="true"]{background:var(--blue-soft);border-color:var(--blue-soft);color:var(--blue);font-weight:700}
+.save svg{width:14px;height:14px}
+.save[aria-pressed="true"] svg path{fill:currentColor}
+.saved-tools{display:flex;justify-content:space-between;align-items:baseline;gap:10px;flex-wrap:wrap}
+/* これからの日程 */
+.sched{background:var(--surface);border:1px solid var(--line);border-radius:16px;overflow:hidden}
+.sched-item{display:grid;grid-template-columns:64px 1fr;gap:12px;padding:12px 16px;border-top:1px solid var(--line);align-items:start}
+.sched-item:first-child{border-top:0}
+.sched-date{text-align:center;background:var(--surface-2);border-radius:12px;padding:6px 0 5px;line-height:1.2}
+.sched-date .md{display:block;font-family:"Zen Maru Gothic",sans-serif;font-weight:900;font-size:18px}
+.sched-date .wd{display:block;font-size:11.5px;color:var(--ink-soft)}
+.sched-date.deadline{background:var(--honey-soft)}
+.sched-date.deadline .md{color:var(--honey)}
+.sched-body .kind{font-size:12px;color:var(--ink-soft)}
+.sched-body .kind b{color:var(--honey);font-weight:700}
+.sched-body .title{font-size:14.5px}
+.sched-tools{display:flex;flex-wrap:wrap;gap:6px 10px;align-items:center;margin-top:4px;font-size:12.5px}
+.pill.near{background:var(--sage-soft);color:var(--sage)}
+.pill.place{background:var(--surface-2);color:var(--ink-soft);font-weight:400}
+.pill.open{background:var(--sage-soft);color:var(--sage)}
+.pill.soon{background:var(--surface-2);color:var(--ink-soft)}
+.sched-more{border-top:1px solid var(--line)}
+.cal{color:var(--blue);text-decoration:none;font-weight:700}
+.cal:hover{text-decoration:underline}
+.more{display:block;width:100%;border:0;border-top:1px solid var(--line);background:none;padding:11px;font-size:14px;font-weight:700;color:var(--blue);cursor:pointer}
+.more:hover{background:var(--surface-2)}
+.archive-more{border:1px solid var(--line);border-radius:16px;background:var(--surface)}
+.also{margin-top:4px;font-size:12.5px}
+.also summary{cursor:pointer;color:var(--blue);list-style:none;display:inline}
+.also summary::-webkit-details-marker{display:none}
+.also a{display:block;color:var(--ink-soft);text-decoration:none;padding:2px 0}
+.also a:hover{color:var(--blue)}
+
+/* 過去のニュース: 日付ごとに開閉 */
+.day{background:var(--surface);border:1px solid var(--line);border-radius:16px;overflow:hidden}
+.day>summary{list-style:none;cursor:pointer;padding:12px 16px;display:flex;justify-content:space-between;align-items:center;font-family:"Zen Maru Gothic",sans-serif;font-weight:700}
+.day>summary::-webkit-details-marker{display:none}
+.day>summary .c{font-family:"BIZ UDPGothic",sans-serif;font-weight:400;font-size:13px;color:var(--ink-soft);margin-left:auto}
+.day>summary::after{content:"";width:7px;height:7px;border-right:2px solid var(--ink-soft);border-bottom:2px solid var(--ink-soft);transform:rotate(45deg);margin:0 4px 4px 14px;transition:transform .15s}
+.day[open]>summary::after{transform:rotate(-135deg);margin-bottom:-2px}
+.day>summary .wd{font-weight:500;color:var(--ink-soft);font-size:14px;margin-left:2px}
+.day .rows{border-top:1px solid var(--line)}
+.layout.past{gap:10px}
+
+.empty{background:var(--surface);border:1px dashed var(--line);border-radius:16px;padding:22px 18px;color:var(--ink-soft);font-size:14px;text-align:center}
+.empty b{display:block;color:var(--ink);font-family:"Zen Maru Gothic",sans-serif;font-size:16px;margin-bottom:2px}
+.result-note{margin:16px 0 0;font-size:13.5px;color:var(--ink-soft);display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 14px}
+.result-note button{border:0;background:none;color:var(--blue);cursor:pointer;padding:0;font-weight:700;font-size:inherit;white-space:nowrap}
+
+/* ---- 文字サイズ(設定) ---- */
+html[data-size="l"] body{zoom:1.1}
+html[data-size="xl"] body{zoom:1.22}
+/* ---- 今日の3本 ---- */
+.today3{background:var(--surface);border:1px solid var(--line);border-radius:18px;padding:14px 16px;margin-top:16px;box-shadow:var(--shadow)}
+.today3 h2{font-size:17px;margin:0 0 2px;display:flex;align-items:center;gap:8px}
+.today3 .lead{margin:0;color:var(--ink-soft);font-size:13.5px}
+.today3 ol{margin:8px 0 0;padding:0;list-style:none;counter-reset:t3;display:grid;gap:8px}
+.today3 li{counter-increment:t3;display:flex;gap:10px;align-items:flex-start;font-size:14.5px;line-height:1.55}
+.today3 li::before{content:counter(t3);flex:0 0 24px;height:24px;border-radius:50%;background:var(--blue-soft);color:var(--blue);font-weight:900;display:grid;place-items:center;font-size:13px}
+.today3 li.done::before{content:'✓';background:var(--sage-soft);color:var(--sage)}
+.today3 li.done a{color:var(--ink-soft)}
+.today3 small{display:block;color:var(--ink-soft);font-size:12px}
+.pill.watch{background:var(--honey-soft);color:var(--honey)}
+.pill.due{background:var(--honey-soft);color:var(--honey)}
+.pill.due.over{background:var(--rose-soft);color:var(--rose)}
+.pill.plan{background:var(--blue-soft);color:var(--blue)}
+.pill.journal{background:var(--surface-2);color:var(--ink-soft)}
+.plan-btn{border:1px solid var(--line);background:var(--surface);color:var(--ink-soft);border-radius:999px;padding:1px 10px;font-size:12px;font-weight:700;cursor:pointer;line-height:1.7}
+.plan-btn[aria-pressed="true"]{background:var(--blue);border-color:var(--blue);color:var(--on-blue)}
+.due-row{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin-top:8px;font-size:12.5px;color:var(--ink-soft)}
+.due-row button{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:1px 10px;font-size:12px;cursor:pointer;color:var(--ink)}
+.due-row input[type=date]{font:inherit;font-size:12.5px;border:1px solid var(--line);border-radius:8px;padding:1px 6px;background:var(--surface);color:var(--ink)}
+.allread{border:1px solid var(--line);background:var(--surface);color:var(--ink-soft);border-radius:999px;padding:5px 12px;font-size:13px;font-weight:700;cursor:pointer;white-space:nowrap;flex-shrink:0}
+.allread.confirm{background:var(--rose-soft);color:var(--rose);border-color:var(--rose)}
+/* ---- 受講記録 ---- */
+/* ---- スワイプ ---- */
+.swipe-row{transition:transform .18s ease}
+.swiping{transition:none}
+.toast{position:fixed;left:50%;bottom:22px;max-width:calc(100% - 32px);box-sizing:border-box;transform:translateX(-50%);background:var(--ink);color:var(--surface);border-radius:999px;padding:9px 16px;font-size:14px;z-index:50;display:flex;gap:12px;align-items:center;box-shadow:var(--shadow)}
+.toast button{background:none;border:0;color:var(--blue-soft);font-weight:700;cursor:pointer;font-size:14px}
+.watch-input{width:100%;font:inherit;font-size:14px;border:1px solid var(--line);border-radius:10px;padding:8px 10px;background:var(--surface);color:var(--ink);box-sizing:border-box}
+.radio-row{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:6px}
+.radio-row label{display:inline-flex;gap:6px;align-items:center;border:1px solid var(--line);border-radius:999px;padding:5px 12px;font-size:14px;cursor:pointer}
+/* ---- 今日の要点(最初の画面) ---- */
+.pulse{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px;margin-top:12px;max-width:560px}
+.pulse:empty{display:none}
+.pulse button{border:1px solid var(--line);background:var(--surface);border-radius:14px;padding:8px 12px;text-align:left;cursor:pointer;line-height:1.3;min-height:58px}
+.pulse button:hover:not(:disabled){border-color:var(--blue)}
+.pulse button:disabled{cursor:default;opacity:.65}
+.pulse b{display:block;font-family:"Zen Maru Gothic",sans-serif;font-weight:900;font-size:22px}
+.pulse span{display:block;font-size:12px;color:var(--ink-soft)}
+.pulse .p-new b{color:var(--blue)}
+.pulse .p-hi b{color:var(--rose)}
+.pulse .p-due b{color:var(--honey)}
+.pulse button:disabled b{color:var(--ink-soft)}
+.pulse button[aria-pressed="true"]{background:var(--blue-soft);border-color:var(--blue)}
+.section h2{scroll-margin-top:130px}
+/* ---- 記事の情報量(高は全部、中は要約1行、低と既読は題名だけ。「詳しく」で全部出す) ---- */
+.compact:not(.open) .sum,.compact:not(.open) .note,.compact:not(.open) .also,.compact:not(.open) .rowtool{display:none}
+.compact.imp-mid:not(.read):not(.open) .sum{display:-webkit-box;-webkit-line-clamp:1}
+.open .sum{display:block;-webkit-line-clamp:unset;overflow:visible}
+.must-item.compact{padding-top:12px;padding-bottom:12px;box-shadow:none}
+.must-item.compact .title{font-size:15.5px}
+.sched-item.read .title{color:var(--ink-soft);font-weight:400}
+/* ---- 日程のカレンダー ---- */
+.seg.sched-switch{width:fit-content;margin:0 0 10px}
+.seg.sched-switch button{flex:none;padding:6px 14px;font-size:13px}
+.seg.sched-switch button[aria-pressed="true"]{background:var(--blue);color:var(--on-blue)}
+.chips.sched-filter{margin-top:0;margin-bottom:8px}
+.shared-notes{margin:0 0 12px;font-size:13px}
+.shared-notes summary{cursor:pointer;color:var(--blue);font-weight:700;width:fit-content}
+.shared-notes .note.shared{margin:8px 0 0}
+.calendar{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:12px}
+.cal-head{display:flex;align-items:center;justify-content:space-between;margin-bottom:8px;font-family:"Zen Maru Gothic",sans-serif;font-weight:700}
+.cal-head button{border:1px solid var(--line);background:var(--surface-2);border-radius:8px;width:44px;height:36px;cursor:pointer}
+.cal-head button:disabled{opacity:.35;cursor:default}
+.cal-grid{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:2px;text-align:center}
+.cal-wd{font-size:11.5px;color:var(--ink-soft);padding:2px 0}
+.cal-grid .sun{color:var(--rose)}
+.cal-grid .sat{color:var(--blue)}
+.cal-d{border:0;background:none;border-radius:10px;min-height:44px;padding:4px 0 2px;font-size:14px;display:flex;flex-direction:column;align-items:center;gap:2px}
+button.cal-d{cursor:pointer;background:var(--surface-2);font-weight:700}
+button.cal-d[aria-pressed="true"]{background:var(--blue);color:var(--on-blue)}
+.cal-d.past{opacity:.4}
+.cal-d.today{box-shadow:inset 0 0 0 2px var(--blue)}
+.cal-dots{display:flex;gap:3px;height:6px}
+.cal-dots i{width:6px;height:6px;border-radius:50%;background:var(--blue)}
+.cal-dots i.dl{background:var(--honey)}
+button.cal-d[aria-pressed="true"] .cal-dots i{background:var(--on-blue)}
+.cal-key{display:flex;gap:12px;margin:8px 0 0;font-size:12px;color:var(--ink-soft)}
+.cal-key i{display:inline-block;width:6px;height:6px;border-radius:50%;background:var(--blue);margin-right:4px;vertical-align:middle}
+.cal-key i.dl{background:var(--honey)}
+/* ---- 初回の案内 ---- */
+.guide{background:var(--blue-soft);border-radius:16px;padding:12px 14px;margin-top:12px;max-width:760px}
+.guide:empty{display:none}
+.guide h2{margin:0 0 2px;font-size:16px}
+.guide p{margin:0 0 8px;font-size:13.5px}
+.guide-cats{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px}
+.guide-cats button{border:1px solid var(--line);background:var(--surface);border-radius:999px;padding:6px 12px;font-size:14px;min-height:36px;cursor:pointer}
+.guide-cats button[aria-pressed="true"]{background:var(--blue);border-color:var(--blue);color:var(--on-blue)}
+.guide-actions{display:flex;gap:8px;flex-wrap:wrap}
+.guide-actions .btn:disabled{opacity:.5;cursor:default}
+/* ---- スマホの目次(欄へ移動) ---- */
+.toc{display:flex;gap:2px;margin:6px -18px 0;padding:0 18px;overflow-x:auto;scrollbar-width:none}
+.toc::-webkit-scrollbar{display:none}
+.toc:empty{display:none}
+.toc button{flex-shrink:0;border:0;border-bottom:2px solid transparent;background:none;padding:6px 10px;min-height:34px;font-size:13px;font-weight:700;color:var(--ink-soft);cursor:pointer}
+.toc button[aria-current="true"]{color:var(--blue);border-bottom-color:var(--blue)}
+@media (min-width:960px){.toc{display:none}}
+/* スクロール中は検索欄をしまって本文を広くする(検索中と入力中は残す) */
+@media (max-width:640px){.bar.stuck:not(.has-q):not(:focus-within) .bar-row{display:none}.bar.stuck:not(.has-q):not(:focus-within) .chips{margin-top:0}.section h2{scroll-margin-top:106px}}
+/* ---- 欄の折りたたみ ---- */
+.foldable>h2{cursor:pointer;user-select:none;-webkit-user-select:none}
+.foldable>h2::after{content:'';margin-left:auto;align-self:center;width:8px;height:8px;border-right:2px solid var(--ink-soft);border-bottom:2px solid var(--ink-soft);transform:rotate(45deg) translate(-2px,-2px);transition:transform .15s}
+.foldable.folded>h2::after{transform:rotate(-45deg)}
+.foldable.folded>*:not(h2){display:none!important}
+.foldable.folded>h2{margin-bottom:0}
+.today3.folded{padding-bottom:12px}
+/* PCでは今週のまとめと今日の3本を横に並べる */
+@media (min-width:960px){.top-pair{display:grid;grid-template-columns:minmax(0,1.4fr) minmax(0,1fr);gap:16px;align-items:start}.top-pair>*{margin-top:16px}.top-pair>:only-child{grid-column:1/-1}}
+/* ---- スマホの下部タブ ---- */
+.bottomnav{display:none}
+@media (max-width:640px){
+  .bar .seg{display:none}
+  .bottomnav{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:20;background:color-mix(in srgb,var(--surface) 94%,transparent);backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px);border-top:1px solid var(--line);padding:4px 4px calc(4px + env(safe-area-inset-bottom))}
+  .bottomnav button{flex:1;border:0;background:none;color:var(--ink-soft);display:flex;flex-direction:column;align-items:center;gap:1px;padding:5px 0 3px;font-size:11px;font-weight:700;cursor:pointer;border-radius:12px;position:relative}
+  .bottomnav svg{width:22px;height:22px}
+  .bottomnav button[aria-pressed="true"]{color:var(--blue);background:var(--blue-soft)}
+  .bottomnav .badge{position:absolute;top:1px;left:calc(50% + 6px);background:var(--rose);color:#fff;border-radius:999px;font-size:10px;line-height:15px;min-width:15px;padding:0 4px;box-sizing:border-box}
+  body{padding-bottom:calc(64px + env(safe-area-inset-bottom))}
+  .toast{bottom:calc(76px + env(safe-area-inset-bottom))}
+}
+.sync-box{width:100%;box-sizing:border-box;font:12px/1.4 ui-monospace,monospace;border:1px solid var(--line);border-radius:10px;padding:8px;background:var(--surface);color:var(--ink);min-height:70px}
+.sync-btns{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0}
+.sync-msg{font-size:13px;color:var(--blue);min-height:1.2em;margin:4px 0 0}
+footer{padding:10px 18px 40px;color:var(--ink-soft);font-size:12.5px;text-align:center}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header class="hello">
+    <div class="hello-top">
+      <p class="brand">
+        <svg width="22" height="22" viewBox="0 0 24 24" aria-hidden="true"><rect width="24" height="24" rx="5.4" fill="var(--blue-soft)"/><circle cx="17.3" cy="6.6" r="3.4" fill="#f2b446"/><rect x="4.8" y="6.2" width="13.9" height="13.5" rx="1.5" fill="#fff"/><rect x="6.5" y="8.1" width="10.5" height="2.6" rx=".7" fill="var(--blue)"/><rect x="6.5" y="12.6" width="10.5" height=".9" rx=".45" fill="#c8d2f0"/><rect x="6.5" y="14.6" width="10.5" height=".9" rx=".45" fill="#c8d2f0"/><rect x="6.5" y="16.6" width="6.5" height=".9" rx=".45" fill="#c8d2f0"/></svg>
+        <span class="bn">診療放射線技師ニュース</span><span class="bs" style="display:none">技師ニュース</span>
+      </p>
+      <div class="hello-tools">
+        <button type="button" class="themebtn" id="reloadBtn">最新を確認</button>
+        <button type="button" class="themebtn" id="focusBtn">設定</button>
+        <button type="button" class="themebtn" id="themeBtn">表示: 自動</button>
+      </div>
+    </div>
+    <h1 id="today">&nbsp;</h1>
+    <p class="sub" id="sub">ニュースを読み込んでいます…</p>
+    <div class="pulse" id="pulse"></div>
+    <section class="guide" id="guide" aria-labelledby="h-guide"></section>
+    <div class="notes"><p class="stale" id="stale" hidden></p><div id="qualNotes"></div></div>
+  </header>
+</div>
+
+<div class="bar" id="bar">
+  <div class="wrap">
+    <div class="bar-row">
+      <label class="search">
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>
+        <input id="q" type="search" placeholder="キーワードで探す" aria-label="キーワードで探す" autocomplete="off">
+        <button type="button" class="clear" id="clearQ" aria-label="検索語を消す">✕</button>
+      </label>
+      <div class="seg" role="group" aria-label="表示する期間">
+        <button type="button" data-view="recent" aria-pressed="true">最近</button>
+        <button type="button" data-view="past" aria-pressed="false">過去</button>
+        <button type="button" data-view="saved" aria-pressed="false">あとで読む<span id="savedCount"></span></button>
+      </div>
+    </div>
+    <div class="chips" id="chips" role="group" aria-label="分野で絞り込む"></div>
+    <nav class="toc" id="toc" aria-label="欄へ移動"></nav>
+  </div>
+</div>
+
+<nav class="bottomnav" id="bottomnav" aria-label="画面の切り替え">
+  <button type="button" data-view="recent" aria-pressed="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="4" y="4" width="16" height="16" rx="2"/><path d="M8 9h8M8 13h8M8 17h5"/></svg>最近</button>
+  <button type="button" data-view="past" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="8"/><path d="M12 8v4l3 2"/></svg>過去</button>
+  <button type="button" data-view="saved" aria-pressed="false"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4z"/></svg>あとで読む<span class="badge" id="savedBadge" hidden></span></button>
+</nav>
+
+<dialog class="settings" id="focusDlg" aria-labelledby="focusTitle">
+  <form method="dialog">
+    <div class="dlg-scroll">
+      <h2 id="focusTitle">設定</h2>
+      <p>設定はこの端末のブラウザに保存されます。</p>
+      <details class="set-sec" open>
+        <summary><h3>担当分野</h3></summary>
+        <p>選んだ分野の記事は、各欄の上のほうに目印つきで並びます。</p>
+        <div class="focus-grid" id="focusGrid"></div>
+      </details>
+      <details class="set-sec" open>
+        <summary><h3>気になる言葉</h3></summary>
+        <p>入れた言葉を含む記事・論文に印を付け、上のほうに並べます。読点やスペースで区切ってください。</p>
+        <input type="text" class="watch-input" id="watchInput" placeholder="例: バリウム、トモシンセシス、告示研修">
+      </details>
+      <details class="set-sec">
+        <summary><h3>文字の大きさ</h3></summary>
+        <div class="radio-row" id="sizeRow"><label><input type="radio" name="size" value="">標準</label><label><input type="radio" name="size" value="l">大きめ</label><label><input type="radio" name="size" value="xl">さらに大きく</label></div>
+      </details>
+      <details class="set-sec">
+        <summary><h3>スワイプ操作(スマホ)</h3></summary>
+        <p>記事を左へスワイプで既読、右へスワイプで「あとで読む」。直後に「元に戻す」が出ます。</p>
+        <div class="radio-row" id="swipeRow"><label><input type="radio" name="swipe" value="on">使う</label><label><input type="radio" name="swipe" value="off">使わない</label></div>
+      </details>
+      <details class="set-sec">
+        <summary><h3>情報を集める先</h3></summary>
+        <p>チェックを外した学会・団体の記事・日程・論文は出しません。数字は今ある記事・日程・論文の件数です。</p>
+        <div id="srcGrid"></div>
+        <div class="sync-btns"><button type="button" class="btn" data-srcall="1">すべて選ぶ</button><button type="button" class="btn" data-srcall="0">すべて外す</button></div>
+      </details>
+      <details class="set-sec">
+        <summary><h3>表示する欄と並び順</h3></summary>
+        <p>チェックを外した欄は出しません。↑↓で順番を入れ替えます。PCの2段表示では、左右の列はそのままで、同じ列の中で順番が変わります。</p>
+        <ol class="sec-list" id="secList"></ol>
+        <button type="button" class="btn" id="secReset">はじめの並びに戻す</button>
+      </details>
+      <details class="set-sec">
+        <summary><h3>「これからの日程」に出すもの</h3></summary>
+        <p>チェックを外した種類は日程の欄に出しません。開催地は研修一覧の記載と題名から判断しています。</p>
+        <div class="focus-grid scope-grid" id="scopeGrid"></div>
+      </details>
+      <details class="set-sec">
+        <summary><h3>スマホとPCの引き継ぎ</h3></summary>
+        <p>担当分野・気になる言葉・情報を集める先・欄の並び・あとで読むを文字にして書き出し、もう一方の端末で読み込みます。LINEやメールで自分宛てに送ると便利です。</p>
+        <div class="sync-btns"><button type="button" class="btn" id="syncExport">書き出してコピー</button><button type="button" class="btn" id="syncShare" hidden>共有する</button></div>
+        <textarea class="sync-box" id="syncText" placeholder="もう一方の端末で書き出した文字をここに貼り付けて「読み込む」を押してください"></textarea>
+        <div class="sync-btns"><button type="button" class="btn primary" id="syncImport">読み込む(今の内容に追加)</button><button type="button" class="btn" id="syncReplace">読み込む(置き換える)</button></div>
+        <p class="sync-msg" id="syncMsg" role="status"></p>
+      </details>
+      <details class="set-sec">
+        <summary><h3>自分で直した記事</h3></summary>
+        <p id="fixInfo">まだありません。記事の「直す」から分類や重要度を変えられます。</p>
+        <button type="button" class="btn" id="fixCopy" hidden>直した内容をコピー</button>
+      </details>
+    </div>
+    <div class="dlg-actions" style="margin-top:16px"><button class="btn" value="cancel">閉じる</button><button class="btn primary" value="save" id="focusSave">保存する</button></div>
+  </form>
+</dialog>
+
+<dialog class="settings" id="fixDlg" aria-labelledby="fixTitle">
+  <form method="dialog">
+    <h2 id="fixTitle">分類と重要度を直す</h2>
+    <p id="fixHead"></p>
+    <div class="fix-grid">
+      <label>分類<select id="fixCat"></select></label>
+      <label>重要度<select id="fixImp"><option value="高">要確認</option><option value="中">お知らせ</option><option value="低">話題</option></select></label>
+    </div>
+    <div class="dlg-actions"><button class="btn" value="reset" id="fixReset">元に戻す</button><button class="btn" value="cancel">閉じる</button><button class="btn primary" value="save">保存する</button></div>
+  </form>
+</dialog>
+
+<main class="wrap">
+  <div id="view"></div>
+</main>
+<p class="src-status" id="srcStatus" hidden></p>
+<footer>毎朝自動で集めた記事です。内容は各リンク先の原文で確認してください。</footer>
+
+<script>
+const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+let db=[],meta=null,seminars=[],cat='all',q='',view='recent',showAllSched=false;
+const SHOW_LO=6;                    // ほかのニュースは最初に6件だけ
+let showAllLo=false;
+const SHOW_MID=6,SHOW_KAGAWA=3,SHOW_WEEK=5;   // 研修・学会のお知らせ・香川県技師会の各欄・今週のまとめは最初にこの件数だけ
+let showAll={};                               // 「残りN件を見る」を押した欄
+const filtering=()=>!!(q||cat!=='all'||newOnly);
+const firstN=(key,list,n)=>(showAll[key]||filtering())?list:list.slice(0,n);
+const moreBtn=(key,list,shown)=>list.length>shown.length?`<button type="button" class="more" data-showall="${key}">残り${list.length-shown.length}件を見る</button>`:'';
+const today=new Date().toLocaleDateString('sv-SE',{timeZone:'Asia/Tokyo'});
+const feedDate=n=>n.featured_date||n.date;
+const RECENT_DAYS=7;
+const recentCutoff=(()=>{const [y,m,d]=today.split('-').map(Number);return new Date(Date.UTC(y,m-1,d-(RECENT_DAYS-1))).toISOString().slice(0,10);})();
+const isRecent=n=>feedDate(n)>=recentCutoff;
+// 香川県技師会のお知らせは更新がまばらなので、ほかの記事と分けて直近45日分を別枠に出す
+const KAGAWA_SRC='香川県診療放射線技師会',KAGAWA_DAYS=45;
+const kagawaCutoff=(()=>{const [y,m,d]=today.split('-').map(Number);return new Date(Date.UTC(y,m-1,d-(KAGAWA_DAYS-1))).toISOString().slice(0,10);})();
+const isKagawa=n=>n.source===KAGAWA_SRC;
+let kagawa=null;   // kagawa.json(お知らせの全件と求人案内)
+const IMP={高:{cls:'hi',label:'要確認'},中:{cls:'mid',label:'お知らせ'},低:{cls:'lo',label:'話題'}};
+const impOf=n=>IMP[n.importance]?n.importance:'中';
+const CAT_ORDER=['制度','職能','診療報酬・補助金','安全管理','学術','教育','AI','検診','マンモグラフィ','CT','MRI','一般撮影','血管撮影','超音波','核医学','放射線治療'];
+const WD='日月火水木金土';
+
+// 検索対象は人が読む文字だけ(URL内の英数字に「CT」「AI」が当たらないように)
+const searchText=n=>[n.headline,n.summary,n.source,n.category,n.why,(typeof saved!=='undefined'&&saved[n.url]&&saved[n.url].memo)||'',...(Array.isArray(n.also)?n.also.map(a=>a&&a.source):[])].filter(Boolean).join(' ').toLowerCase();
+const words=()=>q.toLowerCase().split(/\s+/).filter(Boolean);
+const matchQ=n=>!q||words().every(w=>searchText(n).includes(w));
+const inView=n=>view==='recent'?isRecent(n):!isRecent(n);
+
+function displayHeadline(n){const h=String(n.headline||''),src=String(n.source||'').trim();const m=h.match(/\s+-\s+([^-]{1,40})$/);const suf=m?m[1].trim():'';const isOutlet=suf&&(suf.toLowerCase()===src.toLowerCase()||/^[\w.-]+\.(jp|com|net|org|vn|info)$/i.test(suf)||/(学会|技師会|新聞|ニュース|NEWS|Web|プレス|タイムズ|TIMES)/i.test(suf));const t=isOutlet?h.slice(0,m.index):h;return t.replace(/^\s*【画像】\s*/,'').replace(/^\s*［(案内板|お知らせ|会告)］\s*/,'');}
+function dayText(d){const [y,m,dd]=String(d).split('-').map(Number);if(!y)return esc(d);const dt=new Date(Date.UTC(y,m-1,dd));const diff=Math.round((Date.parse(today+'T00:00:00Z')-dt.getTime())/864e5);if(diff===0)return '今日';if(diff===1)return '昨日';const yr=String(y)!==today.slice(0,4)?`${y}年`:'';return `${yr}${m}/${dd}(${WD[dt.getUTCDay()]})`;}
+
+function alsoHtml(n){const a=Array.isArray(n.also)?n.also.filter(x=>x&&x.url):[];if(!a.length)return '';return `<details class="also"><summary>ほか${a.length}社も報道</summary>${a.map(x=>`<a href="${esc(x.url)}" target="_blank" rel="noopener">${esc(x.source||'情報源')}</a>`).join('')}</details>`;}
+// ---- 端末内の記録(新着・あとで読む)。保存できない環境でも表示は壊さない ----
+const store={get(k,d){try{const v=localStorage.getItem(k);return v?JSON.parse(v):d;}catch(e){return d;}},set(k,v){try{localStorage.setItem(k,JSON.stringify(v));}catch(e){}}};
+let newSet=new Set();                 // 前回見たあとに増えた記事(URL)
+let saved=store.get('rtn-saved',{});  // あとで読む {url: 記事の写し}
+function markSeen(){
+  const seen=store.get('rtn-seen',null),urls=db.map(n=>n.url).filter(Boolean);
+  if(Array.isArray(seen)){const s=new Set(seen);newSet=new Set(urls.filter(u=>!s.has(u)));}
+  // その日に新着だった記事は、同じ日に開き直しても新着のまま残す
+  const kept=store.get('rtn-new',null);
+  if(kept&&kept.date===today&&Array.isArray(kept.urls))kept.urls.forEach(u=>{if(urls.includes(u))newSet.add(u);});
+  store.set('rtn-new',{date:today,urls:[...newSet]});
+  // 次回のために今の記事を既読として記録(古いものから捨てて最大1000件)
+  const merged=[...new Set([...(Array.isArray(seen)?seen:[]),...urls])].slice(-1000);
+  store.set('rtn-seen',merged);
+}
+const isSaved=n=>!!saved[n.url];
+function toggleSave(url){
+  if(saved[url]){delete saved[url];}
+  else{const n=db.find(x=>x.url===url)||papers.map(paperAsItem).find(x=>x.url===url)||pastPool().find(x=>x.url===url);if(!n)return;const {headline,url:u,source,date,featured_date,category,importance,why,summary,_paper}=n;saved[url]={headline,url:u,source,date,featured_date,category,importance,why,summary,_paper,savedAt:new Date().toISOString()};}
+  store.set('rtn-saved',saved);
+}
+function saveBtn(n){const on=isSaved(n);return `<button type="button" class="save" data-save="${esc(n.url)}" aria-pressed="${on}" aria-label="${on?'あとで読むから外す':'あとで読むに追加'}"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round" aria-hidden="true"><path d="M6 3h12v18l-6-4-6 4z"/></svg>${on?'保存済み':'あとで読む'}</button>`;}
+// ---- 学会誌の新着論文(papers.json) ----
+let papers=[];
+const paperAsItem=x=>({headline:x.title,url:x.url,source:x.journal,date:x.added||x.published,category:x.category||'学術',importance:'中',summary:x.authors?'著者: '+x.authors:'',_paper:true,published:x.published});
+// ---- 気になる言葉 ----
+let watchWords=store.get('rtn-watch',[]);
+const watchHit=n=>{const t=[n.headline,n.title,n.summary].join(' ').toLowerCase();return watchWords.find(w=>w&&t.includes(w.toLowerCase()))||'';};
+// ---- あとで読むの期限 ----
+const dueOf=n=>(saved[n.url]&&saved[n.url].due)||'';
+function duePill(n){const d=dueOf(n);if(!d)return '';const left=daysTo(d);return `<span class="pill due${left<0?' over':''}">${left<0?`期限切れ(${md(d)})`:left===0?'今日まで':`${md(d)}まで`}</span>`;}
+function setDue(url,d){if(!saved[url])return;if(d)saved[url].due=d;else delete saved[url].due;store.set('rtn-saved',saved);}
+const endOfWeek=()=>addDays(weekStart(today),6);
+const endOfMonth=()=>{const [y,m]=today.split('-').map(Number);return new Date(Date.UTC(y,m,0)).toISOString().slice(0,10);};
+// ---- 今日の3本(その日の最初に選び、1日固定) ----
+function today3(){
+  const kept=store.get('rtn-today3',null);
+  if(kept&&kept.date===today&&Array.isArray(kept.urls)){const l=kept.urls.map(u=>db.find(n=>n.url===u)||papers.map(paperAsItem).find(n=>n.url===u)).filter(Boolean);if(l.length)return l;}
+  const score=n=>(impOf(n)==='高'?4:impOf(n)==='中'?1:0)+(watchHit(n)?4:0)+(isFocus(n)?2:0)+(newSet.has(n.url)?1:0);
+  const pool=db.filter(n=>isRecent(n)&&!isKagawa(n)&&srcShown(n)&&!isRead(n)&&(impOf(n)!=='低'||watchHit(n))).concat(papers.map(paperAsItem).filter(n=>srcShown(n)&&!isRead(n)&&watchHit(n)));
+  const pick=pool.map(n=>({n,s:score(n)})).sort((a,b)=>(b.s-a.s)||byNewest(a.n,b.n)).slice(0,3).map(x=>x.n);
+  store.set('rtn-today3',{date:today,urls:pick.map(n=>n.url)});
+  return pick;
+}
+function renderToday3(){
+  if(q||cat!=='all')return '';
+  const l=today3();if(!l.length)return '';
+  const left=l.filter(n=>!isRead(n)).length;
+  return `<section class="today3" aria-labelledby="h-t3"><h2 id="h-t3">今日の3本</h2><p class="lead">${left?'未読の中から、要確認・気になる言葉・担当分野を優先して選んでいます':'今日の3本は読み終わりました'}</p><ol>${l.map(n=>`<li class="${isRead(n)?'done':''}"><span><a class="title" href="${esc(n.url)}" target="_blank" rel="noopener">${esc(displayHeadline(n))}</a><small>${esc(n.source||'')}${watchHit(n)?`・気になる言葉「${esc(watchHit(n))}」`:''}</small></span></li>`).join('')}</ol></section>`;
+}
+// ---- 論文の欄 ----
+let showAllPapers=false;
+function renderPapers(){
+  const all=papers.map(paperAsItem).filter(n=>srcShown(n)&&matchQ(n)&&(cat==='all'||n.category===cat)&&(!unreadOnly||!isRead(n))&&!newOnly).sort((a,b)=>(!!watchHit(b)-!!watchHit(a))||String(b.date).localeCompare(String(a.date))||String(b.published).localeCompare(String(a.published)));
+  if(!all.length)return '';
+  const shown=showAllPapers?all:all.slice(0,5);
+  return `<section class="section" aria-labelledby="h-papers"><h2 id="h-papers">学会誌の新着論文<span class="count">${all.length}件</span></h2><p class="lead">J-STAGEに載った日本放射線技術学会雑誌・日本消化器がん検診学会雑誌・日本乳癌検診学会誌の新しい論文</p><div class="list">${shown.map(n=>row(n)).join('')}${all.length>shown.length?`<button type="button" class="more" data-morepapers>残り${all.length-shown.length}件を見る</button>`:''}</div></section>`;
+}
+// ---- スワイプとトースト ----
+let swipeOn=store.get('rtn-swipe','on')!=='off';
+let toastTimer;
+function toast(msg,undo){let t=document.getElementById('toast');if(!t){t=document.createElement('div');t.id='toast';t.className='toast';t.setAttribute('role','status');document.body.appendChild(t);}t.innerHTML=`<span>${esc(msg)}</span>${undo?'<button type="button">元に戻す</button>':''}`;t.hidden=false;if(undo)t.querySelector('button').onclick=()=>{undo();t.hidden=true;};clearTimeout(toastTimer);toastTimer=setTimeout(()=>{t.hidden=true;},4000);}
+// ---- 欄の折りたたみ(閉じた欄を覚える) ----
+const FOLDABLE=['h-t3','h-hi','h-kagawa','h-sched','h-supply','h-mid','h-papers','h-lo'];
+let folded=new Set(store.get('rtn-folded',[]));
+function applyFolds(){FOLDABLE.forEach(id=>{const h=document.getElementById(id);if(!h)return;const sec=h.parentElement;sec.classList.add('foldable');sec.classList.toggle('folded',folded.has(id));h.setAttribute('role','button');h.setAttribute('tabindex','0');h.setAttribute('aria-expanded',String(!folded.has(id)));h.title=folded.has(id)?'タップで開く':'タップで閉じる';});}
+function toggleFold(id){if(folded.has(id))folded.delete(id);else folded.add(id);store.set('rtn-folded',[...folded]);applyFolds();}
+// ---- スマホとPCの引き継ぎ(書き出し・読み込み) ----
+// 文字サイズ・スワイプ・欄の開閉は端末ごとに好みが違うので引き継がない
+const SYNC_KEYS=['rtn-saved','rtn-focus','rtn-watch','rtn-sched-scope','rtn-fix','rtn-layout','rtn-src-off','rtn-src-on'];
+function syncExportText(){const data={v:1,at:new Date().toISOString(),d:{}};SYNC_KEYS.forEach(k=>{const v=store.get(k,undefined);if(v!==undefined)data.d[k]=v;});const bin=new TextEncoder().encode(JSON.stringify(data));let str='';bin.forEach(b=>str+=String.fromCharCode(b));return 'RTN1:'+btoa(str);}
+function syncParse(text){const t=String(text||'').trim().replace(/\s+/g,'');if(!t.startsWith('RTN1:'))throw new Error('形式が違います');const str=atob(t.slice(5));const bin=Uint8Array.from(str,c=>c.charCodeAt(0));const data=JSON.parse(new TextDecoder().decode(bin));if(!data||data.v!==1||!data.d)throw new Error('形式が違います');return data;}
+function syncApply(data,replace){
+  const d=data.d,obj=(a,b)=>Object.assign({},a||{},b||{}),arr=(a,b)=>[...new Set([...(a||[]),...(b||[])])];
+  const merge={'rtn-saved':obj,'rtn-fix':obj,'rtn-focus':arr,'rtn-watch':arr,'rtn-folded':arr};
+  Object.keys(d).forEach(k=>{if(!SYNC_KEYS.includes(k))return;const cur=store.get(k,undefined);store.set(k,(!replace&&merge[k]&&cur!==undefined)?merge[k](cur,d[k]):d[k]);});
+}
+// ---- 月別アーカイブ(news.json の200件より古い記事) ----
+let archiveIndex=null, archiveLoaded={}, archiveLoading=false;
+async function loadArchiveIndex(){
+  if(archiveIndex)return archiveIndex;
+  try{const r=await fetch('archive/index.json?'+Date.now());archiveIndex=r.ok?await r.json():{months:[]};}catch(e){archiveIndex={months:[]};}
+  if(!Array.isArray(archiveIndex.months))archiveIndex.months=[];
+  return archiveIndex;
+}
+async function loadMonths(months){
+  const todo=months.filter(m=>!archiveLoaded[m]);if(!todo.length)return;
+  archiveLoading=true;render();
+  await Promise.all(todo.map(async m=>{try{const r=await fetch(`archive/${m}.json`);archiveLoaded[m]=r.ok?await r.json():[];}catch(e){archiveLoaded[m]=[];}}));
+  archiveLoading=false;render();
+}
+const nextMonth=()=>archiveIndex&&archiveIndex.months.find(x=>!archiveLoaded[x.month]);
+function pastPool(){
+  const urls=new Set(db.map(n=>n.url));const extra=[];
+  Object.values(archiveLoaded).forEach(list=>(list||[]).forEach(n=>{if(n&&n.url&&!urls.has(n.url)){urls.add(n.url);extra.push(n);}}));
+  return db.filter(n=>!isRecent(n)).concat(extra.map(applyFix));
+}
+async function ensureArchiveForView(){
+  if(view!=='past')return;
+  await loadArchiveIndex();
+  // 検索中は全期間から探す
+  if(q)await loadMonths(archiveIndex.months.map(x=>x.month));
+  else render();
+}
+// ---- 日程に出す範囲(端末に保存。初期値は全部表示) ----
+const SCOPES=[
+  {k:'kagawa',label:'香川の開催',note:'香川県技師会の行事は別枠の「香川県技師会」に出ます'},
+  {k:'online',label:'オンライン・Web',note:'ハイブリッド・オンデマンドを含む'},
+  {k:'national',label:'全国規模・開催地の記載なし',note:'学会の全国大会、技師会・認定機構の講習会など'},
+  {k:'near',label:'近畿・中四国の現地開催',note:'香川以外の近隣の府県'},
+  {k:'other',label:'その他の地域の現地開催',note:'関東・東北・九州など'}
+];
+let schedScopes=new Set(store.get('rtn-sched-scope',SCOPES.map(x=>x.k)));
+const ONLINE_RE=/web|ウェブ|オンライン|オンデマンド|e-?ラーニング|ハイブリッド|ライブ配信|配信|zoom|webinar/i;
+const NATIONAL_RE=/全国|総会学術大会|秋季学術大会|学術集会|日本.{0,14}(学会|技師会).{0,8}(大会|総会)|JRC|ITEM/;
+const LOCAL_RE=/支部|地区|地方会|県技師会|府技師会|都技師会/;
+const OTHER_AREA=['北海道','青森','岩手','宮城','秋田','山形','福島','茨城','栃木','群馬','埼玉','千葉','東京','神奈川','新潟','富山','石川','福井','山梨','長野','岐阜','静岡','愛知','三重','福岡','佐賀','長崎','熊本','大分','宮崎','鹿児島','沖縄','東北','関東','甲信越','北陸','東海','中部','九州','函館','札幌','仙台','横浜','名古屋','金沢','博多','湘南'];
+const NEAR_AREA=['大阪','兵庫','京都','滋賀','奈良','和歌山','鳥取','島根','岡山','広島','山口','徳島','愛媛','高知','近畿','関西','中国','四国','中四国','神戸','姫路'];
+function schedScope(n){
+  const t=String(n.title||n.headline||''),p=String(n.event_place||'');
+  if(p==='香川'||/香川|さぬき|高松|丸亀/.test(t))return 'kagawa';
+  if(p==='オンライン'||ONLINE_RE.test(t+' '+p))return 'online';
+  if(NATIONAL_RE.test(t)&&!LOCAL_RE.test(t))return 'national';
+  if(p)return NEAR.includes(p)?'near':'other';
+  if(OTHER_AREA.some(w=>t.includes(w)))return 'other';   // 「東京都」の「京都」に当てないよう先に見る
+  if(NEAR_AREA.some(w=>t.includes(w)))return 'near';
+  return 'national';
+}
+// ---- 担当分野(端末に保存) ----
+let focusCats=new Set(store.get('rtn-focus',[]));
+const isFocus=n=>focusCats.has(n.category);
+const focusFirst=(a,b)=>(isFocus(b)-isFocus(a));
+function openFocus(){fillFocus();document.getElementById('syncMsg').textContent='';document.getElementById('focusDlg').showModal();}
+function secListHtml(order,hidden){
+  const movable=order.filter(k=>!SEC(k).top);
+  return SECTIONS.filter(x=>x.top).concat(movable.map(SEC)).map(x=>{const i=movable.indexOf(x.k);return `<li data-sec="${x.k}"><label><input type="checkbox"${hidden.includes(x.k)?'':' checked'}>${esc(x.label)}</label>${x.top?'<small>いちばん上</small>':`<small>${x.side?'PCで右':'PCで左'}</small><button type="button" data-secmove="-1" aria-label="${esc(x.label)}を上へ"${i===0?' disabled':''}>↑</button><button type="button" data-secmove="1" aria-label="${esc(x.label)}を下へ"${i===movable.length-1?' disabled':''}>↓</button>`}</li>`;}).join('');
+}
+function readSecList(){const lis=[...document.querySelectorAll('#secList li')];return {order:lis.map(li=>li.dataset.sec),hidden:lis.filter(li=>!li.querySelector('input').checked).map(li=>li.dataset.sec)};}
+function srcCounts(){
+  const c={};const add=n=>{const k=srcKey(n);c[k]=(c[k]||0)+1;};
+  db.forEach(add);papers.map(paperAsItem).forEach(add);
+  // 研修一覧などの日程(記事にない分)
+  seminars.forEach(x=>add({source:x.source||(x.kind==='精中機構'?'精中機構':'日本診療放射線技師会')}));
+  return c;
+}
+function srcGridHtml(){
+  const c=srcCounts();
+  return SRC_GROUPS.map(gr=>`<details class="src-group"><summary>${esc(gr.g)}<small class="src-n"></small></summary><div class="focus-grid src-grid">${gr.items.map(([k,label])=>`<label><input type="checkbox" value="${k}"${isSrcOff(k)?'':' checked'}>${esc(label)}<small>${c[k]||0}</small></label>`).join('')}</div></details>`).join('');
+}
+// グループを閉じていても、選んでいる数が見えるようにする
+function updateSrcCounts(){document.querySelectorAll('#srcGrid .src-group').forEach(d=>{const all=d.querySelectorAll('input');d.querySelector('.src-n').textContent=`${d.querySelectorAll('input:checked').length}/${all.length}を表示`;});}
+function fillFocus(){
+  document.getElementById('srcGrid').innerHTML=srcGridHtml();updateSrcCounts();
+  document.getElementById('secList').innerHTML=secListHtml(secOrder(),Array.isArray(layout.hidden)?layout.hidden:[]);
+  const cats=CAT_ORDER.concat(['その他']);
+  document.getElementById('focusGrid').innerHTML=cats.map(c=>`<label><input type="checkbox" value="${esc(c)}"${focusCats.has(c)?' checked':''}>${esc(c)}</label>`).join('');
+  const cnt={};scheduleItems(true).filter(n=>!isKagawa(n)).forEach(n=>{const k=schedScope(n);cnt[k]=(cnt[k]||0)+1;});
+  document.getElementById('watchInput').value=watchWords.join('、');
+  const sz=store.get('rtn-size','');document.querySelectorAll('#sizeRow input').forEach(i=>i.checked=i.value===sz);
+  document.querySelectorAll('#swipeRow input').forEach(i=>i.checked=i.value===(swipeOn?'on':'off'));
+  document.getElementById('scopeGrid').innerHTML=SCOPES.map(x=>`<label title="${esc(x.note)}"><input type="checkbox" value="${x.k}"${schedScopes.has(x.k)?' checked':''}><span>${esc(x.label)}<small class="scope-n">${cnt[x.k]||0}件・${esc(x.note)}</small></span></label>`).join('');
+  const nf=Object.keys(fixes).length;
+  document.getElementById('fixInfo').textContent=nf?`${nf}件の記事の分類・重要度を直しています。内容をコピーしてチャットに貼り付けてもらえれば、判定の基準に反映できます。`:'まだありません。記事の「直す」から分類や重要度を変えられます。';
+  document.getElementById('fixCopy').hidden=!nf;
+}
+// ---- 既読(記事を開いたら既読) ----
+let readSet=new Set(store.get('rtn-read',[]));
+// ---- 情報を集める先(配信元)ごとの表示・非表示(端末に保存) ----
+// names は記事・日程・論文の source。どれにも当たらない配信元は「一般メディア」
+const SRC_GROUPS=[
+  {g:'職能団体・学会',items:[['jart','日本診療放射線技師会'],['jsrt','日本放射線技術学会'],['jrs','日本医学放射線学会'],['jsnm','日本核医学会'],['jsnmt','日本核医学技術学会'],['jastro','日本放射線腫瘍学会'],['jsmp','日本医学物理学会'],['jsmrm','日本磁気共鳴医学会'],['jsir','日本IVR学会'],['jsum','日本超音波医学会'],['jsct','日本CT技術学会'],['jsgcs','日本消化器がん検診学会'],['jabcs','日本乳癌検診学会'],['jscts','日本CT検診学会'],['jabts','日本乳腺甲状腺超音波医学会(JABTS)',['日本乳腺甲状腺超音波医学会']],['jss','日本超音波検査学会(JSS)',['日本超音波検査学会']],['jbcs','日本乳癌学会'],['dcis','DCIS研究会']]},
+  {g:'認定機構',items:[['jmrts','日本磁気共鳴専門技術者認定機構'],['rtt','日本放射線治療専門放射線技師認定機構'],['qabcs','精中機構(乳がん検診精度管理中央機構)',['精中機構','日本乳がん検診精度管理中央機構']],['jxct','日本X線CT専門技師認定機構']]},
+  {g:'行政・安全情報',items:[['mhlw','厚生労働省'],['pmda','PMDA(医療機器の回収など)',['PMDA','医薬品医療機器総合機構']],['jcqhc','日本医療機能評価機構'],['nra','原子力規制委員会']]},
+  {g:'学会誌の論文',items:[['p_jjrt','日本放射線技術学会雑誌'],['p_jsgcs','日本消化器がん検診学会雑誌'],['p_jabcs','日本乳癌検診学会誌']]},
+  {g:'地域',items:[['kagawa','香川県診療放射線技師会'],['chushi','日本放射線技術学会 中国・四国支部'],['okayama','岡山県診療放射線技師会'],['ehime','愛媛県診療放射線技師会'],['tokushima','徳島県診療放射線技師会'],['kochi','高知県診療放射線技師会']]},
+  {g:'そのほか',items:[['mrifan','MRIfan.net'],['media','一般メディア(新聞・ニュースサイトなど)',[]]]}
+];
+const SRC_BY_NAME=new Map();SRC_GROUPS.forEach(gr=>gr.items.forEach(([k,label,names])=>(names||[label]).forEach(nm=>SRC_BY_NAME.set(nm,k))));
+const srcKey=n=>SRC_BY_NAME.get(String(n.source||'').trim())||'media';
+// 初期状態ではチェックなしの配信元。自分で選んだ人だけ rtn-src-on に入る
+const SRC_DEFAULT_OFF=new Set(['jabts','jss','jbcs','dcis','jxct','mrifan']);
+let srcOff=new Set(store.get('rtn-src-off',[])),srcOn=new Set(store.get('rtn-src-on',[]));
+const isSrcOff=k=>srcOff.has(k)||(SRC_DEFAULT_OFF.has(k)&&!srcOn.has(k));
+const srcShown=n=>!isSrcOff(srcKey(n));
+let unreadOnly=!!store.get('rtn-unread-only',false);
+let newOnly=false;   // 前回見たあとに増えた記事だけ(その場だけ。保存しない)
+const isRead=n=>readSet.has(n.url);
+function markRead(url){if(!url||readSet.has(url))return;readSet.add(url);store.set('rtn-read',[...readSet].slice(-3000));}
+// ---- 自分で直した分類・重要度 ----
+let fixes=store.get('rtn-fix',{});
+function applyFix(n){const f=fixes[n.url];if(!f)return n;return Object.assign({},n,f.category?{category:f.category}:{},f.importance?{importance:f.importance}:{},{_fixed:true});}
+let fixUrl=null;
+function openFix(url){
+  const n=db.find(x=>x.url===url)||pastPool().find(x=>x.url===url)||savedList().find(x=>x.url===url);if(!n)return;
+  fixUrl=url;const cats=CAT_ORDER.concat(['その他']);
+  document.getElementById('fixHead').textContent=displayHeadline(n);
+  document.getElementById('fixCat').innerHTML=cats.map(c=>`<option${c===n.category?' selected':''}>${esc(c)}</option>`).join('');
+  document.getElementById('fixImp').value=impOf(n);
+  document.getElementById('fixReset').hidden=!fixes[url];
+  document.getElementById('fixDlg').showModal();
+}
+function fixedNow(url,orig,category,importance){
+  const o=fixes[url]&&fixes[url].orig?fixes[url].orig:{category:orig.category,importance:orig.importance};
+  fixes[url]={category,importance,orig:o,headline:displayHeadline(orig)};store.set('rtn-fix',fixes);
+}
+// ---- 資格と更新期限 ----
+const daysTo=d=>Math.round((Date.parse(d+'T00:00:00Z')-Date.parse(today+'T00:00:00Z'))/864e5);
+// ---- あとで読むのメモ ----
+const memoOf=n=>(saved[n.url]&&saved[n.url].memo)||'';
+let memoTimer;
+function saveMemo(url,text){if(!saved[url])return;saved[url].memo=text;clearTimeout(memoTimer);memoTimer=setTimeout(()=>store.set('rtn-saved',saved),300);}
+let hideNotes=new Set();
+function noteHtml(n){return (n.why&&!hideNotes.has(n.why))?`<div class="note"><span class="face" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-4 10.5c.7.7 1 1.5 1 2.5h6c0-1 .3-1.8 1-2.5A6 6 0 0 0 12 3z"/></svg></span><p class="say"><small>ポイント</small>${esc(n.why)}</p></div>`:'';}
+// 高は全部見せ、中は要約1行、低と既読は題名だけにする。あとで読むと検索中は全部見せる
+const openRows=new Set();
+const isCompact=n=>view!=='saved'&&!q&&(impOf(n)!=='高'||isRead(n));
+const rowClass=n=>`imp-${IMP[impOf(n)].cls}${isRead(n)?' read':''}${isCompact(n)?' compact':''}${isCompact(n)&&openRows.has(n.url)?' open':''}`;
+function metaHtml(n,showImp,showDate=true){const i=IMP[impOf(n)];return `<div class="meta">${newSet.has(n.url)?'<span class="pill new">新着</span>':''}${showImp?`<span class="pill ${i.cls}">${i.label}</span>`:''}${watchHit(n)?`<span class="pill watch">${esc(watchHit(n))}</span>`:''}${isFocus(n)?'<span class="pill focus">担当</span>':''}${n._paper?'<span class="pill journal">論文</span>':''}<span class="pill cat">${esc(n.category||'その他')}</span>${duePill(n)}${n._fixed?'<span class="pill fixed">手直し済み</span>':''}${showDate?`<span>${dayText(feedDate(n))}</span>`:''}${isCompact(n)?`<button type="button" class="fixbtn" data-detail="${esc(n.url)}" aria-expanded="${openRows.has(n.url)}">${openRows.has(n.url)?'閉じる':'詳しく'}</button>`:''}<button type="button" class="fixbtn rowtool" data-readtoggle="${esc(n.url)}">${isRead(n)?'未読に戻す':'既読にする'}</button>${n._paper?'':`<button type="button" class="fixbtn rowtool" data-fix="${esc(n.url)}" aria-label="この記事の分類と重要度を直す">直す</button>`}<button type="button" class="fixbtn rowtool" data-share="${esc(n.url)}" data-title="${esc(displayHeadline(n))}" aria-label="この記事を共有する">共有</button>${saveBtn(n)}</div>`;}
+function itemBody(n){return `<a class="title" href="${esc(n.url)}" target="_blank" rel="noopener">${esc(displayHeadline(n))}</a><div class="src">${esc(n.source||'')}</div>${n.summary?`<p class="sum">${esc(n.summary)}</p>`:''}${alsoHtml(n)}`;}
+const mustItem=n=>`<article class="must-item swipe-row ${rowClass(n)}" data-url="${esc(n.url)}">${metaHtml(n,false)}${itemBody(n)}${memoHtml(n)}${noteHtml(n)}</article>`;
+const dueRow=n=>`<div class="due-row" data-dueurl="${esc(n.url)}">期限: <button type="button" data-due="today">今日</button><button type="button" data-due="week">今週中</button><button type="button" data-due="month">今月中</button><input type="date" data-duedate value="${esc(dueOf(n))}" aria-label="期限の日付">${dueOf(n)?'<button type="button" data-due="">期限なし</button>':''}</div>`;
+const memoHtml=n=>view==='saved'?dueRow(n)+`<div class="memo"><textarea data-memo="${esc(n.url)}" placeholder="メモ(例: 勉強会で紹介する、あとで添付文書を確認)" aria-label="この記事のメモ">${esc(memoOf(n))}</textarea></div>`:(memoOf(n)?`<div class="memo-line"><b>メモ</b>${esc(memoOf(n))}</div>`:'');
+const row=(n,showImp=false,showDate=true)=>`<article class="row swipe-row ${rowClass(n)}" data-url="${esc(n.url)}">${metaHtml(n,showImp,showDate)}${itemBody(n)}${memoHtml(n)}${noteHtml(n)}</article>`;
+const byNewest=(a,b)=>feedDate(b).localeCompare(feedDate(a));
+
+// ---- 記事を共有(スマホは共有メニュー、PCはリンクをコピー) ----
+async function shareArticle(title,url){
+  const coarse=matchMedia('(pointer:coarse)').matches;
+  if(navigator.share&&coarse){try{await navigator.share({title,text:title,url});}catch(e){}return;}
+  const text=`${title}\n${url}`;
+  const done=()=>toast('見出しとリンクをコピーしました。メールやチャットに貼り付けてください');
+  try{await navigator.clipboard.writeText(text);done();return;}catch(e){}
+  // クリップボードが使えないブラウザ向けの古いコピー方法
+  const ta=document.createElement('textarea');ta.value=text;ta.setAttribute('readonly','');ta.style.cssText='position:fixed;top:0;left:0;opacity:0';document.body.appendChild(ta);ta.select();
+  let ok=false;try{ok=document.execCommand('copy');}catch(e){}ta.remove();
+  if(ok)done();else{try{prompt('次の内容をコピーしてください',text);}catch(e){toast('コピーできませんでした');}}
+}
+let chipsOpen=false;
+function renderChips(){
+  const base=(view==='saved'?savedList():view==='past'?pastPool():db.filter(inView)).filter(n=>srcShown(n)&&matchQ(n)&&(!newOnly||newSet.has(n.url)));const cnt={};base.forEach(n=>{cnt[n.category]=(cnt[n.category]||0)+1});
+  const cats=CAT_ORDER.filter(c=>cnt[c]).concat(Object.keys(cnt).filter(c=>!CAT_ORDER.includes(c)&&c!=='その他').sort()).concat(cnt['その他']?['その他']:[]);
+  if(cat!=='all'&&!cats.includes(cat))cats.push(cat);
+  // 担当分野(未設定なら件数の多い5分野)だけ出し、残りは「ほかの分野」にしまう
+  const focusIn=cats.filter(c=>focusCats.has(c));
+  const main=focusIn.length?focusIn:[...cats].sort((x,y)=>(cnt[y]||0)-(cnt[x]||0)).slice(0,5);
+  const vis=chipsOpen?cats:cats.filter(c=>main.includes(c)||c===cat);
+  const rest=cats.length-vis.length;
+  const moreChip=chipsOpen&&cats.length>main.length?'<button type="button" class="unread" data-morecats aria-expanded="true">分野をたたむ</button>':rest?`<button type="button" class="unread" data-morecats aria-expanded="false">ほかの分野<span class="n">${rest}</span></button>`:'';
+  const b=(c,label,k)=>`<button type="button" data-cat="${esc(c)}" aria-pressed="${cat===c}" class="${focusCats.has(c)?'is-focus':''}">${esc(label)}<span class="n">${k}</span></button>`;
+  const unread=base.filter(n=>!isRead(n)).length;
+  const nNew=view==='recent'?db.filter(n=>newSet.has(n.url)&&inView(n)&&srcShown(n)).length:0;
+  document.getElementById('chips').innerHTML=`${nNew||newOnly?`<button type="button" class="unread newonly" data-newonly aria-pressed="${newOnly}">新着だけ<span class="n">${nNew}</span></button>`:''}<button type="button" class="unread" data-unread aria-pressed="${unreadOnly}">未読のみ<span class="n">${unread}</span></button>${unread&&unreadOnly?`<button type="button" class="allread" data-allread>全部既読にする</button>`:''}<span class="sep" aria-hidden="true"></span>`+b('all','すべて',base.length)+vis.map(c=>b(c,c,cnt[c]||0)).join('')+moreChip;
+}
+
+function filterNote(total){
+  const parts=[];if(newOnly)parts.push('新着');if(q)parts.push(`「${esc(q)}」`);if(cat!=='all')parts.push(esc(cat));
+  // 「最近」で検索したときは、200件より古い記事(月別アーカイブ)も探せるようにする
+  const past=q&&view==='recent'?`<button type="button" data-search-past>過去の記事からも探す</button>`:'';
+  return parts.length?`<p class="result-note">${parts.join('と')}で絞り込み中、${total}件<button type="button" data-reset>解除する</button>${past}</p>`:'';
+}
+
+const NEAR=['大阪','兵庫','京都','滋賀','奈良','和歌山','鳥取','島根','岡山','広島','山口','徳島','香川','愛媛','高知'];
+function calLink(n){const d=n.event_date.replace(/-/g,'');const [y,m,dd]=n.event_date.split('-').map(Number);const next=new Date(Date.UTC(y,m-1,dd+1)).toISOString().slice(0,10).replace(/-/g,'');const t=(n.event_kind==='申込締切'?'【申込締切】':'')+(n.title||displayHeadline(n));const det=(n.url||'')+(n.apply_end?`\n申込締切: ${n.apply_end}`:'');return 'https://calendar.google.com/calendar/render?action=TEMPLATE&text='+encodeURIComponent(t)+'&dates='+d+'/'+next+'&details='+encodeURIComponent(det);}
+const SEM_CAT={告示研修:'職能',生涯教育:'教育',認定資格:'教育'};
+const md=d=>{const [,m,dd]=String(d).split('-').map(Number);return `${m}/${dd}`;};
+const normTitle=t=>String(t||'').replace(/\s+-\s+[^-]{1,40}$/,'').replace(/[\s（）()]/g,'');
+let schedHidden=0;
+function scheduleItems(all){
+  let out=[];const seen=new Set();
+  // 技師会の研修一覧(受付状態・申込締切つき)。何か月も続く常設講座は除く
+  seminars.forEach(x=>{
+    if(!x.event_start||(x.event_end||x.event_start)<today)return;
+    const span=(Date.parse(x.event_end||x.event_start)-Date.parse(x.event_start))/864e5;
+    if(span>60)return;
+    const it={event_date:x.event_start<today?today:x.event_start,event_kind:'開催',event_end:x.event_end,title:x.title,url:x.url,event_place:(/^jart$/i.test(String(x.place||'').trim())||!x.place)?(/web|ウェブ|オンライン|e-?ラーニング/i.test(x.title||'')?'オンライン':''):(/^京都(府)?$/.test(String(x.place).trim())?'京都':String(x.place).trim().replace(/(都|府|県)$/,'')),status:x.status,apply_start:x.apply_start,apply_end:x.apply_end,category:x.category||SEM_CAT[x.kind]||'教育',source:x.source||(x.kind==='精中機構'?'精中機構':'日本診療放射線技師会'),headline:x.title};
+    seen.add(normTitle(x.title));seen.add(x.url);out.push(it);
+  });
+  // ニュース記事から読み取った日程(研修一覧と重複するものは除く)
+  db.forEach(n=>{if(n.event_date&&n.event_date>=today&&!seen.has(n.url)&&!seen.has(normTitle(displayHeadline(n))))out.push(n);});
+  // 申込締切まで7日以内(受付中)のものは「締切間近」として先頭に
+  out.forEach(n=>{const dl=n.event_kind==='申込締切'?n.event_date:n.apply_end;n._deadline=dl||'';const left=dl?daysTo(dl):null;n._urgent=left!==null&&left>=0&&left<=7&&!/申込み不可|受付終了|満員|定員|受付前/.test(n.status||'');});
+  out=out.filter(srcShown);   // 設定で外した配信元の日程は出さない
+  if(all)return out;
+  const vis=out.filter(n=>!isKagawa(n)&&schedScopes.has(schedScope(n)));schedHidden=out.filter(n=>!isKagawa(n)).length-vis.length;
+  return vis.filter(n=>matchQ(n)&&(cat==='all'||n.category===cat)).sort((a,b)=>(b._urgent-a._urgent)||(a._urgent&&b._urgent?a._deadline.localeCompare(b._deadline):0)||a.event_date.localeCompare(b.event_date));
+}
+function statusHtml(n){
+  if(n.status==='申込み可')return `<span class="pill open">受付中${n.apply_end?`・${md(n.apply_end)}まで`:''}</span>`;
+  if(n.status==='受付前')return `<span class="pill soon">受付前${n.apply_start?`・${md(n.apply_start)}から`:''}</span>`;
+  if(n.status)return `<span class="pill soon">${esc(n.status)}</span>`;
+  return '';
+}
+// ---- 造影剤・放射性医薬品の供給状況(厚労省の一覧のうち、通常出荷でないもの) ----
+let supply=null;
+function renderSupply(){
+  if(!supply||!Array.isArray(supply.items)||!supply.items.length)return '';
+  const items=supply.items.filter(x=>cat==='all'||x.category===cat);if(!items.length)return '';
+  const stop=items.filter(x=>/供給停止/.test(x.status)).length;
+  return `<section class="section" aria-labelledby="h-supply"><h2 id="h-supply">造影剤・放射性医薬品の供給状況<span class="count">${items.length}品目</span></h2><p class="lead">厚生労働省「医療用医薬品供給状況」のうち、限定出荷・供給停止になっているもの${supply.as_of?`(${esc(supply.as_of)})`:''}</p><details class="supply"><summary>${stop?`<span class="pill urgent">供給停止 ${stop}品目</span>`:''}<span class="pill">限定出荷 ${items.length-stop}品目</span>一覧を見る</summary><ul>${items.map(x=>`<li><b>${esc(x.product)}</b>　<span class="pill${/供給停止/.test(x.status)?' urgent':''}">${esc(x.status)}</span><div class="meta">${esc(x.ingredient)}・${esc(x.maker)}${x.category?`・${esc(x.category)}`:''}${x.changed?`・${esc(x.changed.slice(5).replace('-','/'))}更新`:''}${x.outlook?`・解除見込み: ${esc(x.outlook)}`:''}</div></li>`).join('')}</ul><p class="lead" style="margin-top:10px"><a href="${esc(supply.source)}" target="_blank" rel="noopener">厚生労働省のページで確認する</a></p></details></section>`;
+}
+const schedItemHtml=n=>{const [y,m,d]=n.event_date.split('-').map(Number);const dt=new Date(Date.UTC(y,m-1,d));const left=Math.round((dt-Date.parse(today+'T00:00:00Z'))/864e5);const dl=n.event_kind==='申込締切';const pl=isKagawa(n)?'':n.event_place;const plHtml=pl?(pl==='オンライン'?'<span class="pill near">オンライン</span>':NEAR.includes(pl)?`<span class="pill near">${esc(pl)}(近畿・中四国)</span>`:`<span class="pill place">${esc(pl)}</span>`):'';return `<article class="sched-item${isRead(n)||(n._notice&&isRead(n._notice))?' read':''}"><div class="sched-date${dl?' deadline':''}"><span class="md">${m}/${d}</span><span class="wd">${WD[dt.getUTCDay()]}曜</span></div><div class="sched-body"><div class="kind">${dl?'<b>申込締切</b>':'開催'}　${left===0?'今日':`あと${left}日`}</div><a class="title" href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title||displayHeadline(n))}</a><div class="sched-tools">${n._notice?`${newSet.has(n._notice.url)?'<span class="pill new">新着</span>':''}<a class="cal" data-notice href="${esc(n._notice.url)}" target="_blank" rel="noopener">案内を見る</a>`:''}${n._urgent?`<span class="pill urgent">締切間近・${daysTo(n._deadline)===0?'今日まで':`あと${daysTo(n._deadline)}日`}</span>`:''}${statusHtml(n)}${plHtml}<a class="cal" href="${calLink(n)}" target="_blank" rel="noopener">Googleカレンダーに追加</a></div></div></article>`;};
+// 日ごとの予定。7日以内の開催は期間中の毎日に、申込締切は締切日にも出す
+let schedView=store.get('rtn-sched-view','list'),calMonth=null,calDay=null;
+function calMarks(items){
+  const m={},add=(d,n)=>{(m[d]=m[d]||[]).push(n);};
+  items.forEach(n=>{
+    const end=n.event_end&&n.event_end>n.event_date&&daysTo(n.event_end)-daysTo(n.event_date)<=7?n.event_end:n.event_date;
+    for(let d=n.event_date;d<=end;d=addDays(d,1))add(d,n);
+    if(n._deadline&&n._deadline>=today&&n._deadline!==n.event_date)add(n._deadline,Object.assign({},n,{event_date:n._deadline,event_kind:'申込締切'}));
+  });
+  return m;
+}
+function renderCalendar(all){
+  const marks=calMarks(all),dates=Object.keys(marks).sort();
+  const first=today.slice(0,7),last=(dates[dates.length-1]||today).slice(0,7);
+  const mon=calMonth&&calMonth>=first&&calMonth<=last?calMonth:(dates[0]||today).slice(0,7);
+  const [y,m]=mon.split('-').map(Number);
+  const shift=k=>new Date(Date.UTC(y,m-1+k,1)).toISOString().slice(0,7);
+  const lead=new Date(Date.UTC(y,m-1,1)).getUTCDay(),nDays=new Date(Date.UTC(y,m,0)).getUTCDate();
+  const sel=calDay&&calDay.startsWith(mon)&&marks[calDay]?calDay:dates.find(d=>d.startsWith(mon))||'';
+  const isDl=n=>n.event_kind==='申込締切';
+  const wdCls=i=>i===0?' sun':i===6?' sat':'';
+  let cells=Array.from({length:7},(_,i)=>`<div class="cal-wd${wdCls(i)}">${WD[i]}</div>`).join('')+'<div></div>'.repeat(lead);
+  for(let d=1;d<=nDays;d++){
+    const ds=`${mon}-${String(d).padStart(2,'0')}`,l=marks[ds]||[],wd=(lead+d-1)%7;
+    const cls=`cal-d${wdCls(wd)}${ds<today?' past':''}${ds===today?' today':''}`;
+    if(!l.length){cells+=`<div class="${cls}">${d}<span class="cal-dots"></span></div>`;continue;}
+    const nDl=l.filter(isDl).length,nEv=l.length-nDl;
+    cells+=`<button type="button" class="${cls}" data-calday="${ds}" aria-pressed="${ds===sel}" aria-label="${m}月${d}日 ${nEv?`開催${nEv}件`:''}${nDl?` 申込締切${nDl}件`:''}">${d}<span class="cal-dots">${nEv?'<i></i>':''}${nDl?'<i class="dl"></i>':''}</span></button>`;
+  }
+  const detail=sel?`<h3 class="sub-h">${m}月${Number(sel.slice(8))}日(${WD[new Date(sel+'T00:00:00Z').getUTCDay()]})<span class="count">${marks[sel].length}件</span></h3><div class="sched">${marks[sel].map(schedItemHtml).join('')}</div>`:`<div class="empty" style="margin-top:12px">${y}年${m}月の予定はありません。</div>`;
+  return `<div class="calendar"><div class="cal-head"><button type="button" data-calmonth="${shift(-1)}" aria-label="前の月"${mon<=first?' disabled':''}>‹</button><span>${y}年${m}月</span><button type="button" data-calmonth="${shift(1)}" aria-label="次の月"${mon>=last?' disabled':''}>›</button></div><div class="cal-grid">${cells}</div><p class="cal-key"><span><i></i>開催</span><span><i class="dl"></i>申込締切</span></p></div>${detail}`;
+}
+// 開催地の絞り込み(その場だけ。保存しない。ずっと出す種類は「設定」で選ぶ)
+let schedFilter='';
+const SCHED_FILTERS=[['kagawa','香川'],['near','近隣'],['online','オンライン'],['national','全国'],['other','その他']];
+function renderSchedule(){
+  const pool=scheduleItems();if(!pool.length&&!schedHidden)return '';
+  const nBy={};pool.forEach(n=>{const k=schedScope(n);nBy[k]=(nBy[k]||0)+1;});
+  if(schedFilter&&!nBy[schedFilter])schedFilter='';
+  const all=schedFilter?pool.filter(n=>schedScope(n)===schedFilter):pool;
+  const fb=(k,label,c)=>`<button type="button" data-schedfilter="${k}" aria-pressed="${schedFilter===k}">${label}<span class="n">${c}</span></button>`;
+  const present=SCHED_FILTERS.filter(([k])=>nBy[k]);
+  const filters=present.length>1?`<div class="chips sched-filter" role="group" aria-label="開催地で絞り込む">${fb('','全部',pool.length)}${present.map(([k,l])=>fb(k,l,nBy[k])).join('')}</div>`:'';
+  const items=showAllSched?all:all.slice(0,6);
+  const asCal=schedView==='cal'&&all.length>0;
+  const sw=all.length?`<div class="seg sched-switch" role="group" aria-label="日程の見せ方"><button type="button" data-schedview="list" aria-pressed="${!asCal}">一覧</button><button type="button" data-schedview="cal" aria-pressed="${asCal}">カレンダー</button></div>`:'';
+  return `<section class="section" aria-labelledby="h-sched"><h2 id="h-sched">これからの日程<span class="count">${all.length}件</span></h2><p class="lead">技師会の研修一覧と、案内記事に書かれた開催日・申込締切を近い順に並べています${schedHidden?`(設定により${schedHidden}件を非表示)`:''}</p>${filters}${sw}${all.length?'':'<div class="empty">表示する日程はありません。「設定」で出す種類を選べます。</div>'}${asCal?renderCalendar(all):`<div class="sched">${items.map(schedItemHtml).join('')}${all.length>items.length?`<button type="button" class="more sched-more" data-allsched>残り${all.length-items.length}件の日程を見る</button>`:''}</div>`}</section>`;
+}
+// ---- 週のまとめ(月〜水曜に表示。閉じたらその週は出さない) ----
+function weekStart(dstr){const [y,m,d]=dstr.split('-').map(Number);const dt=new Date(Date.UTC(y,m-1,d));const wd=(dt.getUTCDay()+6)%7;dt.setUTCDate(dt.getUTCDate()-wd);return dt.toISOString().slice(0,10);}
+const addDays=(dstr,k)=>{const [y,m,d]=dstr.split('-').map(Number);return new Date(Date.UTC(y,m-1,d+k)).toISOString().slice(0,10);};
+function renderWeek(){
+  const wk=weekStart(today);const wd=(new Date(Date.parse(today+'T00:00:00Z')).getUTCDay()+6)%7;
+  if(wd>2||store.get('rtn-week-closed','')===wk||q||cat!=='all')return '';
+  const lastStart=addDays(wk,-7),lastEnd=addDays(wk,-1),thisEnd=addDays(wk,6);
+  const hi=db.filter(n=>impOf(n)==='高'&&srcShown(n)&&feedDate(n)>=lastStart&&feedDate(n)<=lastEnd);
+  const sched=scheduleItems().filter(n=>(n._deadline&&n._deadline>=today&&n._deadline<=thisEnd)||(n.event_date>=today&&n.event_date<=thisEnd));
+  const li=n=>`<li><a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title||displayHeadline(n))}</a><small>${esc(n.source||'')}</small></li>`;
+  const sl=n=>`<li><a href="${esc(n.url)}" target="_blank" rel="noopener">${esc(n.title||displayHeadline(n))}</a><small>${n._deadline&&n._deadline<=thisEnd?`申込締切 ${md(n._deadline)}`:`開催 ${md(n.event_date)}`}</small></li>`;
+  return `<section class="week" aria-labelledby="h-week"><div class="week-head"><h2 id="h-week">今週のまとめ</h2><button type="button" class="fixbtn" data-weekclose>今週は表示しない</button></div>
+    <h3>先週(${md(lastStart)}〜${md(lastEnd)})の確認事項 ${hi.length}件</h3>${hi.length?`<ul>${firstN('whi',hi,SHOW_WEEK).map(li).join('')}</ul>${moreBtn('whi',hi,firstN('whi',hi,SHOW_WEEK))}`:'<p class="lead">ありませんでした。</p>'}
+    <h3>今週(〜${md(thisEnd)})の締切・開催 ${sched.length}件</h3>${sched.length?`<ul>${firstN('wsched',sched,SHOW_WEEK).map(sl).join('')}</ul>${moreBtn('wsched',sched,firstN('wsched',sched,SHOW_WEEK))}`:'<p class="lead">ありません。</p>'}</section>`;
+}
+// PCの広い画面(2段組み)では、日程・供給状況・論文を右側に置く
+const wideMq=window.matchMedia('(min-width:960px)');
+function kagawaNews(shown){
+  // ニュースの判定で外れたお知らせ(求人の掲載案内など)も含めて全部。ニュース側にある記事はそちらの内容(ポイントなど)を使う
+  const byUrl=new Map(db.filter(isKagawa).map(n=>[n.url,n]));
+  const raw=(kagawa&&Array.isArray(kagawa.news)?kagawa.news:[]).map(x=>byUrl.get(x.url)||applyFix({importance:'中',...x}));
+  const seen=new Set(raw.map(n=>n.url));
+  return raw.concat([...byUrl.values()].filter(n=>!seen.has(n.url))).filter(n=>feedDate(n)>=kagawaCutoff&&shown(n)).sort(byNewest);
+}
+function recruitHtml(j){
+  const area=String(j.address||'').replace(/^香川県/,'').match(/^[^市町郡]*[市町郡]/);
+  return `<article class="job"><div class="job-head"><b>${esc(j.facility)}</b>${area?`<span class="pill place">${esc(area[0])}</span>`:''}${j.positions?`<span class="pill">${esc(j.positions)}</span>`:''}${j.month?`<small>${esc(j.month)}掲載</small>`:''}</div>${j.work?`<p>${esc(j.work)}</p>`:''}${j.note?`<p class="job-note">${esc(j.note)}</p>`:''}${j.tel?`<p class="job-note">${esc(j.address||'')}　電話 ${esc(j.tel)}</p>`:''}</article>`;
+}
+// 行事とその開催案内は同じ内容なので、行事の行に「案内を見る」としてまとめ、お知らせからは外す
+const kartNorm=s=>String(s||'').normalize('NFKC').replace(/[\s「」『』]/g,'');
+function pairKagawa(ev,notices){
+  const used=new Set();
+  const list=ev.map(n=>{
+    const t=kartNorm(n.title);
+    // 中止・延期・変更の知らせは大事なので、まとめずにお知らせへ残す
+    const hit=t.length>=4&&notices.find(x=>!used.has(x.url)&&feedDate(x)<=n.event_date&&kartNorm(x.headline).includes(t)&&!/報告|中止|延期|変更/.test(x.headline));
+    if(!hit)return n;
+    used.add(hit.url);
+    return Object.assign({},n,{_notice:hit});
+  });
+  return {list,used};
+}
+function renderKagawa(klAll){
+  const evAll=newOnly?[]:scheduleItems(true).filter(isKagawa).sort((a,b)=>a.event_date.localeCompare(b.event_date));
+  const paired=pairKagawa(evAll,kagawaNews(()=>true));
+  // 絞り込み中は、行事か、まとめた案内のどちらかが当てはまれば出す
+  const hitEv=n=>matchQ(n)&&(cat==='all'||n.category===cat);
+  const ev=paired.list.filter(n=>hitEv(n)||(n._notice&&hitEv(n._notice)));
+  const jobs=newOnly||isSrcOff('kagawa')?[]:(kagawa&&Array.isArray(kagawa.recruit)?kagawa.recruit:[]).filter(j=>!q||words().every(w=>(Object.values(j).join(' ')+' 求人').toLowerCase().includes(w)));
+  // 求人の掲載案内は、下の求人案内と同じ内容なので出さない
+  const hasJobs=!newOnly&&!isSrcOff('kagawa')&&kagawa&&Array.isArray(kagawa.recruit)&&kagawa.recruit.length>0;
+  const kl=klAll.filter(n=>!paired.used.has(n.url)&&!(hasJobs&&/求人.*掲載/.test(n.headline||'')));
+  const total=kl.length+ev.length+jobs.length;
+  const rurl=(kagawa&&kagawa.recruit_url)||'https://kagawart.jp/recruit/';
+  return `<section class="section kagawa" aria-labelledby="h-kagawa"><h2 id="h-kagawa">香川県技師会<span class="count">${total}件</span></h2><p class="lead">香川県診療放射線技師会の行事予定・お知らせ(直近${KAGAWA_DAYS}日)・求人案内です。行事の開催案内は行事予定にまとめています</p>
+  <h3 class="sub-h">行事予定<span class="count">${ev.length}件</span></h3>${ev.length?`<div class="sched">${firstN('kev',ev,SHOW_KAGAWA).map(schedItemHtml).join('')}${moreBtn('kev',ev,firstN('kev',ev,SHOW_KAGAWA))}</div>`:'<div class="empty">予定されている行事はありません。</div>'}
+  <h3 class="sub-h">お知らせ<span class="count">${kl.length}件</span></h3>${kl.length?`<div class="list">${firstN('knews',kl,SHOW_KAGAWA).map(n=>row(n)).join('')}${moreBtn('knews',kl,firstN('knews',kl,SHOW_KAGAWA))}</div>`:`<div class="empty">${q||cat!=='all'?'条件に合うお知らせはありません。':`直近${KAGAWA_DAYS}日のお知らせはありません。`}</div>`}
+  <h3 class="sub-h">求人案内<span class="count">${jobs.length}件</span></h3>${jobs.length?`<div class="jobs">${jobs.map(recruitHtml).join('')}</div>`:'<div class="empty">掲載中の求人はありません。</div>'}<p class="lead" style="margin-top:8px"><a href="${esc(rurl)}" target="_blank" rel="noopener">技師会の求人案内のページで見る</a></p></section>`;
+}
+// ---- 欄の表示・並び順(端末に保存) ----
+// side: PCの2段組みで右の列に置く欄。並び順は同じ列の中で入れ替わる(スマホでは全部が1列)
+const SECTIONS=[
+  {k:'week',label:'今週のまとめ',top:true},{k:'today3',label:'今日の3本',top:true},
+  {k:'hi',label:'確認しておきたいこと'},{k:'kagawa',label:'香川県技師会'},{k:'sched',label:'これからの日程',side:true},
+  {k:'supply',label:'造影剤・放射性医薬品の供給状況',side:true},{k:'mid',label:'研修・学会のお知らせ'},
+  {k:'papers',label:'学会誌の新着論文',side:true},{k:'lo',label:'ほかのニュース',side:true}
+];
+const SEC_KEYS=SECTIONS.map(x=>x.k);
+let layout=store.get('rtn-layout',null)||{};
+function secOrder(){const o=(Array.isArray(layout.order)?layout.order:[]).filter(k=>SEC_KEYS.includes(k));return o.concat(SEC_KEYS.filter(k=>!o.includes(k)));}
+const secHidden=k=>Array.isArray(layout.hidden)&&layout.hidden.includes(k);
+const SEC=k=>SECTIONS.find(x=>x.k===k);
+function renderRecent(list,kl){
+  const wide=wideMq.matches;
+  list=list.filter(n=>!isKagawa(n));
+  const ord=(a,b)=>(!!watchHit(b)-!!watchHit(a))||focusFirst(a,b)||byNewest(a,b);
+  const hi=list.filter(n=>impOf(n)==='高').sort(ord),mid=list.filter(n=>impOf(n)==='中').sort(ord),lo=list.filter(n=>impOf(n)==='低').sort(ord);
+  const loShown=(showAllLo||q||cat!=='all')?lo:lo.slice(0,SHOW_LO);
+  // 同じ一言が3件以上並ぶときは、各記事ではなく見出しの下に1回だけ出す
+  const nc={};mid.forEach(n=>{if(n.why)nc[n.why]=(nc[n.why]||0)+1});
+  const shared=Object.keys(nc).filter(w=>nc[w]>=3);
+  hideNotes=new Set(shared);
+  const sharedNotes=shared.map(w=>`<div class="note shared"><span class="face" aria-hidden="true"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18h6M10 21h4M12 3a6 6 0 0 0-4 10.5c.7.7 1 1.5 1 2.5h6c0-1 .3-1.8 1-2.5A6 6 0 0 0 12 3z"/></svg></span><p class="say"><small>ポイント(${nc[w]}件に共通)</small>${esc(w)}</p></div>`).join('');
+  const must=hi.length?`<div class="must">${hi.map(mustItem).join('')}</div>`:`<div class="empty"><b>${q||cat!=='all'?'条件に合う確認事項はありません':'今週は急ぎの確認事項はありません'}</b>制度の変更や薬剤の供給停止などが出たら、ここに表示します。</div>`;
+  const parts={hi:()=>`<section class="section" aria-labelledby="h-hi"><h2 id="h-hi">確認しておきたいこと<span class="count">${hi.length}件</span></h2><p class="lead">制度・診療報酬、安全情報、薬剤の供給など、部署で対応が必要になりそうなもの</p>${must}</section>`,kagawa:()=>renderKagawa(kl),sched:renderSchedule,supply:renderSupply,
+    mid:()=>`<section class="section" aria-labelledby="h-mid"><h2 id="h-mid">研修・学会のお知らせ<span class="count">${mid.length}件</span></h2><p class="lead">学会・技師会・行政からの案内と、国内の新しい装置の話題</p>${sharedNotes?`<details class="shared-notes"><summary>この欄の共通ポイント ${shared.length}件</summary>${sharedNotes}</details>`:''}${mid.length?`<div class="list">${firstN('mid',mid,SHOW_MID).map(n=>row(n)).join('')}${moreBtn('mid',mid,firstN('mid',mid,SHOW_MID))}</div>`:`<div class="empty">この期間のお知らせはありません。</div>`}</section>`,papers:renderPapers,
+    lo:()=>`<section class="section" aria-labelledby="h-lo"><h2 id="h-lo">ほかのニュース<span class="count">${lo.length}件</span></h2><p class="lead">一般メディアの医療・放射線の話題</p>${lo.length?`<div class="list">${loShown.map(n=>row(n)).join('')}${loShown.length<lo.length?`<button type="button" class="more" data-more>残り${lo.length-loShown.length}件を見る</button>`:''}</div>`:`<div class="empty">この期間のニュースはありません。</div>`}</section>`};
+  // 新着だけのときは記事の欄だけ(日程・供給状況・論文は前回との差分がないので出さない)
+  const keys=secOrder().filter(k=>!SEC(k).top&&!secHidden(k)&&!(k==='kagawa'&&isSrcOff('kagawa'))&&(!newOnly||({hi:hi.length,kagawa:kl.length,mid:mid.length,lo:lo.length})[k]));
+  const main=wide?keys.filter(k=>!SEC(k).side):keys,side=wide?keys.filter(k=>SEC(k).side):[];
+  const top=newOnly?'':(secHidden('week')?'':renderWeek())+(secHidden('today3')?'':renderToday3());
+  const col=ks=>ks.map(k=>parts[k]()).join('');
+  return `<div class="top-pair">${top}</div>${filterNote(list.length)}<div class="layout recent${main.length&&side.length?'':' single'}">
+    <div class="main">${col(main)}</div>
+    ${side.length?`<aside class="side">${col(side)}</aside>`:''}
+    ${keys.length?'':newOnly?'<div class="empty">前回見たあとに増えた記事はありません。</div>':'<div class="empty">表示する欄がありません。「設定」の「表示する欄と並び順」で選べます。</div>'}
+  </div>`;
+}
+
+function archiveMoreHtml(){
+  if(archiveLoading)return '<div class="empty">前の月の記事を読み込んでいます…</div>';
+  const nm=nextMonth();if(!nm)return archiveIndex&&archiveIndex.months.length?'<p class="lead" style="text-align:center;margin-top:6px">保存しているいちばん古い記事までを表示しています。</p>':'';
+  const [y,m]=nm.month.split('-').map(Number);
+  return `<button type="button" class="more archive-more" data-month="${esc(nm.month)}">さらに前を読み込む(${y}年${m}月・${nm.count}件)</button>`;
+}
+function renderPast(list){
+  hideNotes=new Set();
+  if(!list.length)return `${filterNote(0)}<div class="layout"><div class="empty"><b>見つかりませんでした</b>キーワードを短くするか、分野を「すべて」に戻してください。</div>${archiveMoreHtml()}</div>`;
+  const by={};list.forEach(n=>{(by[feedDate(n)]=by[feedDate(n)]||[]).push(n)});
+  const narrowed=q||cat!=='all';
+  const order={高:0,中:1,低:2};
+  return `${filterNote(list.length)}<div class="layout past">${Object.keys(by).sort((a,b)=>b.localeCompare(a)).map((d,i)=>{const items=by[d].sort((a,b)=>order[impOf(a)]-order[impOf(b)]);const [y,m,dd]=d.split('-').map(Number);const wd=WD[new Date(Date.UTC(y,m-1,dd)).getUTCDay()];const yr=String(y)!==today.slice(0,4)?`${y}年`:'';return `<details class="day"${(narrowed||i===0)?' open':''}><summary><span>${yr}${m}月${dd}日<span class="wd">(${wd})</span></span><span class="c">${items.length}件</span></summary><div class="rows">${items.map(n=>row(n,true,false)).join('')}</div></details>`;}).join('')}${archiveMoreHtml()}</div>`;
+}
+
+function savedList(){
+  // 元データに残っていれば最新の内容、消えていれば保存時の写しを使う
+  return Object.values(saved).map(c=>Object.assign({},c,db.find(n=>n.url===c.url)||{},{savedAt:c.savedAt,due:c.due,_paper:c._paper})).sort((a,b)=>(!!b.due-!!a.due)||String(a.due||'').localeCompare(String(b.due||''))||String(b.savedAt).localeCompare(String(a.savedAt)));
+}
+function renderSaved(list){
+  hideNotes=new Set();
+  if(!Object.keys(saved).length)return `<div class="layout"><div class="empty"><b>あとで読む記事はまだありません</b>記事の右上の「あとで読む」を押すと、ここに集まります。</div></div>`;
+  if(!list.length)return `${filterNote(0)}<div class="layout"><div class="empty"><b>条件に合う記事はありません</b>絞り込みを解除してください。</div></div>`;
+  return `${filterNote(list.length)}<div class="layout"><section class="section" aria-labelledby="h-saved"><div class="saved-tools"><h2 id="h-saved">あとで読む<span class="count">${list.length}件</span></h2></div><p class="lead">期限を付けたものが期限の近い順に先頭、それ以外は保存した順です。この端末のブラウザにだけ記録されます。</p><div class="list">${list.map(n=>row(n,true)).join('')}</div></section></div>`;
+}
+function render(){
+  renderPulse();
+  renderChips();
+  {
+  const pool=view==='saved'?savedList():view==='past'?pastPool():db.filter(inView);
+  const shown=n=>srcShown(n)&&matchQ(n)&&(cat==='all'||n.category===cat)&&(!unreadOnly||!isRead(n))&&(!newOnly||newSet.has(n.url));
+  const list=pool.filter(shown);
+  const kl=view==='recent'?kagawaNews(shown):[];
+  document.getElementById('view').innerHTML=view==='recent'?renderRecent(list,kl):view==='past'?renderPast(list):renderSaved(list);
+  }
+  const sc=Object.keys(saved).length;document.getElementById('savedCount').textContent=sc?` ${sc}`:'';
+  document.querySelectorAll('.seg button[data-view], .bottomnav button').forEach(b=>b.setAttribute('aria-pressed',String(b.dataset.view===view)));
+  const over=Object.values(saved).filter(c=>c.due&&c.due<=today).length;const bd=document.getElementById('savedBadge');bd.hidden=!over;bd.textContent=over||'';
+  applyFolds();
+  renderGuide();
+  renderToc();
+  document.getElementById('bar').classList.toggle('has-q',!!q);
+  document.getElementById('clearQ').classList.toggle('show',!!q);
+}
+
+// 今日の要点: 新着・未読の要確認・締切が近いものの件数。押すとその欄へ移動する
+function renderPulse(){
+  const nNew=db.filter(n=>newSet.has(n.url)&&isRecent(n)&&srcShown(n)).length;
+  const hi=db.filter(n=>isRecent(n)&&!isKagawa(n)&&impOf(n)==='高'&&srcShown(n)&&!isRead(n)).length;
+  const due=scheduleItems(true).filter(n=>n._urgent&&!isKagawa(n)&&schedScopes.has(schedScope(n))).length;
+  const b=(cls,act,k,label,extra='')=>`<button type="button" class="${cls}" data-pulse="${act}"${k||extra?'':' disabled'}${extra}><b>${k}</b><span>${label}</span></button>`;
+  document.getElementById('pulse').innerHTML=b('p-new','new',nNew,'新着',newOnly?' aria-pressed="true"':'')+b('p-hi','hi',hi,'要確認(未読)')+b('p-due','due',due,'締切7日以内');
+}
+// ---- 初回の案内: 担当分野が未設定の人に一度だけ出す ----
+const guidePick=new Set();
+function renderGuide(){
+  const g=document.getElementById('guide');
+  if(focusCats.size||store.get('rtn-guide-done',false)){g.innerHTML='';return;}
+  g.innerHTML=`<h2 id="h-guide">はじめに、担当分野を選んでください</h2><p>選んだ分野の記事が各欄の上に並び、絞り込みのボタンにも出ます。あとから「設定」で変えられます。</p><div class="guide-cats">${CAT_ORDER.concat(['その他']).map(c=>`<button type="button" data-guidecat="${esc(c)}" aria-pressed="${guidePick.has(c)}">${esc(c)}</button>`).join('')}</div><div class="guide-actions"><button type="button" class="btn primary" data-guidedone${guidePick.size?'':' disabled'}>これで使う</button><button type="button" class="btn" data-guideskip>あとで選ぶ</button></div>`;
+}
+document.getElementById('guide').addEventListener('click',e=>{
+  const c=e.target.closest('[data-guidecat]');
+  if(c){const k=c.dataset.guidecat;if(guidePick.has(k))guidePick.delete(k);else guidePick.add(k);renderGuide();return;}
+  if(e.target.closest('[data-guidedone]')){focusCats=new Set(guidePick);store.set('rtn-focus',[...focusCats]);store.set('rtn-guide-done',true);store.set('rtn-today3',null);updateFocusBtn();render();toast('担当分野を設定しました');return;}
+  if(e.target.closest('[data-guideskip]')){store.set('rtn-guide-done',true);render();toast('担当分野は「設定」からいつでも選べます');}
+});
+// ---- スマホの目次: 今出ている欄へ移動し、見ている欄に印を付ける ----
+const TOC={'h-hi':'要確認','h-kagawa':'香川','h-sched':'日程','h-supply':'供給','h-mid':'お知らせ','h-papers':'論文','h-lo':'ほか'};
+function markToc(){
+  if(wideMq.matches)return;
+  const t=document.getElementById('toc');let cur=null;
+  t.querySelectorAll('button').forEach(b=>{const h=document.getElementById(b.dataset.toc);if(h&&h.getBoundingClientRect().top<=150)cur=b;});
+  t.querySelectorAll('button').forEach(b=>{if(b===cur){if(b.getAttribute('aria-current')!=='true'){b.setAttribute('aria-current','true');t.scrollTo({left:b.offsetLeft-t.offsetLeft-40});}}else b.removeAttribute('aria-current');});
+}
+function renderToc(){
+  const hs=view==='recent'?[...document.querySelectorAll('#view .section>h2[id]')].filter(h=>TOC[h.id]):[];
+  document.getElementById('toc').innerHTML=hs.length>1?hs.map(h=>`<button type="button" data-toc="${h.id}">${TOC[h.id]}</button>`).join(''):'';
+  markToc();
+}
+document.getElementById('toc').addEventListener('click',e=>{const b=e.target.closest('[data-toc]');if(!b)return;const id=b.dataset.toc;if(folded.has(id))toggleFold(id);document.getElementById(id).scrollIntoView({behavior:matchMedia('(prefers-reduced-motion:reduce)').matches?'auto':'smooth'});});
+let tocTick=false;
+window.addEventListener('scroll',()=>{if(tocTick)return;tocTick=true;requestAnimationFrame(()=>{tocTick=false;markToc();});},{passive:true});
+function jumpTo(id){
+  view='recent';cat='all';q='';newOnly=false;document.getElementById('q').value='';
+  if(folded.has(id)){folded.delete(id);store.set('rtn-folded',[...folded]);}
+  render();
+  const h=document.getElementById(id);
+  if(!h){toast('この欄は設定で非表示になっています');return;}
+  h.scrollIntoView({behavior:matchMedia('(prefers-reduced-motion:reduce)').matches?'auto':'smooth'});
+}
+function renderHello(){
+  const [y,m,d]=today.split('-').map(Number);const wd=WD[new Date(Date.UTC(y,m-1,d)).getUTCDay()];
+  document.getElementById('today').innerHTML=`${m}月${d}日<span class="wd">${wd}曜日</span>`;
+  let upd='';
+  if(meta&&meta.checked_at){const t=new Date(meta.checked_at);if(!isNaN(t)){const hm=t.toLocaleTimeString('ja-JP',{timeZone:'Asia/Tokyo',hour:'numeric',minute:'2-digit'});const sameDay=t.toLocaleDateString('sv-SE',{timeZone:'Asia/Tokyo'})===today;upd=`${sameDay?'今日':t.toLocaleDateString('ja-JP',{timeZone:'Asia/Tokyo',month:'numeric',day:'numeric'})} ${hm}に更新。`;}}
+  // 自動更新が止まっていたら知らせる(最終更新から36時間以上)
+  const st=document.getElementById('stale');const t0=meta&&meta.checked_at?new Date(meta.checked_at):null;
+  const hours=t0&&!isNaN(t0)?(Date.now()-t0.getTime())/36e5:Infinity;
+  if(hours>=36){st.hidden=false;st.innerHTML=t0&&!isNaN(t0)?`<b>自動更新が止まっています。</b>最後の更新は${t0.toLocaleDateString('ja-JP',{timeZone:'Asia/Tokyo',month:'numeric',day:'numeric'})}(${Math.floor(hours/24)}日前)です。新しい記事が反映されていない可能性があります。`:'<b>更新時刻を確認できませんでした。</b>新しい記事が反映されていない可能性があります。';}
+  const over=Object.values(saved).filter(c=>c.due&&c.due<=today).length;
+  document.getElementById('qualNotes').innerHTML=over?`<p class="qual-note"><b>あとで読む</b>期限が今日まで・過ぎた記事が${over}件あります。</p>`:'';
+  // 新着がないだけの0件(empty_ok)は不調として出さない。続いている日数があれば添える
+  const bad=meta&&meta.sources?Object.entries(meta.sources).filter(([k,v])=>!['メール通知','要約','不調の通知'].includes(k)&&v&&(v.error||(v.listed===0&&!v.empty_ok))).map(([k,v])=>v.failing_days>1?`${k}(${v.failing_days}日続けて)`:k):[];
+  const ss=document.getElementById('srcStatus');ss.hidden=!bad.length;ss.textContent=bad.length?`取得できなかった情報源: ${bad.join('、')}(次回の更新で再試行します)`:'';
+  document.getElementById('sub').textContent=upd;
+}
+
+// 操作
+let qTimer;
+document.getElementById('q').addEventListener('input',e=>{clearTimeout(qTimer);qTimer=setTimeout(()=>{q=e.target.value.trim();render();ensureArchiveForView();},120);});
+document.getElementById('clearQ').onclick=()=>{const i=document.getElementById('q');i.value='';q='';render();i.focus();};
+document.querySelectorAll('.seg, .bottomnav').forEach(nav=>nav.addEventListener('click',e=>{const b=e.target.closest('button[data-view]');if(!b)return;const changed=view!==b.dataset.view;
+  if(!changed){window.scrollTo({top:0,behavior:matchMedia('(prefers-reduced-motion:reduce)').matches?'auto':'smooth'});return;}/* 今の画面のタブをもう一度押すと一番上へ */view=b.dataset.view;newOnly=false;render();ensureArchiveForView();if(changed&&nav.classList.contains('bottomnav'))window.scrollTo({top:0});}));
+document.getElementById('chips').addEventListener('click',e=>{if(e.target.closest('[data-newonly]')){newOnly=!newOnly;render();return;}if(e.target.closest('[data-morecats]')){chipsOpen=!chipsOpen;render();return;}if(e.target.closest('[data-unread]')){unreadOnly=!unreadOnly;store.set('rtn-unread-only',unreadOnly);render();return;}const b=e.target.closest('button[data-cat]');if(!b)return;cat=b.dataset.cat;render();});
+document.getElementById('view').addEventListener('click',e=>{
+  const fh=e.target.closest('.foldable>h2');if(fh&&!e.target.closest('a,button')){toggleFold(fh.id);return;}
+  const db1=e.target.closest('[data-detail]');if(db1){const u=db1.dataset.detail;if(openRows.has(u))openRows.delete(u);else openRows.add(u);render();return;}
+  const rt=e.target.closest('[data-readtoggle]');if(rt){const u=rt.dataset.readtoggle;if(readSet.has(u)){readSet.delete(u);store.set('rtn-read',[...readSet]);}else markRead(u);render();return;}
+  const sf=e.target.closest('[data-schedfilter]');if(sf){schedFilter=sf.dataset.schedfilter;showAllSched=false;calDay=null;calMonth=null;render();return;}
+  const sv=e.target.closest('[data-schedview]');if(sv){schedView=sv.dataset.schedview;store.set('rtn-sched-view',schedView);render();return;}
+  const cm=e.target.closest('[data-calmonth]');if(cm){calMonth=cm.dataset.calmonth;calDay=null;render();return;}
+  const cd=e.target.closest('[data-calday]');if(cd){calDay=cd.dataset.calday;render();return;}
+  const sb=e.target.closest('[data-save]');if(sb){toggleSave(sb.dataset.save);render();return;}
+  const du=e.target.closest('[data-due]');if(du){const url=du.closest('[data-dueurl]').dataset.dueurl;const k=du.dataset.due;setDue(url,k==='today'?today:k==='week'?endOfWeek():k==='month'?endOfMonth():'');renderHello();render();return;}
+  if(e.target.closest('[data-morepapers]')){showAllPapers=true;render();return;}
+  const fb=e.target.closest('[data-fix]');if(fb){openFix(fb.dataset.fix);return;}
+  if(e.target.closest('[data-weekclose]')){store.set('rtn-week-closed',weekStart(today));render();return;}
+  const ta=e.target.closest('a.title, .week a, a[data-notice]');if(ta){const art=ta.closest('article');markRead(ta.getAttribute('href'));setTimeout(()=>{render();},400);if(art)art.classList.add('read');}
+  const am=e.target.closest('[data-month]');if(am){loadMonths([am.dataset.month]);return;}
+  if(e.target.closest('[data-allsched]')){showAllSched=true;render();return;}
+  if(e.target.closest('[data-more]')){showAllLo=true;render();return;}
+  const sa=e.target.closest('[data-showall]');if(sa){showAll[sa.dataset.showall]=true;render();return;}
+  if(e.target.closest('[data-reset]')){cat='all';q='';newOnly=false;document.getElementById('q').value='';render();}
+  const sh=e.target.closest('[data-share]');if(sh){shareArticle(sh.dataset.title,sh.dataset.share);return;}
+  if(e.target.closest('[data-search-past]')){view='past';render();ensureArchiveForView();window.scrollTo({top:0});}
+});
+// ホイール押しで別タブに開いたときも既読にする
+document.getElementById('view').addEventListener('auxclick',e=>{if(e.button!==1)return;const a=e.target.closest('a.title, .week a, a[data-notice]');if(!a)return;markRead(a.getAttribute('href'));setTimeout(render,400);});
+document.getElementById('view').addEventListener('keydown',e=>{const fh=e.target.closest('.foldable>h2');if(fh&&(e.key==='Enter'||e.key===' ')){e.preventDefault();toggleFold(fh.id);}});
+document.getElementById('view').addEventListener('input',e=>{const t=e.target.closest('textarea[data-memo]');if(t)saveMemo(t.dataset.memo,t.value);
+});
+document.getElementById('view').addEventListener('change',e=>{const d=e.target.closest('[data-duedate]');if(d){setDue(d.closest('[data-dueurl]').dataset.dueurl,d.value);renderHello();render();return;}
+});
+// 全部既読(1回目で確認表示、2回目で実行)
+document.getElementById('chips').addEventListener('click',e=>{const b=e.target.closest('[data-allread]');if(!b)return;e.stopPropagation();
+  if(!b.classList.contains('confirm')){b.classList.add('confirm');b.textContent='もう一度押すと全部既読';setTimeout(()=>{if(b.isConnected){b.classList.remove('confirm');b.textContent='全部既読にする';}},4000);return;}
+  const pool=(view==='saved'?savedList():view==='past'?pastPool():db.filter(inView).concat(papers.map(paperAsItem))).filter(n=>matchQ(n)&&(cat==='all'||n.category===cat)&&!isRead(n));
+  const urls=pool.map(n=>n.url);urls.forEach(u=>readSet.add(u));store.set('rtn-read',[...readSet].slice(-3000));render();
+  toast(`${urls.length}件を既読にしました`,()=>{urls.forEach(u=>readSet.delete(u));store.set('rtn-read',[...readSet]);render();});},true);
+// スワイプ(左: 既読 / 右: あとで読む)。縦のスクロールと区別するため、横に大きく動いたときだけ反応
+(function(){let sx=0,sy=0,el=null,dx=0,locked=null;
+  const v=document.getElementById('view');
+  v.addEventListener('touchstart',e=>{if(!swipeOn||e.touches.length!==1)return;const a=e.target.closest('.swipe-row');if(!a||e.target.closest('textarea,input,select,button'))return;el=a;sx=e.touches[0].clientX;sy=e.touches[0].clientY;dx=0;locked=null;},{passive:true});
+  v.addEventListener('touchmove',e=>{if(!el)return;const x=e.touches[0].clientX-sx,y=e.touches[0].clientY-sy;if(locked===null&&(Math.abs(x)>12||Math.abs(y)>12))locked=Math.abs(x)>Math.abs(y)*1.6?'x':'y';if(locked!=='x')return;dx=x;el.classList.add('swiping');el.style.transform=`translateX(${Math.max(-110,Math.min(110,x))}px)`;},{passive:true});
+  v.addEventListener('touchend',()=>{if(!el)return;const a=el,url=a.dataset.url;el=null;a.classList.remove('swiping');a.style.transform='';if(locked!=='x'||Math.abs(dx)<90||!url)return;
+    if(dx<0){const was=readSet.has(url);markRead(url);render();toast('既読にしました',was?null:()=>{readSet.delete(url);store.set('rtn-read',[...readSet]);render();});}
+    else{toggleSave(url);render();const on=!!saved[url];toast(on?'あとで読むに入れました':'あとで読むから外しました',()=>{toggleSave(url);render();});}});
+})();
+document.getElementById('pulse').addEventListener('click',e=>{const b=e.target.closest('[data-pulse]');if(!b)return;
+  const a=b.dataset.pulse;
+  if(a==='hi')jumpTo('h-hi');else if(a==='due'){schedFilter='';jumpTo('h-sched');}
+  else{const on=!newOnly;view='recent';cat='all';q='';document.getElementById('q').value='';newOnly=on;render();}});
+document.getElementById('focusBtn').onclick=openFocus;
+document.getElementById('focusDlg').addEventListener('close',()=>{const d=document.getElementById('focusDlg');if(d.returnValue!=='save')return;focusCats=new Set([...d.querySelectorAll('#focusGrid input:checked')].map(i=>i.value));store.set('rtn-focus',[...focusCats]);
+  schedScopes=new Set([...d.querySelectorAll('#scopeGrid input:checked')].map(i=>i.value));store.set('rtn-sched-scope',[...schedScopes]);
+  watchWords=[...new Set(document.getElementById('watchInput').value.split(/[、,，\s]+/).map(w=>w.trim()).filter(w=>w.length>=2))];store.set('rtn-watch',watchWords);
+  const szi=d.querySelector('#sizeRow input:checked');const sz=szi?szi.value:'';store.set('rtn-size',sz);if(sz)document.documentElement.dataset.size=sz;else delete document.documentElement.dataset.size;
+  const swi=d.querySelector('#swipeRow input:checked');swipeOn=!swi||swi.value==='on';store.set('rtn-swipe',swipeOn?'on':'off');
+  store.set('rtn-today3',null);
+  srcOff=new Set([...d.querySelectorAll('#srcGrid input:not(:checked)')].map(i=>i.value));store.set('rtn-src-off',[...srcOff]);
+  srcOn=new Set([...d.querySelectorAll('#srcGrid input:checked')].map(i=>i.value).filter(k=>SRC_DEFAULT_OFF.has(k)));store.set('rtn-src-on',[...srcOn]);
+  const sl=readSecList();layout={order:sl.order.filter(k=>!SEC(k).top),hidden:sl.hidden};store.set('rtn-layout',layout);
+  updateFocusBtn();renderHello();render();});
+document.getElementById('secList').addEventListener('click',e=>{const b=e.target.closest('[data-secmove]');if(!b)return;
+  const cur=readSecList();const order=cur.order.filter(k=>!SEC(k).top);const k=b.closest('li').dataset.sec;const i=order.indexOf(k),j=i+Number(b.dataset.secmove);
+  if(j<0||j>=order.length)return;[order[i],order[j]]=[order[j],order[i]];
+  document.getElementById('secList').innerHTML=secListHtml(order,cur.hidden);
+  const again=document.querySelector(`#secList li[data-sec="${k}"] [data-secmove="${b.dataset.secmove}"]`);(again&&!again.disabled?again:document.querySelector(`#secList li[data-sec="${k}"] input`)).focus();});
+document.getElementById('focusDlg').addEventListener('click',e=>{const b=e.target.closest('[data-srcall]');if(!b)return;document.querySelectorAll('#srcGrid input').forEach(i=>i.checked=b.dataset.srcall==='1');updateSrcCounts();});
+document.getElementById('srcGrid').addEventListener('change',updateSrcCounts);
+document.getElementById('secReset').onclick=()=>{document.getElementById('secList').innerHTML=secListHtml(SEC_KEYS,[]);};
+(function(){const msg=t=>{document.getElementById('syncMsg').textContent=t;};
+  if(navigator.share)document.getElementById('syncShare').hidden=false;
+  document.getElementById('syncExport').onclick=async()=>{const t=syncExportText();document.getElementById('syncText').value=t;try{await navigator.clipboard.writeText(t);msg('コピーしました。もう一方の端末の同じ欄に貼り付けて「読み込む」を押してください。');}catch(e){document.getElementById('syncText').select();msg('下の文字を選んでコピーしてください。');}};
+  document.getElementById('syncShare').onclick=async()=>{try{await navigator.share({title:'技師ニュースの引き継ぎ',text:syncExportText()});}catch(e){}};
+  const doImport=replace=>{let data;try{data=syncParse(document.getElementById('syncText').value);}catch(e){msg('読み込めませんでした。書き出した文字をそのまま全部貼り付けてください。');return;}
+    if(replace&&!document.getElementById('syncReplace').dataset.ok){document.getElementById('syncReplace').dataset.ok='1';document.getElementById('syncReplace').textContent='もう一度押すと置き換え';msg('置き換えると、この端末の設定・あとで読むが書き出した内容だけになります。');return;}
+    syncApply(data,replace);
+    saved=store.get('rtn-saved',{});focusCats=new Set(store.get('rtn-focus',[]));watchWords=store.get('rtn-watch',[]);
+    schedScopes=new Set(store.get('rtn-sched-scope',SCOPES.map(x=>x.k)));fixes=store.get('rtn-fix',{});folded=new Set(store.get('rtn-folded',[]));layout=store.get('rtn-layout',null)||{};srcOff=new Set(store.get('rtn-src-off',[]));srcOn=new Set(store.get('rtn-src-on',[]));swipeOn=store.get('rtn-swipe','on')!=='off';
+    const sz=store.get('rtn-size','');if(sz)document.documentElement.dataset.size=sz;else delete document.documentElement.dataset.size;
+    db=(window.__rawDb||db).map(applyFix);store.set('rtn-today3',null);
+    const at=data.at?new Date(data.at).toLocaleString('ja-JP',{timeZone:'Asia/Tokyo',month:'numeric',day:'numeric',hour:'numeric',minute:'2-digit'}):'';
+    msg(`読み込みました(${at}に書き出した内容)。あとで読む${Object.keys(saved).length}件になりました。`);
+    document.getElementById('syncText').value='';delete document.getElementById('syncReplace').dataset.ok;document.getElementById('syncReplace').textContent='読み込む(置き換える)';
+    fillFocus();updateFocusBtn();renderHello();render();};
+  document.getElementById('syncImport').onclick=()=>doImport(false);
+  document.getElementById('syncReplace').onclick=()=>doImport(true);
+})();
+document.getElementById('fixCopy').onclick=async()=>{const rows=Object.entries(fixes).map(([url,f])=>({見出し:f.headline,url,元の分類:f.orig&&f.orig.category,直した分類:f.category,元の重要度:f.orig&&f.orig.importance,直した重要度:f.importance}));const text='技師ニュースで直した記事:\n'+JSON.stringify(rows,null,1);try{await navigator.clipboard.writeText(text);document.getElementById('fixInfo').textContent='コピーしました。チャットに貼り付けてください。';}catch(e){prompt('次の内容をコピーしてください',text);}};
+document.getElementById('fixDlg').addEventListener('close',()=>{const d=document.getElementById('fixDlg');if(!fixUrl)return;const url=fixUrl;fixUrl=null;
+  const orig=Object.assign({},(window.__rawDb||[]).find(x=>x.url===url)||db.find(x=>x.url===url)||{});
+  if(d.returnValue==='reset'){delete fixes[url];store.set('rtn-fix',fixes);}
+  else if(d.returnValue==='save'){fixedNow(url,orig,document.getElementById('fixCat').value,document.getElementById('fixImp').value);}
+  else return;
+  db=(window.__rawDb||db).map(applyFix);renderHello();render();});
+function updateFocusBtn(){const fb=document.getElementById('focusBtn');const n=focusCats.size;fb.textContent='設定';fb.title=n?`担当分野${n}`:'担当分野などの設定';}
+updateFocusBtn();
+if(wideMq.addEventListener)wideMq.addEventListener('change',()=>{if(view==='recent')render();});
+// 上部バーが本文に重なったら境界線を出す
+const bar=document.getElementById('bar');
+if('IntersectionObserver' in window){new IntersectionObserver(([en])=>bar.classList.toggle('stuck',!en.isIntersecting)).observe(document.querySelector('.hello'));}
+
+// 表示テーマ(自動/ライト/ダーク)。選んだものは次回も使う
+(function(){const btn=document.getElementById('themeBtn');const modes=['auto','light','dark'],label={auto:'表示: 自動',light:'表示: ライト',dark:'表示: ダーク'};let mode='auto';try{const t=localStorage.getItem('rtn-theme');if(modes.includes(t))mode=t;}catch(e){}const apply=()=>{if(mode==='auto')delete document.documentElement.dataset.theme;else document.documentElement.dataset.theme=mode;btn.textContent=label[mode];try{if(mode==='auto')localStorage.removeItem('rtn-theme');else localStorage.setItem('rtn-theme',mode);}catch(e){}};btn.onclick=()=>{mode=modes[(modes.indexOf(mode)+1)%modes.length];apply();};apply();})();
+
+if('serviceWorker' in navigator&&location.protocol==='https:'){window.addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{}));}
+function loadData(){return Promise.all([
+  fetch('news.json?'+Date.now()).then(r=>r.json()),
+  fetch('news_meta.json?'+Date.now()).then(r=>r.ok?r.json():null).catch(()=>null),
+  fetch('seminars.json?'+Date.now()).then(r=>r.ok?r.json():null).catch(()=>null),
+  fetch('supply.json?'+Date.now()).then(r=>r.ok?r.json():null).catch(()=>null),
+  fetch('papers.json?'+Date.now()).then(r=>r.ok?r.json():null).catch(()=>null),
+  fetch('kagawa.json?'+Date.now()).then(r=>r.ok?r.json():null).catch(()=>null)
+]).then(([x,m,sem,sup,pap,kg])=>{kagawa=kg;supply=sup;papers=pap&&Array.isArray(pap.items)?pap.items:[];window.__rawDb=Array.isArray(x)?x:[];db=window.__rawDb.map(applyFix);meta=m;seminars=sem&&Array.isArray(sem.items)?sem.items:[];markSeen();renderHello();render();});}
+// 公開済みの最新データを読み直す(記事を新しく集めるわけではない)
+document.getElementById('reloadBtn').onclick=async e=>{
+  const b=e.currentTarget;
+  if(navigator.onLine===false){toast('通信できません。接続を確認してください');return;}
+  // 開きっぱなしで日付が変わっていたら、日付の計算からやり直す
+  if(new Date().toLocaleDateString('sv-SE',{timeZone:'Asia/Tokyo'})!==today){location.reload();return;}
+  const before=new Set(db.map(n=>n.url)),at=meta&&meta.checked_at;
+  b.disabled=true;b.textContent='確認中…';
+  try{
+    await loadData();
+    const added=db.filter(n=>!before.has(n.url)&&srcShown(n)).length;
+    const t=meta&&meta.checked_at?new Date(meta.checked_at).toLocaleTimeString('ja-JP',{timeZone:'Asia/Tokyo',hour:'numeric',minute:'2-digit'}):'';
+    toast(added?`新しい記事を${added}件読み込みました`:(meta&&meta.checked_at)!==at?`${t}の更新を読み込みました。新しい記事はありません`:`今が最新です${t?`(${t}に更新)`:''}`);
+  }catch(err){toast('読み込めませんでした。少し待ってからお試しください');}
+  b.disabled=false;b.textContent='最新を確認';
+};
+loadData().catch(()=>{document.getElementById('sub').textContent='ニュースを読み込めませんでした。';document.getElementById('view').innerHTML='<div class="layout"><div class="empty"><b>読み込みに失敗しました</b>通信状況を確認して、ページを再読み込みしてください。</div></div>';});
+</script>
+</body></html>

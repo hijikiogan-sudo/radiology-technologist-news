@@ -1,0 +1,131 @@
+{
+ "checked_at": "2026-11-06T12:30+09:00",
+ "items": [
+  {
+   "journal": "日本放射線技術学会雑誌",
+   "title": "3D phase-sensitive inversion recovery法における淡い造影効果の描出性改善",
+   "url": "https://doi.org/10.6009/jjrt.26-1704",
+   "published": "2026-10-28",
+   "authors": "豊嶋 紀之,高津 安男,川又 渉,豊嶋 英仁",
+   "added": "2026-10-28",
+   "category": "その他"
+  },
+  {
+   "journal": "日本放射線技術学会雑誌",
+   "title": "先天性心疾患に対する小児心臓CTにおけるsplit-bolus法の有用性",
+   "url": "https://doi.org/10.6009/jjrt.26-1700",
+   "published": "2026-10-21",
+   "authors": "池野 裕介,森下 勝",
+   "added": "2026-10-27",
+   "category": "CT"
+  },
+  {
+   "journal": "日本放射線技術学会雑誌",
+   "title": "中国四国地方における核医学治療の運用実施アンケート調査",
+   "url": "https://doi.org/10.6009/jjrt.26-1648",
+   "published": "2026-10-21",
+   "authors": "林 直弥,高内 孔明,植原 佑輔,所谷 亮太朗,矢田 伸広",
+   "added": "2026-10-27",
+   "category": "核医学"
+  },
+  {
+   "journal": "日本放射線技術学会雑誌",
+   "title": "講座紹介",
+   "url": "https://doi.org/10.6009/jjrt.26-1007",
+   "published": "2026-10-20",
+   "authors": "三輪 建太,小笠原 克彦",
+   "added": "2026-10-27",
+   "category": "その他"
+  },
+  {
+   "journal": "日本放射線技術学会雑誌",
+   "title": "1. MRI分野",
+   "url": "https://doi.org/10.6009/jjrt.26-1006",
+   "published": "2026-10-20",
+   "authors": "齋藤 茂芳",
+   "added": "2026-10-27",
+   "category": "MRI"
+  },
+  {
+   "journal": "日本放射線技術学会雑誌",
+   "title": "地方支部の活用に期待して",
+   "url": "https://doi.org/10.6009/jjrt.26-1005",
+   "published": "2026-10-20",
+   "authors": "梁川 範幸",
+   "added": "2026-10-27",
+   "category": "その他"
+  },
+  {
+   "journal": "日本放射線技術学会雑誌",
+   "title": "Japan DRLs 2025の概要と次回改定に向けた取り組み",
+   "url": "https://doi.org/10.6009/jjrt.26-1004",
+   "published": "2026-10-20",
+   "authors": "長束 澄也",
+   "added": "2026-10-27",
+   "category": "その他"
+  },
+  {
+   "journal": "日本放射線技術学会雑誌",
+   "title": "8. 水吸収線量計測の基礎と最近の話題",
+   "url": "https://doi.org/10.6009/jjrt.26-1003",
+   "published": "2026-10-20",
+   "authors": "歳藤 利行",
+   "added": "2026-10-27",
+   "category": "その他"
+  },
+  {
+   "journal": "日本放射線技術学会雑誌",
+   "title": "入門編 10. データ解析手法④ Excelによるデータ解析演習",
+   "url": "https://doi.org/10.6009/jjrt.26-1002",
+   "published": "2026-10-20",
+   "authors": "辻本 正和",
+   "added": "2026-10-27",
+   "category": "その他"
+  },
+  {
+   "journal": "日本放射線技術学会雑誌",
+   "title": "8. 整位の考え方と自然立位による撮影技術",
+   "url": "https://doi.org/10.6009/jjrt.26-1001",
+   "published": "2026-10-20",
+   "authors": "廣瀬 慎一郎",
+   "added": "2026-10-27",
+   "category": "その他"
+  },
+  {
+   "journal": "日本放射線技術学会雑誌",
+   "title": "Segment Anything Modelを用いたクリックプロンプト型半自動領域抽出に基づく防護衣の破損面積計測",
+   "url": "https://doi.org/10.6009/jjrt.26-1705",
+   "published": "2026-10-17",
+   "authors": "高橋 将斗,布施 拓,花田 洸一,木村 愛夢,安江 憲治,宮川 真,野坂 広樹,郡 倫一",
+   "added": "2026-10-27",
+   "category": "その他"
+  },
+  {
+   "journal": "日本放射線技術学会雑誌",
+   "title": "冠動脈CT-angiographyにおける鮮鋭化フィルタを併用した逐次近似応用再構成法が冠動脈ステントのプロファイル特性および視覚評価に及ぼす影響：ファントム研究",
+   "url": "https://doi.org/10.6009/jjrt.26-1696",
+   "published": "2026-10-17",
+   "authors": "垣迫 実月,渡邊 亮,藤原 誠,丸山 健太",
+   "added": "2026-10-27",
+   "category": "CT"
+  },
+  {
+   "journal": "日本放射線技術学会雑誌",
+   "title": "胸部X線撮影における深度計測センサ付きカメラを用いた被写体厚計測と入射表面線量推定",
+   "url": "https://doi.org/10.6009/jjrt.26-1692",
+   "published": "2026-10-17",
+   "authors": "安江 憲治,瓜倉 厚志,花田 洸一,布施 拓",
+   "added": "2026-10-27",
+   "category": "一般撮影"
+  },
+  {
+   "journal": "日本放射線技術学会雑誌",
+   "title": "Woven EndoBridge塞栓術における患者被ばく線量の構成：ステント併用コイル塞栓術との比較",
+   "url": "https://doi.org/10.6009/jjrt.26-1687",
+   "published": "2026-10-14",
+   "authors": "堀田 大輝,野村 孝之,根木 宏明,五島 聡",
+   "added": "2026-10-27",
+   "category": "安全管理"
+  }
+ ]
+}

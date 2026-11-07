@@ -1,0 +1,63 @@
+name: Daily radiology technologist news update
+
+on:
+  # 予約は混み合って4〜5時間遅れる(半端な時刻でも同じだった。4:23→9時台、6:53→10時台)ため、
+  # 朝の出勤前に間に合うよう深夜に前倒しし、予備の2回目も入れる
+  # (同じ記事は2回目で重複しない。concurrency で前の実行が終わるまで待つ)
+  schedule:
+    - cron: '23 1 * * *'
+      timezone: 'Asia/Tokyo'
+    - cron: '53 3 * * *'
+      timezone: 'Asia/Tokyo'
+    # 日中の新着用(昼ごろと夕方ごろに間に合うよう、遅れを見込んだ時刻)
+    - cron: '23 8 * * *'
+      timezone: 'Asia/Tokyo'
+    - cron: '23 13 * * *'
+      timezone: 'Asia/Tokyo'
+  workflow_dispatch:
+  push:
+    paths:
+      - 'scripts/update_news.py'
+
+permissions:
+  contents: write
+
+jobs:
+  update-news:
+    concurrency:
+      group: daily-radiology-news
+      cancel-in-progress: false
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v6
+
+      - name: Set up Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: '3.13'
+
+      - name: Update news
+        run: |
+          pip install --quiet openpyxl
+          python scripts/update_news.py
+        env:
+          # 要確認のメール通知(任意)。リポジトリの Settings > Secrets に登録したときだけ送信される
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
+          NOTIFY_TO: ${{ secrets.NOTIFY_TO }}
+
+      - name: Commit updated news and daily HTML
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add news.json news_meta.json seminars.json daily_html/ archive/
+          for f in supply.json papers.json kagawa.json; do if [ -f $f ]; then git add $f; fi; done
+          if git diff --cached --quiet; then
+            echo 'No news changes to commit.'
+          else
+            git commit -m 'Update daily radiology technologist news'
+            git fetch origin main
+            git rebase origin/main
+            git push
+          fi

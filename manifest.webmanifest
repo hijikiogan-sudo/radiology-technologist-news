@@ -1,0 +1,16 @@
+{
+  "name": "診療放射線技師ニュース",
+  "short_name": "技師ニュース",
+  "description": "制度・安全情報・研修の案内・装置の話題を毎朝まとめて確認できます。",
+  "lang": "ja",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f3f5fb",
+  "theme_color": "#f3f5fb",
+  "icons": [
+    {"src": "icon-192.png", "sizes": "192x192", "type": "image/png"},
+    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png"},
+    {"src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ]
+}
