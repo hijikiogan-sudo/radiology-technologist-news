@@ -1,0 +1,50 @@
+name: Publish radiology technologist news
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+  # GITHUB_TOKENで保存されたニュース更新はpushイベントを起こさないため、
+  # 収集ワークフローが成功した後にも最新のmainを公開する。
+  workflow_run:
+    workflows: [Daily radiology technologist news update]
+    types: [completed]
+    branches: [main]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Checkout latest published source
+        uses: actions/checkout@v6
+        with:
+          ref: main
+          persist-credentials: false
+      - name: Configure Pages
+        uses: actions/configure-pages@v5
+      - name: Prepare website files
+        run: |
+          mkdir _site
+          cp index.html sw.js manifest.webmanifest *.png *.json _site/
+          cp -R archive daily_html _site/
+      - name: Upload website
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+      - name: Publish website
+        id: deployment
+        uses: actions/deploy-pages@v4
