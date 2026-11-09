@@ -1,5 +1,29 @@
 [
  {
+  "date": "2026-09-29",
+  "category": "学術",
+  "importance": "中",
+  "headline": "「画像診断ガイドライン」パブリックコメント募集 - 公益社団法人日本医学放射線学会",
+  "summary": "以下のとおり画像診断ガイドラインのパブリックコメントを募集します。 ご意見等がございましたら、 こちら よりお寄せください。",
+  "why": "意見募集の締切と、改訂される点を確認しておきましょう。",
+  "source": "日本医学放射線学会",
+  "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5tVmU2a1VfZXFqTm8zWXVfWEdsZE5BS0F5RjhxVmIxRWdvUkNySDVfcFViYmdSNFQtNTJVN0t1Y1g2dzlBUk5IZkpaM0FvTDVkeFI1cEF6TXdOc3ljXzZCSVpR?oc=5",
+  "track": "general",
+  "summary_tried": "2026-11-04"
+ },
+ {
+  "date": "2026-09-29",
+  "category": "放射線治療",
+  "importance": "低",
+  "headline": "脳転移数中央値2個の小細胞肺癌への定位放射線治療は良好な全生存期間を示す【ASTRO 2026】 - 日経メディカル",
+  "summary": "小細胞肺癌（SCLC）の脳転移に対する定位放射線治療（SRS）は、メマンチン併用海馬回避全脳照射と比べて、主要評価項目である神経認知機能障害については有意差を認めなかったものの、良好な全生存期間（OS）と同等の中枢神経系制御効果を示すことが明らかになった。",
+  "why": "",
+  "source": "日経メディカル",
+  "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNc2R0blNONDY2YWgxSndPUjhvZ0FsMVVhWTN0YkVtenRfRC1hTEx2SzB5eWtfbnhONzA5WFJabkZabXdpTzV4UmF4a0UxSmlpSU9hZkRuQnpVWkNYWnZJTFVoZTBSTGxra2J1R3FkM1VWMEZvaV9XUElVSWs0TDQ0RHIzZV93aXVW?oc=5",
+  "track": "general",
+  "summary_tried": "2026-11-04"
+ },
+ {
   "date": "2026-09-28",
   "category": "AI",
   "importance": "低",
@@ -45,6 +69,33 @@
   "source": "mri.co.jp",
   "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1xVjNDNDZyRVJIazlNdDUzSHowS3VOMk5WdktmakEwU2daMktzQUYxWjBOa2ktQmZ3SVYyMEpmRDJlQTloamxPbGtBWURZUTJGY0s2YmVqUVBHVFp1cGtYTElQbjA?oc=5",
   "track": "general",
+  "summary_tried": "2026-11-04"
+ },
+ {
+  "date": "2026-09-28",
+  "category": "職能",
+  "importance": "中",
+  "headline": "告示研修（実技研修）大阪府2026/12/13 - 日本診療放射線技師会",
+  "summary": "医政発0709第7号に基づく業務範囲の見直しに伴う告示研修（実技研修）です。告示研修（基礎研修）修了者が対象です。開催地：大阪府済生会中津病院。日本診療放射線技師会（JART）が実施します。",
+  "why": "業務範囲の拡大に伴う告示研修です。未受講なら日程と申込方法を確認しておきましょう。",
+  "source": "日本診療放射線技師会",
+  "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxPcC1ieTFaOWhkRGN4UkV3Z1VTUkdLcno5WTJIS2U3QjBQRzZjRVY5QXlCeHBYeFhrVVZGSVhGbWNWSENCdHVFS3RxazlGdVZDc19EbHBfaEUwWVVWSGdTSFdQUnJIanl1NnkwMWNKVXQ3cFpPMkg4X0JLR0dEamFYSnB2S1VlNWxuT3gyN1FpQjc4VWk2SHBjOE1OekFIdW1mVUJkZ2FqUGJUQTlDcmlacy13RHZ6MG1FOF92alFHUDBncFRicWZaUUZ0b2V1Rzc3MWEw?oc=5",
+  "track": "official",
+  "summary_tried": "2026-11-04",
+  "event_date": "2026-12-13",
+  "event_kind": "開催",
+  "event_place": "大阪"
+ },
+ {
+  "date": "2026-09-28",
+  "category": "学術",
+  "importance": "高",
+  "headline": "2025 年 1 ⽉７⽇ 股関節撮影時の⽣殖腺遮蔽の⾒直しについて（声明） ⽇本医学放射線学会 ⽇本 - 日本診療放射線技師会",
+  "summary": "",
+  "why": "撮影手技の見直しにつながる内容です。推奨が変わった点と根拠を確認しておきましょう。",
+  "source": "日本診療放射線技師会",
+  "url": "https://news.google.com/rss/articles/CBMisANBVV95cUxNT0RxNXo1MWUtTWNURnp2RzZqWUdnZ2lMV2ZtQkRlTmRCaGFuZ3lWbGNmQVY0eVdsazhXQ0lTT0p2TXFhdXRYdlVFa0gtaVNkc2ZGUzY4cmx5MlNMZFhta19RMldXRkY4VkE1c3lkR3F2TzBReTJFOVFVcTU5SG5jV2dxdmJlSGJHdGtxT0Jad2kzdElsY3FjTmVEeWhQUEt1WUJEQlF2Ykl3V01oMU9Tc3hrTlJKeERGOVpmSGh2T3R3dGdCdVZrTmtfRklQeDdCUDhpNzJjanp6MWprenI1a3JpdDQ5RDhlTVlsZFoya2prdGh0dFl5UUN2ZzhwQm51TXFoVVNaM2dkcTd3VHQwYnhNTFNudXdRaTdkMXFFMEh3OTlHdUxodk1vc3kyYnRJOVRJclhSaWFULUIxS0traE0xUm1UcUVpaUxfU1pQSzlvbEZYMkhZVEpoS2FvbEJRU0RJUGZvOGNFYmktRXV1WDZKLVoyaWJkaGxwSklIekM5SmhiVDBCZXFDa3U0U2dtcFlZSGNZelljbGw3SUwyU0owSjIzbVlmYURwdXh5R1E?oc=5",
+  "track": "official",
   "summary_tried": "2026-11-04"
  },
  {

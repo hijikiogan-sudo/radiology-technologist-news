@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-11-09T08:57+09:00",
-  "added": 0,
+  "checked_at": "2026-11-09T14:29+09:00",
+  "added": 4,
   "total": 200,
   "sources": {
     "医療機能評価機構": {
@@ -27,7 +27,7 @@
       "last_ok": "2026-11-09"
     },
     "厚生労働省": {
-      "listed": 120,
+      "listed": 127,
       "picked": 1,
       "last_ok": "2026-11-09"
     },
@@ -94,13 +94,14 @@
       "last_ok": "2026-11-09"
     },
     "日本IVR学会": {
-      "listed": 10,
-      "picked": 0,
-      "last_ok": "2026-11-09"
+      "error": "URLError: <urlopen error timed out>",
+      "last_ok": "2026-11-09",
+      "failing_since": "2026-11-09",
+      "failing_days": 1
     },
     "日本超音波医学会": {
       "listed": 10,
-      "picked": 4,
+      "picked": 5,
       "last_ok": "2026-11-09"
     },
     "日本核医学技術学会": {
@@ -145,7 +146,7 @@
     },
     "日本乳癌学会": {
       "listed": 10,
-      "picked": 1,
+      "picked": 3,
       "last_ok": "2026-11-09"
     },
     "MRIfan.net": {
@@ -250,8 +251,8 @@
       "last_ok": "2026-11-09"
     },
     "要約": {
-      "tried": 0,
-      "filled": 0,
+      "tried": 4,
+      "filled": 4,
       "remaining": 0
     },
     "香川県技師会の予定表": {
