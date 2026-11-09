@@ -1,5 +1,41 @@
 [
   {
+    "date": "2026-11-10",
+    "category": "MRI",
+    "importance": "中",
+    "headline": "第30回MR実践・先端講座開催のお知らせ",
+    "summary": "磁気共鳴医学では高度な技術が目白押しの状況です。MRI従事者はこれらを臨床に順次導入し、撮像を円滑に遂行するための知識・技術・経験が求められています。",
+    "why": "",
+    "source": "日本磁気共鳴専門技術者認定機構",
+    "url": "https://www.jsmrm.jp/modules/meeting/index.php?content_id=5",
+    "track": "general",
+    "summary_tried": "2026-11-10"
+  },
+  {
+    "date": "2026-11-09",
+    "category": "安全管理",
+    "importance": "高",
+    "headline": "造影剤の限定出荷（他社品の影響）：イオヘキソール300注20mL「F」(イオヘキソール)",
+    "summary": "",
+    "why": "自施設で使っている薬剤か確認し、代替品や検査予定への影響を把握しておきましょう。",
+    "source": "厚生労働省(医薬品供給状況)",
+    "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryou/kouhatu-iyaku/04_00003.html#7219415A9090-限定出荷（他社品の影響）",
+    "track": "official",
+    "summary_tried": "2026-11-10"
+  },
+  {
+    "date": "2026-11-09",
+    "category": "安全管理",
+    "importance": "高",
+    "headline": "造影剤の限定出荷（他社品の影響）：イオヘキソール350注20mL「F」(イオヘキソール)",
+    "summary": "",
+    "why": "自施設で使っている薬剤か確認し、代替品や検査予定への影響を把握しておきましょう。",
+    "source": "厚生労働省(医薬品供給状況)",
+    "url": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryou/kouhatu-iyaku/04_00003.html#7219415H3082-限定出荷（他社品の影響）",
+    "track": "official",
+    "summary_tried": "2026-11-10"
+  },
+  {
     "date": "2026-11-09",
     "category": "超音波",
     "importance": "中",
@@ -2419,42 +2455,6 @@
     "source": "日本医学放射線学会",
     "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxOeVVPZVFPT2diUC0zR2Z0XzdldUo4alo2Vk5oTDVkdllzSTFWb2w1Z1pFNVpXYzdIakVOaEZ2Y3dZSUFwd0NDVmpWTmVZVDFyenJIaFE0SGNTX2wyWk43RElzRk9mWkxjbllNcm1lN3FFTGRvaXRwcXRYbThDeFBUUVZadlA?oc=5",
     "track": "general",
-    "summary_tried": "2026-11-04"
-  },
-  {
-    "date": "2026-10-01",
-    "category": "安全管理",
-    "importance": "中",
-    "headline": "医療放射線安全管理責任者講習会（e-ラーニング）の開講について - 日本診療放射線技師会",
-    "summary": "医療放射線安全管理責任者講習会の詳細と申込方法を紹介。安全管理の知識を深めましょう。",
-    "why": "",
-    "source": "日本診療放射線技師会",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9GOUhsTW4wcUppUXFlSjZmRFZPRmYyZDJCZW9ZQ2NKVTQtdDNLaUZfdDU3NGJONUNMQmEtUkh4eDJvaG5jeDBaclcyWl95ZllqWUE?oc=5",
-    "track": "official",
-    "summary_tried": "2026-11-04"
-  },
-  {
-    "date": "2026-10-01",
-    "category": "診療報酬・補助金",
-    "importance": "高",
-    "headline": "診療報酬政策立案委員会より診療報酬改定による現場影響度調査に関するアンケート実施のお知らせ - 日本診療放射線技師会",
-    "summary": "診療報酬改定による現場影響度調査に関するアンケート実施のお知らせ。皆様のご協力をお願い申し上げます。",
-    "why": "算定要件や点数の変更点を押さえておきましょう。担当する検査の算定に関わることがあります。",
-    "source": "日本診療放射線技師会",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5KcEZEZlpFTV95NXlNdnJCdG5wanZtS283ZE45cEt5NV85YXZxNndPVDdUbWVEdmRsSGJoZEVpTEVzUFUyMDhLVmJUYU5nb2hFTmc?oc=5",
-    "track": "official",
-    "summary_tried": "2026-11-04"
-  },
-  {
-    "date": "2026-10-01",
-    "category": "核医学",
-    "importance": "中",
-    "headline": "2026年度 がん対策委員会 Webセミナー 核医学治療の現在地 - 日本診療放射線技師会",
-    "summary": "2026年度がん対策委員会のWebセミナー「核医学治療の現在地」の情報をお届けします。",
-    "why": "",
-    "source": "日本診療放射線技師会",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBDVjEwTlA1TjE4emVTLTlMMnM0YVVLMW9DYWdmOFI1VlUxQ0FtZVBLTzFrbHlURXpPTWpPZE1IQ3hCRGM0Ql9GRW1LUVpuRExqY3c?oc=5",
-    "track": "official",
     "summary_tried": "2026-11-04"
   }
 ]

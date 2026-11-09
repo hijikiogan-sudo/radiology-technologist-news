@@ -1,7 +1,7 @@
 {
- "as_of": "令和８年11月６日現在",
+ "as_of": "令和８年11月９日現在",
  "source": "https://www.mhlw.go.jp/stf/seisakunitsuite/bunya/kenkou_iryou/iryou/kouhatu-iyaku/04_00003.html",
- "checked_at": "2026-11-09T14:29+09:00",
+ "checked_at": "2026-11-10T02:27+09:00",
  "items": [
   {
    "class": "Ｘ線造影剤",
@@ -365,6 +365,34 @@
    "reason": "製造トラブル（製造委託を含む）",
    "outlook": "未定",
    "new": false,
+   "category": "CT"
+  },
+  {
+   "class": "Ｘ線造影剤",
+   "ingredient": "イオヘキソール",
+   "spec": "64.71%20mL1瓶",
+   "yj": "7219415A9090",
+   "product": "イオヘキソール300注20mL「F」",
+   "maker": "富士製薬工業",
+   "status": "限定出荷（他社品の影響）",
+   "changed": "2026-11-09",
+   "reason": "需要増",
+   "outlook": "未定",
+   "new": true,
+   "category": "CT"
+  },
+  {
+   "class": "Ｘ線造影剤",
+   "ingredient": "イオヘキソール",
+   "spec": "75.49%20mL1瓶",
+   "yj": "7219415H3082",
+   "product": "イオヘキソール350注20mL「F」",
+   "maker": "富士製薬工業",
+   "status": "限定出荷（他社品の影響）",
+   "changed": "2026-11-09",
+   "reason": "需要増",
+   "outlook": "未定",
+   "new": true,
    "category": "CT"
   },
   {
