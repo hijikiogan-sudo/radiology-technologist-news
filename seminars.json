@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-10T04:44+09:00",
+ "checked_at": "2026-11-10T08:58+09:00",
  "items": [
   {
    "title": "2026年度第1回 STAT画像所見報告セミナー",
@@ -113,6 +113,19 @@
    "apply_start": "",
    "apply_end": "",
    "place": "群馬",
+   "category": "MRI",
+   "source": "日本磁気共鳴専門技術者認定機構"
+  },
+  {
+   "title": "第24回多摩RESONANCE研究会開催のお知らせ",
+   "url": "https://plaza.umin.ac.jp/~JMRTS/dl/tamaMR24kai.pdf",
+   "kind": "JMRTS",
+   "status": "",
+   "event_start": "2026-11-20",
+   "event_end": "2026-11-20",
+   "apply_start": "",
+   "apply_end": "",
+   "place": "",
    "category": "MRI",
    "source": "日本磁気共鳴専門技術者認定機構"
   },
@@ -376,6 +389,19 @@
    "apply_start": "2026-10-07",
    "apply_end": "2026-11-30",
    "place": "JART"
+  },
+  {
+   "title": "第30回MR実践・先端講座開催のお知らせ",
+   "url": "https://www.jsmrm.jp/modules/meeting/index.php?content_id=5",
+   "kind": "JMRTS",
+   "status": "",
+   "event_start": "2026-12-19",
+   "event_end": "2026-12-19",
+   "apply_start": "",
+   "apply_end": "",
+   "place": "オンライン",
+   "category": "MRI",
+   "source": "日本磁気共鳴専門技術者認定機構"
   },
   {
    "title": "2026年度 がん対策委員会Webセミナー 核医学治療の現在地",
