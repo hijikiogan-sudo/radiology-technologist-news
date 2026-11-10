@@ -1,6 +1,30 @@
 [
   {
     "date": "2026-11-10",
+    "category": "学術",
+    "importance": "中",
+    "headline": "［お知らせ］本学会と交流のある海外の学術団体が開催する 定期国際研究集会への派遣会員募集要項（台湾）",
+    "summary": "",
+    "why": "",
+    "source": "日本放射線技術学会",
+    "url": "https://www.jsrt.or.jp/data/news/70637/",
+    "track": "general",
+    "summary_tried": "2026-11-10"
+  },
+  {
+    "date": "2026-11-10",
+    "category": "その他",
+    "importance": "中",
+    "headline": "2027年度役員（理事・監事）立候補申請について",
+    "summary": "本会の現役員は、2027年度定時代議員会（第66回総会、横浜市）をもって任期満了となります。 つきましては、次期役員に立候補なさいます先生におかれましては、下記の要領にてご申請くださいますようお願い申し上げます。",
+    "why": "",
+    "source": "日本消化器がん検診学会",
+    "url": "https://www.jsgcs.or.jp/news/archives/1150",
+    "track": "general",
+    "summary_tried": "2026-11-10"
+  },
+  {
+    "date": "2026-11-10",
     "category": "制度",
     "importance": "低",
     "headline": "遠隔画像診断の普及を阻む制度解釈の壁 ― 読影補助医の活用と医療機関の責任｜嗣江建栄 - mbp-japan.com",
@@ -2430,30 +2454,6 @@
     "why": "",
     "source": "news.infoseek.co.jp",
     "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1TSE5PUFNlb0xxZ0RlNTB1T1ZDN3FSSnpMQVpGMmJHMGF4ZFVZbUxvZ0ZlbFlPVGpiV2VwNkZmNkNWVTk1b05QcHM2R1cySDlxRHBNeldTSkhpcmFCZGt6QVExSnJKbXFLa2lWcGFnRW8zQQ?oc=5",
-    "track": "general",
-    "summary_tried": "2026-11-04"
-  },
-  {
-    "date": "2026-10-01",
-    "category": "放射線治療",
-    "importance": "中",
-    "headline": "西日本初※１ 頭部（特に脳）疾患に特化した定位放射線治療装置 「ＺＡＰ‐Ｘ®」を導入 - PR TIMES",
-    "summary": "医療法人輝栄会のプレスリリース（2026年10月1日 15時00分）西日本初※１ 頭部（特に脳）疾患に特化した定位放射線治療装置 「ＺＡＰ‐Ｘ®」を導入…",
-    "why": "",
-    "source": "PR TIMES",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE80NC05U1Y3anlhR3F2eFU2OUxmMmliRTl2WGpEUFBDVHUxZnc0dFJCbk9ub0RNU2NiZzNCU0Mxdm9JMURiZmk1RE9NUUtNSTdqU0Q2SEJOcEFULU1DZklCS08wRzY2dkxRVkE?oc=5",
-    "track": "general",
-    "summary_tried": "2026-11-04"
-  },
-  {
-    "date": "2026-10-01",
-    "category": "CT",
-    "importance": "中",
-    "headline": "128列以上CTの認証申請について - 公益社団法人日本医学放射線学会",
-    "summary": "さて、令和8年度の診療報酬改定において、E200コンピュータ断層撮影（CT撮影）に「128列以上のマルチスライス型の機器による場合」が新設されました。これに伴い、公益社団法人日本医学放射線学会（JRS）では、対象となる装置の認証制度を開始することとなりました。",
-    "why": "自施設の装置・ソフトウェアが対象になるか確認しておきましょう。",
-    "source": "日本医学放射線学会",
-    "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFBiRHZIekVOWWlkWXBYeFRHbERaV0VLOXdnVUs4MUcxdW9URkNsMjgtRFdTcGNONVZIX0p5VzBocDVQU3JzSE5YVm00RFl3RkNLUFN6dWJVdlVRWG15aDItUXhZZXlsbVpWM0l6dEhleF9LS1E?oc=5",
     "track": "general",
     "summary_tried": "2026-11-04"
   }

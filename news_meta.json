@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-11-10T08:58+09:00",
-  "added": 1,
+  "checked_at": "2026-11-10T14:15+09:00",
+  "added": 3,
   "total": 200,
   "sources": {
     "医療機能評価機構": {
@@ -12,7 +12,7 @@
       "last_ok": "2026-11-10"
     },
     "日本放射線技術学会": {
-      "listed": 42,
+      "listed": 44,
       "picked": 5,
       "last_ok": "2026-11-10"
     },
@@ -27,7 +27,7 @@
       "last_ok": "2026-11-10"
     },
     "厚生労働省": {
-      "listed": 132,
+      "listed": 126,
       "picked": 1,
       "last_ok": "2026-11-10"
     },
@@ -62,11 +62,9 @@
       "last_ok": "2026-11-10"
     },
     "徳島県診療放射線技師会": {
-      "error": "URLError: <urlopen error timed out>",
-      "last_ok": "2026-11-04",
-      "failing_since": "2026-11-05",
-      "failing_days": 6,
-      "alerted": true
+      "listed": 5,
+      "picked": 0,
+      "last_ok": "2026-11-10"
     },
     "高知県診療放射線技師会": {
       "listed": 165,
@@ -250,7 +248,7 @@
       "last_ok": "2026-11-10"
     },
     "要約": {
-      "tried": 1,
+      "tried": 2,
       "filled": 1,
       "remaining": 0
     },
