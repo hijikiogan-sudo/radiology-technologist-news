@@ -1,6 +1,54 @@
 [
   {
     "date": "2026-11-10",
+    "category": "放射線治療",
+    "importance": "中",
+    "headline": "第39回学術大会教育講演シラバスを【会員専用ページ】に掲載いたしました。",
+    "summary": "",
+    "why": "",
+    "source": "日本放射線腫瘍学会",
+    "url": "https://www.jastro.or.jp/member/study_materials/education_slide.php",
+    "track": "general",
+    "summary_tried": "2026-11-11"
+  },
+  {
+    "date": "2026-11-10",
+    "category": "検診",
+    "importance": "低",
+    "headline": "11/17（火）13時～ セミナー開催｜ 有効性評価に基づく肺がん検診ガイドライン ～低線量CT肺がん検診《運用実践編》～ - ニコニコニュース",
+    "summary": "",
+    "why": "",
+    "source": "ニコニコニュース",
+    "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5sTkRyeTVxMGtLMlBLQmNQZXpPWkFtMno2UVpaUlM0SlpCSUNYbXdtNGxVS01RbkoxVG1VRy16M3VzNGJrdmRKLXRENV9URTRzT29vWVRkeFFHcGx3NTlraUk5WmtKbS1SaWFfWmxUamVYaFNLbmc?oc=5",
+    "track": "general",
+    "summary_tried": "2026-11-11"
+  },
+  {
+    "date": "2026-11-10",
+    "category": "学術",
+    "importance": "中",
+    "headline": "脳神経領域のステートメントの一部を変更しました。 - 日本医学放射線学会",
+    "summary": "脳神経領域の下記項目について，ステートメントの一部を次のとおり変更しました。 ・BQ：二次性頭痛の診断に有用な画像検査は何か？（動脈解離） ステートメント：動脈解離が疑われ，迅速な脳血管評価が必要な場合は，単純CTと同時 […]…",
+    "why": "",
+    "source": "日本医学放射線学会",
+    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTFA3elpjTEJVdFZ4dFZycU82TlZ4T2FCX0tyM2dGV2dTbEphQUQ5bTFrNk9EYlE2UlNDRmxPeG0wMDhPQUFlUW92QWFMUTRuNWc?oc=5",
+    "track": "general",
+    "summary_tried": "2026-11-11"
+  },
+  {
+    "date": "2026-11-10",
+    "category": "安全管理",
+    "importance": "低",
+    "headline": "EIZO、高まる遠隔読影・品質管理ニーズに応え、医用画像表示モニターのラインナップを拡充 - メディカルwatch",
+    "summary": "EIZO株式会社（本社：石川県白山市、代表取締役社長 恵比寿正樹氏）は、医用画像表示モニターの新製品として、24.1型の「RadiForce MX247W」を2026年12月24日に、27型の「RadiForce MX277W」を2027年4月19日に発売する。",
+    "why": "",
+    "source": "メディカルwatch",
+    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5jY3Q0eGQwbGN1RWltYVlzeDAtS3NMQzh2X3YtOUxYS1d3c0o3Z0t2VEE5XzViWWVqdFBQX1E0NnhnZVIxcFlaVHNKZUdhdlBBdnc?oc=5",
+    "track": "general",
+    "summary_tried": "2026-11-11"
+  },
+  {
+    "date": "2026-11-10",
     "category": "学術",
     "importance": "中",
     "headline": "［お知らせ］本学会と交流のある海外の学術団体が開催する 定期国際研究集会への派遣会員募集要項（台湾）",
@@ -2397,64 +2445,6 @@
     "source": "日本診療放射線技師会",
     "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBrblpqd0lyeXZrbWxlX1psb0NLRGNtMTZpcDZuVDM1T2Y5cXZtVHBnc1pWLTZLWVdBTWt6U1NKRTNsdHluUU5RY2R0S0F5ejNkRFE?oc=5",
     "track": "official",
-    "summary_tried": "2026-11-04"
-  },
-  {
-    "date": "2026-10-01",
-    "category": "職能",
-    "importance": "中",
-    "headline": "ワクチン筋注行為実技研修 開催要項更新のお知らせ - 日本診療放射線技師会",
-    "summary": "ワクチン筋注行為実技研修の開催要項を更新。講習の内容や参加方法について詳しくご案内します。",
-    "why": "",
-    "source": "日本診療放射線技師会",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFB3Yk0xUlVaZ29oY0lxTm5aeEU1NC13cFJvU3Bub3VmNVVjQnQwazVMQzg0TlBDYXd2N2xfT0ZqLTVDOG1lZVk5MlRVM18xZTlVZXhZ?oc=5",
-    "track": "official",
-    "summary_tried": "2026-11-04"
-  },
-  {
-    "date": "2026-10-01",
-    "category": "その他",
-    "importance": "中",
-    "headline": "JIRA Conference Park 2026 「医工連携：臨床ニーズマッチング会」開催のご案内 - 日本診療放射線技師会",
-    "summary": "JIRA Conference Park 2026「医工連携：臨床ニーズマッチング会」が2026年10月23日にGメッセ群馬で開催されます。医療従事者の臨床ニーズと医療関連企業をつなぎ、医療機器・システム開発につなげる取り組みです。",
-    "why": "",
-    "source": "日本診療放射線技師会",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE5ybjJ1Y2pRQ0NDdFBONEVWbzZSdEFKNG9hNnh1OVpOdmViZkR4dHlqMGdYS242NG04VE9QNWZtVFhKVnVZN0NDNmk2ZWJWMGphMDhNbdIBZEFVX3lxTE1TMWJmR0h3QmZ1TzQ2aERLYUx6ZmJJU3lXNGlLLVVkaHBuQ1lJYXBEUzJOMTlybWtmNDVvRDY1Q3J1dGQ4UXROMUQwTkdDSVhHYTEtMjh4X0tBRGgxTHJoNnh2T3o?oc=5",
-    "track": "official",
-    "summary_tried": "2026-11-04"
-  },
-  {
-    "date": "2026-10-01",
-    "category": "教育",
-    "importance": "中",
-    "headline": "2026年度調査委員会企画 第2回 診療放射線技師のための調査研究スキルアップセミナー - 日本診療放射線技師会",
-    "summary": "2026年度調査委員会企画による第2回調査研究スキルアップセミナーです。量的調査（アンケート調査） の設計から解析・活用までの一連のプロセスを， 演者らが実施した放射線の健康不安に関する全国Ｗｅｂ調査（約２，４００人） を実例として解説します。",
-    "why": "",
-    "source": "日本診療放射線技師会",
-    "url": "https://news.google.com/rss/articles/CBMi-wNBVV95cUxQMzVpUmNLaERoTHBFVnpoelV1X2FjdEdGSVZhVWxkYXJ3RUlUdmJjTnEyY1huZjhEQ2xDVzhza0VPU1RtOS1UMjNzSE1ncU5Qal9STlBlNlVQTkgyeVRrZ2NVNG01eVR1VXFfajNoVVByd2gtRDFuQ0FweXRGMzdib3RCWlh2NV9ObTd0WEZkWjJDWEN3NjhRcjNEU2xvZmktU0JrMjZqZW5vY181U0M0LW9fbFBzNWpXaU9UMXRKczNLWUJUbGtyTlJWbW1MOWFudUw2bWZhdTF2dUc1d1BpMlVqcnNpa0ZvMkJLNVN3UGhGTVA4bnJtSVdEdnBuSkl5YkdtOXA0bGN4M0I3dUlPTGFIUWZJa1VSUUgtMkhMRk40azJVTFRGRlRtZFAzQ0VJQXlnVDA5dlpBQWlyakFYYXNFYTZkNUhOZ3NvZERuVTNVVURaZ04yQVc2UzZheVI1a2Ntc01zSHN6OTRkLVkxZWdXRmoxcnhQYzhYUjV0Y0UxRE9UekdGbVFpbjRoM0V3MjFIczcxUmVZT04yRWVoUnZoQkMzc0Rzb1RYM2ZnMDBlTTNtSEpMUnJJdFlWNVd1RXF3Z3V4eXBveHlobTdpZmhvVkZKU3ZMdkJ1dXpseTVFUXcwb2FlWjBNY194cGNvT0JGWE9JWHlLQVE?oc=5",
-    "track": "official",
-    "also": [
-      {
-        "source": "日本診療放射線技師会",
-        "url": "https://www.jart.jp/news/info/202610"
-      },
-      {
-        "source": "日本診療放射線技師会",
-        "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTFAyMzF3eG5nd1hJcXRoQVBvbnBURllvX3ZXcWlyMWlSejdqUWplUVRBdHpIS3IzRGxKTFA2SWNOVHBaMFdJR1JCMjFtNWw?oc=5"
-      }
-    ],
-    "summary_tried": "2026-11-04"
-  },
-  {
-    "date": "2026-10-02",
-    "category": "CT",
-    "importance": "低",
-    "headline": "病院のCT・MRI画像を受診者のスマートフォンへ。院内LAN・PACSに接続しない検査画像転送サービス「スマぞう」販売開始 - news.infoseek.co.jp",
-    "summary": "既存のCD/DVD発行フローを活用し、電源1本で導入。検査画像をその場で受診者本人のスマートフォンへ[画像1:ht…",
-    "why": "",
-    "source": "news.infoseek.co.jp",
-    "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1TSE5PUFNlb0xxZ0RlNTB1T1ZDN3FSSnpMQVpGMmJHMGF4ZFVZbUxvZ0ZlbFlPVGpiV2VwNkZmNkNWVTk1b05QcHM2R1cySDlxRHBNeldTSkhpcmFCZGt6QVExSnJKbXFLa2lWcGFnRW8zQQ?oc=5",
-    "track": "general",
     "summary_tried": "2026-11-04"
   }
 ]

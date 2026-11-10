@@ -1,179 +1,179 @@
 {
-  "checked_at": "2026-11-10T14:15+09:00",
-  "added": 3,
+  "checked_at": "2026-11-11T02:15+09:00",
+  "added": 4,
   "total": 200,
   "sources": {
     "医療機能評価機構": {
       "picked": 3,
-      "last_ok": "2026-11-10"
+      "last_ok": "2026-11-11"
     },
     "PMDA": {
       "picked": 0,
-      "last_ok": "2026-11-10"
+      "last_ok": "2026-11-11"
     },
     "日本放射線技術学会": {
       "listed": 44,
       "picked": 5,
-      "last_ok": "2026-11-10"
+      "last_ok": "2026-11-11"
     },
     "日本医学放射線学会": {
       "listed": 10,
       "picked": 5,
-      "last_ok": "2026-11-10"
+      "last_ok": "2026-11-11"
     },
     "日本核医学会": {
       "listed": 10,
       "picked": 3,
-      "last_ok": "2026-11-10"
+      "last_ok": "2026-11-11"
     },
     "厚生労働省": {
-      "listed": 126,
+      "listed": 129,
       "picked": 1,
-      "last_ok": "2026-11-10"
+      "last_ok": "2026-11-11"
     },
     "日本消化器がん検診学会": {
       "listed": 43,
       "picked": 5,
-      "last_ok": "2026-11-10"
+      "last_ok": "2026-11-11"
     },
     "日本磁気共鳴専門技術者認定機構": {
       "listed": 79,
       "picked": 0,
-      "last_ok": "2026-11-10"
+      "last_ok": "2026-11-11"
     },
     "香川県診療放射線技師会": {
       "listed": 9,
       "picked": 5,
-      "last_ok": "2026-11-10"
+      "last_ok": "2026-11-11"
     },
     "日本放射線技術学会 中国・四国支部": {
       "listed": 10,
       "picked": 2,
-      "last_ok": "2026-11-10"
+      "last_ok": "2026-11-11"
     },
     "岡山県診療放射線技師会": {
       "listed": 10,
       "picked": 1,
-      "last_ok": "2026-11-10"
+      "last_ok": "2026-11-11"
     },
     "愛媛県診療放射線技師会": {
       "listed": 5,
       "picked": 0,
-      "last_ok": "2026-11-10"
+      "last_ok": "2026-11-11"
     },
     "徳島県診療放射線技師会": {
       "listed": 5,
       "picked": 0,
-      "last_ok": "2026-11-10"
+      "last_ok": "2026-11-11"
     },
     "高知県診療放射線技師会": {
       "listed": 165,
       "picked": 5,
-      "last_ok": "2026-11-10"
+      "last_ok": "2026-11-11"
     },
     "DCIS研究会": {
       "listed": 10,
       "picked": 0,
-      "last_ok": "2026-11-10"
+      "last_ok": "2026-11-11"
     },
     "日本放射線腫瘍学会": {
       "listed": 31,
-      "picked": 1,
-      "last_ok": "2026-11-10"
+      "picked": 2,
+      "last_ok": "2026-11-11"
     },
     "日本医学物理学会": {
       "listed": 10,
       "picked": 2,
-      "last_ok": "2026-11-10"
+      "last_ok": "2026-11-11"
     },
     "日本磁気共鳴医学会": {
       "listed": 10,
       "picked": 3,
-      "last_ok": "2026-11-10"
+      "last_ok": "2026-11-11"
     },
     "日本IVR学会": {
       "listed": 10,
       "picked": 0,
-      "last_ok": "2026-11-10"
+      "last_ok": "2026-11-11"
     },
     "日本超音波医学会": {
       "listed": 10,
       "picked": 5,
-      "last_ok": "2026-11-10"
+      "last_ok": "2026-11-11"
     },
     "日本核医学技術学会": {
       "listed": 10,
       "picked": 0,
-      "last_ok": "2026-11-10"
+      "last_ok": "2026-11-11"
     },
     "日本CT技術学会": {
       "listed": 5,
       "picked": 0,
-      "last_ok": "2026-11-10"
+      "last_ok": "2026-11-11"
     },
     "日本乳癌検診学会": {
       "listed": 30,
       "picked": 1,
-      "last_ok": "2026-11-10"
+      "last_ok": "2026-11-11"
     },
     "日本CT検診学会": {
       "listed": 340,
       "picked": 1,
-      "last_ok": "2026-11-10"
+      "last_ok": "2026-11-11"
     },
     "日本放射線治療専門放射線技師認定機構": {
       "listed": 1,
       "picked": 0,
-      "last_ok": "2026-11-10"
+      "last_ok": "2026-11-11"
     },
     "日本乳腺甲状腺超音波医学会": {
       "listed": 10,
       "picked": 0,
-      "last_ok": "2026-11-10"
+      "last_ok": "2026-11-11"
     },
     "日本超音波検査学会": {
       "listed": 10,
       "picked": 2,
-      "last_ok": "2026-11-10"
+      "last_ok": "2026-11-11"
     },
     "日本X線CT専門技師認定機構": {
       "listed": 82,
       "picked": 3,
-      "last_ok": "2026-11-10"
+      "last_ok": "2026-11-11"
     },
     "日本乳癌学会": {
       "listed": 10,
       "picked": 3,
-      "last_ok": "2026-11-10"
+      "last_ok": "2026-11-11"
     },
     "MRIfan.net": {
       "listed": 10,
       "picked": 5,
-      "last_ok": "2026-11-10"
+      "last_ok": "2026-11-11"
     },
     "PMDA回収クラスI": {
       "listed": 0,
       "picked": 0,
       "empty_ok": true,
-      "last_ok": "2026-11-10"
+      "last_ok": "2026-11-11"
     },
     "PMDA回収クラスII": {
       "listed": 28,
       "picked": 4,
-      "last_ok": "2026-11-10"
+      "last_ok": "2026-11-11"
     },
     "造影剤の供給状況": {
       "listed": 235,
       "limited": 30,
-      "last_ok": "2026-11-10"
+      "last_ok": "2026-11-11"
     },
     "日本放射線技術学会雑誌": {
       "feed_entries": 1,
       "rss_items": 1,
-      "contents_items": 2,
-      "listed": 3,
-      "added": 0,
-      "last_ok": "2026-11-10"
+      "contents_items": 5,
+      "listed": 6,
+      "added": 3,
+      "last_ok": "2026-11-11"
     },
     "日本消化器がん検診学会雑誌": {
       "feed_entries": 0,
@@ -181,7 +181,7 @@
       "contents_items": 14,
       "listed": 14,
       "added": 0,
-      "last_ok": "2026-11-10"
+      "last_ok": "2026-11-11"
     },
     "日本乳癌検診学会誌": {
       "feed_entries": 0,
@@ -189,7 +189,7 @@
       "contents_items": 29,
       "listed": 29,
       "added": 0,
-      "last_ok": "2026-11-10"
+      "last_ok": "2026-11-11"
     },
     "日本磁気共鳴医学会雑誌": {
       "feed_entries": 2,
@@ -197,7 +197,7 @@
       "contents_items": 13,
       "listed": 15,
       "added": 0,
-      "last_ok": "2026-11-10"
+      "last_ok": "2026-11-11"
     },
     "医学物理": {
       "feed_entries": 0,
@@ -205,7 +205,7 @@
       "contents_items": 7,
       "listed": 7,
       "added": 0,
-      "last_ok": "2026-11-10"
+      "last_ok": "2026-11-11"
     },
     "核医学": {
       "feed_entries": 11,
@@ -213,7 +213,7 @@
       "contents_items": 10,
       "listed": 10,
       "added": 0,
-      "last_ok": "2026-11-10"
+      "last_ok": "2026-11-11"
     },
     "医用画像情報学会雑誌": {
       "feed_entries": 0,
@@ -221,7 +221,7 @@
       "contents_items": 5,
       "listed": 5,
       "added": 0,
-      "last_ok": "2026-11-10"
+      "last_ok": "2026-11-11"
     },
     "Medical Imaging Technology": {
       "feed_entries": 0,
@@ -229,7 +229,7 @@
       "contents_items": 5,
       "listed": 5,
       "added": 0,
-      "last_ok": "2026-11-10"
+      "last_ok": "2026-11-11"
     },
     "日本インターベンショナルラジオロジー学会雑誌": {
       "feed_entries": 0,
@@ -237,7 +237,7 @@
       "contents_items": 7,
       "listed": 7,
       "added": 0,
-      "last_ok": "2026-11-10"
+      "last_ok": "2026-11-11"
     },
     "超音波検査技術": {
       "feed_entries": 0,
@@ -245,46 +245,46 @@
       "contents_items": 3,
       "listed": 3,
       "added": 0,
-      "last_ok": "2026-11-10"
+      "last_ok": "2026-11-11"
     },
     "要約": {
-      "tried": 2,
-      "filled": 1,
+      "tried": 4,
+      "filled": 2,
       "remaining": 0
     },
     "香川県技師会の予定表": {
       "listed": 5,
-      "last_ok": "2026-11-10"
+      "last_ok": "2026-11-11"
     },
     "愛媛県技師会の行事予定": {
       "listed": 3,
-      "last_ok": "2026-11-10"
+      "last_ok": "2026-11-11"
     },
     "JABTS学術集会": {
       "listed": 1,
       "empty_ok": true,
-      "last_ok": "2026-11-10"
+      "last_ok": "2026-11-11"
     },
     "MR認定研究会・セミナー": {
       "listed": 20,
-      "last_ok": "2026-11-10"
+      "last_ok": "2026-11-11"
     },
     "精中機構の講習会": {
       "listed": 5,
-      "last_ok": "2026-11-10"
+      "last_ok": "2026-11-11"
     },
     "技師会の研修一覧": {
       "listed": 45,
       "upcoming": 44,
-      "last_ok": "2026-11-10"
+      "last_ok": "2026-11-11"
     },
     "香川県技師会のお知らせ(別枠)": {
       "listed": 9,
-      "last_ok": "2026-11-10"
+      "last_ok": "2026-11-11"
     },
     "香川県技師会の求人": {
       "listed": 2,
-      "last_ok": "2026-11-10"
+      "last_ok": "2026-11-11"
     },
     "メール通知": {
       "result": "no-items",

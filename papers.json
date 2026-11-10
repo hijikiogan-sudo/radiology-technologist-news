@@ -1,6 +1,33 @@
 {
- "checked_at": "2026-11-10T14:15+09:00",
+ "checked_at": "2026-11-11T02:15+09:00",
  "items": [
+  {
+   "journal": "日本放射線技術学会雑誌",
+   "title": "LLMと検索拡張生成を用いた造影CTプロトコル生成",
+   "url": "https://doi.org/10.6009/jjrt.26-1673",
+   "published": "2026-11-11",
+   "authors": "堀田 竜也, 松浦 由布子, 西田 浩如",
+   "added": "2026-11-11",
+   "category": "CT"
+  },
+  {
+   "journal": "日本放射線技術学会雑誌",
+   "title": "肩関節CT撮影におけるswimmer’s positionと提案体位の比較：ファントムを用いた基礎的検討",
+   "url": "https://doi.org/10.6009/jjrt.26-1476",
+   "published": "2026-11-11",
+   "authors": "飯盛 百花, 樋口 史江, 上堀内 善紀, 藤原 佑太, 大山 有多子, 佐々木 与子, 渡邉 伸作, 舛田 隆則",
+   "added": "2026-11-11",
+   "category": "CT"
+  },
+  {
+   "journal": "日本放射線技術学会雑誌",
+   "title": "術前骨盤CTを用いた大腿骨近位部骨折患者におけるyoung adult mean推定法の開発と妥当性検証",
+   "url": "https://doi.org/10.6009/jjrt.26-1709",
+   "published": "2026-11-11",
+   "authors": "西川 文也, 加藤 崇英, 白木 勇多, 横井 和也, 髙井 春風, 稲垣 拓実, 酒井 剛",
+   "added": "2026-11-11",
+   "category": "CT"
+  },
   {
    "journal": "核医学",
    "title": "心臓交感神経PETイメージングの新展開： 18 F-fluproxadine（ 18 F-AF78）の開発と臨床展開",
