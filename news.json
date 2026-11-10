@@ -1,6 +1,18 @@
 [
   {
     "date": "2026-11-10",
+    "category": "学術",
+    "importance": "中",
+    "headline": "第83回日本放射線技術学会総会学術大会 - 日本放射線技術学会",
+    "summary": "",
+    "why": "",
+    "source": "日本放射線技術学会",
+    "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE9SMWFMVnlWdUpzZWNtNGpLbmRHT2hmQ25hNWlGOUtDeUNLM2hnQ3RtYUVsMkVaMHhuVVVxYzJDNmhkNEM0QmNTUGRIVlFsM3N4ckZsdFo0TEdSWjZ4a2lTN1pJcw?oc=5",
+    "track": "general",
+    "summary_tried": "2026-11-11"
+  },
+  {
+    "date": "2026-11-10",
     "category": "放射線治療",
     "importance": "中",
     "headline": "第39回学術大会教育講演シラバスを【会員専用ページ】に掲載いたしました。",
@@ -2433,18 +2445,6 @@
     "source": "医療テックニュース",
     "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9sUU55UGxydl80QVA0SnVXRUgtMmZlTVlkUkpLM3gza1ZOay11MHFxNC1KUmdBdWExUldjRXB4SWhWamtVbGlnNjRHbU9YWjE3Y0lCcW1iQXFNdkhWNHBiMlZNNVdVUVJtTHc?oc=5",
     "track": "general",
-    "summary_tried": "2026-11-04"
-  },
-  {
-    "date": "2026-10-01",
-    "category": "安全管理",
-    "importance": "中",
-    "headline": "医療安全管理者養成研修の開催について - 日本診療放射線技師会",
-    "summary": "医療安全管理者養成研修の詳細と受講方法を紹介。必要な知識と実践能力を身につけ、医療の質向上を目指します。",
-    "why": "",
-    "source": "日本診療放射線技師会",
-    "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBrblpqd0lyeXZrbWxlX1psb0NLRGNtMTZpcDZuVDM1T2Y5cXZtVHBnc1pWLTZLWVdBTWt6U1NKRTNsdHluUU5RY2R0S0F5ejNkRFE?oc=5",
-    "track": "official",
     "summary_tried": "2026-11-04"
   }
 ]
