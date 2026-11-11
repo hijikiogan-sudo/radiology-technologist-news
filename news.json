@@ -1,6 +1,42 @@
 [
   {
     "date": "2026-11-10",
+    "category": "マンモグラフィ",
+    "importance": "中",
+    "headline": "乳房構成判定アトラスを公開しました。",
+    "summary": "",
+    "why": "",
+    "source": "日本乳癌検診学会",
+    "url": "https://www.jabcs.jp/pdf/breast_composition_judgment_atlas2026.pdf#d20261110",
+    "track": "general",
+    "summary_tried": "2026-11-11"
+  },
+  {
+    "date": "2026-11-11",
+    "category": "安全管理",
+    "importance": "中",
+    "headline": "【報告】メールマガジン配信サービスにおける不正アクセス調査完了および本会会員情報の安全確認について - 日本診療放射線技師会",
+    "summary": "メールマガジン配信サービスの不正アクセス調査が完了し、会員情報の安全が確認されました。再開に向けた準備も進行中です。",
+    "why": "",
+    "source": "日本診療放射線技師会",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBISmt2ejFiY1BBbWpQM3ZyM3Y0TjMtWXU5VVNWaERxSENVRFRNRDFtV2ZwZXNJTzAtN28zNWZuNFVwbG1ienRIclpUTnI3X3ZFeFRF?oc=5",
+    "track": "official",
+    "summary_tried": "2026-11-11"
+  },
+  {
+    "date": "2026-11-11",
+    "category": "CT",
+    "importance": "低",
+    "headline": "沖縄発のCdTe半導体技術、生産体制を世界規模へ ーSiemens HealthineersがドイツにフォトンカウンティングCT向け新工場を開設ー | シーメンスヘルスケア株式会社 - Digital PR Platform",
+    "summary": "",
+    "why": "",
+    "source": "Digital PR Platform",
+    "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE9RQ3ZQS3NWUDdIcl9TdnYxbUhiYWZyMXgtakk5ejgwUFg0RnVhTlhGc2ROUkprRVkzdXNpbXhiYkozMzg?oc=5",
+    "track": "general",
+    "summary_tried": "2026-11-11"
+  },
+  {
+    "date": "2026-11-10",
     "category": "学術",
     "importance": "中",
     "headline": "第83回日本放射線技術学会総会学術大会 - 日本放射線技術学会",
@@ -2409,42 +2445,6 @@
         "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA0ZkpfdnFkdWNSRC1ZMjhwWU5qMk1YcHVSR3hEbWgxVDkwZmdja1BRZEFXY0tpN1ZrVk5UamFNOEhGRzZfR0VRRmFnUlRWZzZlZ1h5MmJ3WURsVjlZanRsNGl4NkRUTVBHR1E?oc=5"
       }
     ],
-    "summary_tried": "2026-11-04"
-  },
-  {
-    "date": "2026-10-02",
-    "category": "放射線治療",
-    "importance": "低",
-    "headline": "計画用 CT は放射線治療の出発点増加する高精度放射線治療へSOMATOM go.Sim が果たす役割 - Siemens Healthineers",
-    "summary": "明治 13 年の創設以来、150 年近くの伝統を誇る大分県立病院。唯一の県立病院として地域医療を支えるとともに、日々進化する医療環境にも積極的に対応しています。",
-    "why": "",
-    "source": "Siemens Healthineers",
-    "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOeGhLUWpRRk96S1M1WmVKc0ZEQ3Qza2xkSnlOWV9icV9haUNwcnExaFlrUUNhREJucEN4N2hVM1l2S1VlNGdXSDNQbXBONml4Ty0tRkcxSVBlV2hsd09Cbi0zc2x5bHpMRlNTd2FPYVpET004aWFkRHhLVnlYS3lBR054TWxDSGJMMHdVWUxoOWlKdmtGQ2lwR1BaUlVPOExQaHFqN0tB?oc=5",
-    "track": "general",
-    "summary_tried": "2026-11-04"
-  },
-  {
-    "date": "2026-10-02",
-    "category": "放射線治療",
-    "importance": "低",
-    "headline": "【健康大百科】がんに対する最新の放射線治療 （テレビ岩手ニュース） - Yahoo!ニュース",
-    "summary": "",
-    "why": "",
-    "source": "Yahoo!ニュース",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBCaVNwMGJNSGVJVXB6a3Y1bHRBSUYwN2taell1b0poUnZMcWdiaTVGSERVOW9MdUxnRXRYb19KVmNUS1c1Y2lzT2VfUk54YVd2NnEyZ2JIUzM4Q0h4UTdCckhQbWVmblVNNmZJZzd5VWNZaU5xX3NTOGRVeWlUcWc?oc=5",
-    "track": "general",
-    "summary_tried": "2026-11-04"
-  },
-  {
-    "date": "2026-10-02",
-    "category": "CT",
-    "importance": "低",
-    "headline": "pafin、CT・MRI画像スマホ転送サービス「スマぞう」開始 院内LAN・PACS接続不要で導入可能 - 医療テックニュース",
-    "summary": "仮想通貨関連サービスなどを手掛けるpafin（パフィン、東京・千代田区）は10月1日、CT（コンピューター断層撮影装置）やMRI（磁気共鳴画像装置）などの検査画像を受診者のスマートフォンに転送する医療・健診機関向けサービス「スマぞう」の販売を開始したと発表した。",
-    "why": "",
-    "source": "医療テックニュース",
-    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9sUU55UGxydl80QVA0SnVXRUgtMmZlTVlkUkpLM3gza1ZOay11MHFxNC1KUmdBdWExUldjRXB4SWhWamtVbGlnNjRHbU9YWjE3Y0lCcW1iQXFNdkhWNHBiMlZNNVdVUVJtTHc?oc=5",
-    "track": "general",
     "summary_tried": "2026-11-04"
   }
 ]
