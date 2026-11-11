@@ -1,5 +1,65 @@
 [
   {
+    "date": "2026-11-11",
+    "category": "検診",
+    "importance": "中",
+    "headline": "【重要】 第7回消化器がん検診総合認定医試験について （第3報：事前準備と当日）",
+    "summary": "総合認定医試験（2026年11月22日（日））が近づいてまいりました。 これまでにご案内している内容になりますが、試験に向けて事前確認をお願いします。 なお、すでにご承知のことと存じますが、試験前講義は2024年度をもって終了しております。",
+    "why": "",
+    "source": "日本消化器がん検診学会",
+    "url": "https://www.jsgcs.or.jp/news/archives/1151",
+    "track": "general",
+    "summary_tried": "2026-11-12"
+  },
+  {
+    "date": "2026-11-11",
+    "category": "検診",
+    "importance": "中",
+    "headline": "【重要】 第3回（2026年）胃がん検診専門技師認定試験について （第4報：試験前講義のご案内）",
+    "summary": "第3回（2026年）胃がん検診専門技師認定試験ついて、 試験前講義のオンデマンド配信期間を ご案内いたします。",
+    "why": "受験する場合は、試験日や受験票などの案内を見落とさないよう確認しておきましょう。",
+    "source": "日本消化器がん検診学会",
+    "url": "https://www.jsgcs.or.jp/news/archives/1149",
+    "track": "general",
+    "summary_tried": "2026-11-12"
+  },
+  {
+    "date": "2026-11-11",
+    "category": "教育",
+    "importance": "中",
+    "headline": "2026年度　中国・四国支部リサーチセミナー（後期）",
+    "summary": "",
+    "why": "",
+    "source": "日本放射線技術学会 中国・四国支部",
+    "url": "https://jsrt-chushi.jp/?p=6322",
+    "track": "general",
+    "summary_tried": "2026-11-12"
+  },
+  {
+    "date": "2026-11-11",
+    "category": "教育",
+    "importance": "中",
+    "headline": "第28回 画像処理・表計算研修セミナー",
+    "summary": "",
+    "why": "",
+    "source": "日本放射線技術学会 中国・四国支部",
+    "url": "https://jsrt-chushi.jp/?p=6318",
+    "track": "general",
+    "summary_tried": "2026-11-12"
+  },
+  {
+    "date": "2026-11-11",
+    "category": "その他",
+    "importance": "中",
+    "headline": "令和8年度年次大会 第37回「高橋信次記念講演・古賀佑彦シンポジウム」のご案内 - 日本診療放射線技師会",
+    "summary": "医療放射線従事者向けの講演会「高橋信次記念講演・古賀佑彦シンポジウム」を開催します。放射線安全の基本を学ぶ貴重な機会です。",
+    "why": "",
+    "source": "日本診療放射線技師会",
+    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE1KcU5mVm5ZWnZoN3M4WmJFV3MzNXFnNHdTV2Jyd0lKbk5mbVJGVnBvMFBVTm9wNlhKTnBSdDA5WGNrenp3Z1FwZXlMY3lUWFZGQkxDcg?oc=5",
+    "track": "official",
+    "summary_tried": "2026-11-12"
+  },
+  {
     "date": "2026-11-10",
     "category": "マンモグラフィ",
     "importance": "中",
@@ -2380,71 +2440,5 @@
     "event_date": "2026-10-04",
     "event_kind": "開催",
     "event_place": "東京"
-  },
-  {
-    "date": "2026-10-02",
-    "category": "放射線治療",
-    "importance": "低",
-    "headline": "【健康大百科】がんに対する最新の放射線治療 （2026年10月2日掲載）｜TVI NEWS NNN - 日テレNEWS NNN",
-    "summary": "",
-    "why": "",
-    "source": "日テレNEWS NNN",
-    "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxORjFvdjVmenNyUE1LaUcwWnphdm9YY0N0V2R2NzNVRUZoYnI5VjRmNl9ZUWJBNjJraWpPQXNDejcwdmZRMWN6dGllaDdaa01MUkh0U2dvRlhhVnZVWjdsN0NGbml4STU5c1RZdW5YOTVzREFLeWc4WWF2bnIwSFA0SGliMXNxNHc?oc=5",
-    "track": "general",
-    "summary_tried": "2026-11-04"
-  },
-  {
-    "date": "2026-10-02",
-    "category": "放射線治療",
-    "importance": "中",
-    "headline": "西日本初※１ 頭部（特に脳）疾患に特化した定位放射線治療装置 「ＺＡＰ‐Ｘ(R)」を導入 - ニコニコニュース",
-    "summary": "",
-    "why": "",
-    "source": "ニコニコニュース",
-    "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE55LU5nV1U3ZjFBOTlsX3Rma3Z2Z1k5a3lEeGN5SlN4UUc2cUMxazZ5VG90dHhYTTRlQWo2S3VVMTFNTTd5WEV4a25iR0E0Y2tXWmYtLQ?oc=5",
-    "track": "general",
-    "summary_tried": "2026-11-04"
-  },
-  {
-    "date": "2026-10-02",
-    "category": "安全管理",
-    "importance": "中",
-    "headline": "［お知らせ］2026年度医療安全フォーラム on Web「医療安全のパラダイムシフト 〜VTA・焦り・Safety-II〜」 - 公益社団法人 日本放射線技術学会",
-    "summary": "",
-    "why": "",
-    "source": "日本放射線技術学会",
-    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTFAyQzFROTlBbTdsOUVYOEo2Qm9JZmVHaEpSeVBVTEN2eDVQRG8yX08yenNQVHNWX05ORm0tRG1MY05PdUJreHNGMW44ZkU5QUhC?oc=5",
-    "track": "general",
-    "summary_tried": "2026-11-04"
-  },
-  {
-    "date": "2026-10-03",
-    "category": "制度",
-    "importance": "中",
-    "headline": "厚生労働省委託事業 「業種別カスタマーハラスメント対策の取組支援事業」 アンケート調査へのご協力のお願い - 日本診療放射線技師会",
-    "summary": "厚生労働省委託事業として、医療業界におけるカスタマーハラスメントの実態把握を目的とした診療放射線技師向けアンケート調査を実施しています。回答期限は2026年10月18日（日）です。",
-    "why": "対象者と回答期限を確認しておきましょう。",
-    "source": "日本診療放射線技師会",
-    "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBlU0lodE9MSGZWOWpTZkZiS2tLbExsQjZRU3FLZ003eU80RlotaG9TOVBmbXZEQ0NfUTJCOV9WbU1FT25aaG12Z3N3UTJhXzBwTU5sN0o2bi1xNzVjcXd5WERIYXlVb2dFUURjVGJvYS1EVTc5NVN6X0M3bHV3X2fSAX9BVV95cUxQZVNJaHRPTEhmVjlqU2ZGYktrS2xMbEI2UVNxS2dNN3lPNEZaLWhvUzlQZm12RENDX1EyQjlfVm1NRU9uWmhtdmdzd1EyYV8wcE1ObDdKNm4tcTc1Y3F3eVhESGF5VW9nRVFEY1Rib2EtRFU3OTVTel9DN2x1d19n?oc=5",
-    "track": "official",
-    "summary_tried": "2026-11-04"
-  },
-  {
-    "date": "2026-10-02",
-    "category": "放射線治療",
-    "importance": "中",
-    "headline": "兵庫医科大学病院、「Elekta Evo」で国内初の治療を開始 ~個別化放射線治療のさらなる進化に向けて~（PR TIMES） - 毎日新聞",
-    "summary": "「Elekta Evo リニアックシステム」を使った治療を担当する放射線科の医師や放射線技術部のスタッフら エレクタ株式会社（本社：東京都港区、以下、エレクタ）と兵庫医科大学病院（兵庫県西宮市）は、同病院の新病院棟が開院した2026年9月24日に、高精度放射線治療装置「Elekt…",
-    "why": "",
-    "source": "毎日新聞",
-    "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE91WGMxamZYQ2tOcjdKUkREZFVKVUhPck1zdWtMUUJqWG5OdFg1dzlNLXpUenljekQ0cDJGSmlkVWFxT2EycGJnTGVLSkFJRkltUzd2cmJ0Z0I4RDZ5YjFteE42SHRiZkFF?oc=5",
-    "track": "general",
-    "also": [
-      {
-        "source": "PR TIMES",
-        "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTFA0ZkpfdnFkdWNSRC1ZMjhwWU5qMk1YcHVSR3hEbWgxVDkwZmdja1BRZEFXY0tpN1ZrVk5UamFNOEhGRzZfR0VRRmFnUlRWZzZlZ1h5MmJ3WURsVjlZanRsNGl4NkRUTVBHR1E?oc=5"
-      }
-    ],
-    "summary_tried": "2026-11-04"
   }
 ]
