@@ -1,5 +1,17 @@
 [
   {
+    "date": "2026-11-12",
+    "category": "その他",
+    "importance": "低",
+    "headline": "常勤放射線科医師の不在が病院経営に与える影響 ― 遠隔画像診断による新たな解決策｜嗣江建栄 - mbp-japan.com",
+    "summary": "先日、ある急性期病院から切実な相談をいただいた。現在、画像診断管理加算1を算定しているものの、来年4月から常勤放射線科医師が不在となる可能性があるという。病院側が懸念しているのは、画像診断管理加算の算定継続だけではない。急性期...",
+    "why": "",
+    "source": "mbp-japan.com",
+    "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE1LY1hYbE4xeU9USlBZMFhLaHIyV0xUalRNN25pRWctTW1Cd2I4U3hFa2lIcXhlZUZvNjVReGhNLXFLY3gyVVBYOG9KUTdMX1g0akpQcHZtamlrNUlmd09jV1JNblY1OFU?oc=5",
+    "track": "official",
+    "summary_tried": "2026-11-12"
+  },
+  {
     "date": "2026-11-11",
     "category": "検診",
     "importance": "中",
@@ -2425,20 +2437,5 @@
     "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBUNnZ5OFNSUkZTRlRodTZLdGJmRDBYR3NjcFQwc2F5OUFSdmpBTjY2bElFRDk3R0VxcVlfRDBZTmcyQVk3NExrRkt0OUZIbWZoaUNFUk1JX0IzY2ZSQjlXVw?oc=5",
     "track": "general",
     "summary_tried": "2026-11-04"
-  },
-  {
-    "date": "2026-10-03",
-    "category": "職能",
-    "importance": "中",
-    "headline": "告示研修（実技研修）東京都2026/10/4 - 日本診療放射線技師会",
-    "summary": "",
-    "why": "業務範囲の拡大に伴う告示研修です。未受講なら日程と申込方法を確認しておきましょう。",
-    "source": "日本診療放射線技師会",
-    "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQQndLXzJ4anZHRnFyTVBZUVpoVkJKM0RIYXdKazZYRmxPUVZ5NmxlTnhfYVUwLUU3Vk5FYzhqSm1uQ0ZSNGtza3NfRWJMU2RKMXk3cTJrR0d3Unp3M3VtemtJcWc4dHp0S1pjbDRWSHlpUElKX05HMVJXcWw3clA4OA?oc=5",
-    "track": "official",
-    "summary_tried": "2026-11-04",
-    "event_date": "2026-10-04",
-    "event_kind": "開催",
-    "event_place": "東京"
   }
 ]

@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-11-12T04:45+09:00",
-  "added": 0,
+  "checked_at": "2026-11-12T09:07+09:00",
+  "added": 1,
   "total": 200,
   "sources": {
     "医療機能評価機構": {
@@ -62,9 +62,10 @@
       "last_ok": "2026-11-12"
     },
     "徳島県診療放射線技師会": {
-      "listed": 5,
-      "picked": 0,
-      "last_ok": "2026-11-12"
+      "error": "URLError: <urlopen error timed out>",
+      "last_ok": "2026-11-12",
+      "failing_since": "2026-11-12",
+      "failing_days": 1
     },
     "高知県診療放射線技師会": {
       "listed": 165,
@@ -248,8 +249,8 @@
       "last_ok": "2026-11-12"
     },
     "要約": {
-      "tried": 0,
-      "filled": 0,
+      "tried": 1,
+      "filled": 1,
       "remaining": 0
     },
     "香川県技師会の予定表": {
