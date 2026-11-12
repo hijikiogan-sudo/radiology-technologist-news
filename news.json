@@ -2,6 +2,30 @@
   {
     "date": "2026-11-12",
     "category": "その他",
+    "importance": "中",
+    "headline": "COI申告システム メンテナンスのお知らせ",
+    "summary": "セキュリティ対策に伴うサーバーメンテナンスのため、下記の日時にCOI申告システムを一時停止いたします。",
+    "why": "",
+    "source": "日本消化器がん検診学会",
+    "url": "https://www.jsgcs.or.jp/news/archives/1152",
+    "track": "general",
+    "summary_tried": "2026-11-12"
+  },
+  {
+    "date": "2026-11-12",
+    "category": "一般撮影",
+    "importance": "低",
+    "headline": "＜画像42 / 49＞「折れてる」とは言えない放射線技師 vs「骨折してますか？」レントゲン結果を知りたい患者!!画像所見は、顔面で伝えるしかないよね【インタビュー】｜ウォーカープラス - Walker Plus",
+    "summary": "放射線技師は、患者さんに「折れてますか？」と聞かれることも多い。しかし、医師免許を持たないため画像所見の診断を行うことは…",
+    "why": "",
+    "source": "Walker Plus",
+    "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE4zSnRwOV82ckhneU9ka2I4OTFzZk90Tzh0YUxfcGpTR3lxa2tGcmQ1SFFURGlvUk1sZlQ3c3BiMkNVc3ZwSjIwTDVZdkxFVzJlemFZV2ZEalhwM1ltSG93ZkNBdG5oMWs1aWhjNVBR?oc=5",
+    "track": "official",
+    "summary_tried": "2026-11-12"
+  },
+  {
+    "date": "2026-11-12",
+    "category": "その他",
     "importance": "低",
     "headline": "常勤放射線科医師の不在が病院経営に与える影響 ― 遠隔画像診断による新たな解決策｜嗣江建栄 - mbp-japan.com",
     "summary": "先日、ある急性期病院から切実な相談をいただいた。現在、画像診断管理加算1を算定しているものの、来年4月から常勤放射線科医師が不在となる可能性があるという。病院側が懸念しているのは、画像診断管理加算の算定継続だけではない。急性期...",
@@ -2411,30 +2435,6 @@
     "why": "",
     "source": "Excite エキサイト",
     "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9hNkdERHZUenZ1aFctMTY0NXgzU0N2M0J4SDNTblZUWDVlRk85WFNBdlBoc2tpb3JFX0xnbDA2S2xEM3VNN3gtR2V6ZHFBdGNBSUpuUnNaVUFEOGtzcjFLam5ZWmdmaDhlOWJleFJoZm8xVkYzVWhiTg?oc=5",
-    "track": "general",
-    "summary_tried": "2026-11-04"
-  },
-  {
-    "date": "2026-10-06",
-    "category": "その他",
-    "importance": "低",
-    "headline": "アライドテレシス、金沢赤十字病院と福井大病院の遠隔読影基盤構築を支援 閉域網・SD-WAN活用 - 医療テックニュース",
-    "summary": "ネットワーク機器のアライドテレシス（東京・品川区）は10月5日、金沢赤十字病院（石川・金沢市）と福井大学医学部附属病院（福井・永平寺町）を結ぶ遠隔読影基盤に、同社のSD-WAN（ソフトウエア定義型広域ネットワーク）ルーター「ARX200Sシリーズ」が採用されたと発表した。",
-    "why": "",
-    "source": "医療テックニュース",
-    "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9MazA2UURvbG1mbl9wQm5lelB3SkFSdVpGMjFFb3BhRXdQZlBEdTllam10S2NjcEtuS2dZMk9TamtOXzBXUklLRVZxVi05UWxwTTViT0JDUjhoWVdCUWhyUHRmel8?oc=5",
-    "track": "general",
-    "summary_tried": "2026-11-04"
-  },
-  {
-    "date": "2026-10-05",
-    "category": "学術",
-    "importance": "中",
-    "headline": "第62回秋季臨床大会 JRS-NEXT企画 開催報告 - 公益社団法人日本医学放射線学会",
-    "summary": "旭川で開催された第62回秋季臨床大会において、JRS-NEXT企画として「Radiology Bootcamp 2026 参加型クイズ」と「論文執筆セミナー」を開催しました。",
-    "why": "",
-    "source": "日本医学放射線学会",
-    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBUNnZ5OFNSUkZTRlRodTZLdGJmRDBYR3NjcFQwc2F5OUFSdmpBTjY2bElFRDk3R0VxcVlfRDBZTmcyQVk3NExrRkt0OUZIbWZoaUNFUk1JX0IzY2ZSQjlXVw?oc=5",
     "track": "general",
     "summary_tried": "2026-11-04"
   }
