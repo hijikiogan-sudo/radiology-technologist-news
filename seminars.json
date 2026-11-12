@@ -1,43 +1,6 @@
 {
- "checked_at": "2026-11-12T14:23+09:00",
+ "checked_at": "2026-11-13T02:22+09:00",
  "items": [
-  {
-   "title": "2026年度第1回 STAT画像所見報告セミナー",
-   "url": "https://www.jart.jp/seminar/2026年度第1回-stat画像所見報告セミナー",
-   "kind": "生涯教育",
-   "status": "申込み不可",
-   "event_start": "2026-11-12",
-   "event_end": "2026-11-12",
-   "apply_start": "2026-09-15",
-   "apply_end": "2026-10-28",
-   "place": "JART"
-  },
-  {
-   "title": "第114回関西MRI技術研究会開催のお知らせ",
-   "url": "https://plaza.umin.ac.jp/~JMRTS/dl/kansaiMR114kai.pdf",
-   "kind": "JMRTS",
-   "status": "",
-   "event_start": "2026-11-12",
-   "event_end": "2026-11-12",
-   "apply_start": "",
-   "apply_end": "",
-   "place": "オンライン",
-   "category": "MRI",
-   "source": "日本磁気共鳴専門技術者認定機構"
-  },
-  {
-   "title": "第123回南大阪MRI研究会開催のお知らせ",
-   "url": "https://plaza.umin.ac.jp/~JMRTS/dl/minamioosaka123kai.pdf",
-   "kind": "JMRTS",
-   "status": "",
-   "event_start": "2026-11-12",
-   "event_end": "2026-11-12",
-   "apply_start": "",
-   "apply_end": "",
-   "place": "大阪",
-   "category": "MRI",
-   "source": "日本磁気共鳴専門技術者認定機構"
-  },
   {
    "title": "第67回神奈川MRI技術研究会開催のお知らせ",
    "url": "https://plaza.umin.ac.jp/~JMRTS/dl/kanagawaMR67kai.pdf",
