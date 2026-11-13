@@ -1,5 +1,35 @@
 [
  {
+  "date": "2026-10-10",
+  "category": "CT",
+  "importance": "低",
+  "headline": "株式会社エム、既存のCT画像をAIで解析し、脂肪量・筋肉量・筋肉の質を可視化する 「MVision body」 - ニコニコニュース",
+  "summary": "",
+  "why": "",
+  "source": "ニコニコニュース",
+  "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5qNGFkNWoxeS1zaU5tTzFDYUszQXlPRFRGTndjaWFEYm5SYWcyc0t4MVBnUXFGMWVweWYzUGo3SXF3bzRfRFlmZ0NMb0p5UDlzU3YxQjJvN3ZRU2NlZ2tMWXl5MFZmWXg4TGRPQXg4QlNUUEhtSnozNWp3WQ?oc=5",
+  "track": "general",
+  "also": [
+   {
+    "source": "PR TIMES",
+    "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9oWnlCLTYxQ3poMWFfYlFuT2hsMm0tNlVfSktQSHNLSXhILTdHY0VGNlEyb0Q3QTlzbmVXekJMTFJfTXRMSWxKZHlmUURBZjJyTlJGMUZ1S1l2Yy1zUEhDZTI2Zk82aWRSU3c?oc=5"
+   }
+  ],
+  "summary_tried": "2026-11-04"
+ },
+ {
+  "date": "2026-10-10",
+  "category": "教育",
+  "importance": "中",
+  "headline": "［お知らせ］第11回放射線影響と防護量の考え方を学ぶWebセミナー - 公益社団法人 日本放射線技術学会",
+  "summary": "",
+  "why": "",
+  "source": "日本放射線技術学会",
+  "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE1USnRfOTlPSUZwZlViZHFlV3FkWTh5WGVZRHd4ZEhjX1ctRjVJWC1qNU1TMENWZF9sS25BaVpGVV9WVVc5S3lxYldNc1QyUlRN?oc=5",
+  "track": "general",
+  "summary_tried": "2026-11-04"
+ },
+ {
   "date": "2026-10-09",
   "category": "CT",
   "importance": "低",
@@ -8,6 +38,18 @@
   "why": "",
   "source": "Infoseek",
   "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBZcmNrSWFod0ZLYXFkMXdmdExodzlKNTlYRTdZNFdzd1BYMTBERjg2Q3U2V2NCWERsc1FkbTdMU3IxakdTZGpRdHphZHFwNDRZeVhxYmtVYVBSVVRfSTQwNWtQampEWjcwbEFTY2VCdFhvZw?oc=5",
+  "track": "general",
+  "summary_tried": "2026-11-04"
+ },
+ {
+  "date": "2026-10-09",
+  "category": "学術",
+  "importance": "中",
+  "headline": "第67回日本脈管学会学術総会 - 公益社団法人日本医学放射線学会",
+  "summary": "",
+  "why": "",
+  "source": "日本医学放射線学会",
+  "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBWenVvTDlKcVpjc2d5TzFJYUdrdUx3QUhDSnF0ZnBsamNaTDlzby03ejBjRmZNN3F4WGVjWHYycHNNNzQ5bURiMzVEVVdBYkczc2d6QXJuMVJsQ1RkVUc2ak5JdVEzUmJvWlRPUWNjaw?oc=5",
   "track": "general",
   "summary_tried": "2026-11-04"
  },

@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-11-13T04:42+09:00",
-  "added": 1,
+  "checked_at": "2026-11-13T09:05+09:00",
+  "added": 3,
   "total": 200,
   "sources": {
     "医療機能評価機構": {
@@ -93,9 +93,10 @@
       "last_ok": "2026-11-13"
     },
     "日本IVR学会": {
-      "listed": 10,
-      "picked": 0,
-      "last_ok": "2026-11-13"
+      "error": "URLError: <urlopen error timed out>",
+      "last_ok": "2026-11-13",
+      "failing_since": "2026-11-13",
+      "failing_days": 1
     },
     "日本超音波医学会": {
       "listed": 10,
@@ -249,8 +250,8 @@
       "last_ok": "2026-11-13"
     },
     "要約": {
-      "tried": 1,
-      "filled": 1,
+      "tried": 3,
+      "filled": 3,
       "remaining": 0
     },
     "香川県技師会の予定表": {
@@ -288,8 +289,8 @@
       "last_ok": "2026-11-13"
     },
     "メール通知": {
-      "result": "no-items",
-      "items": 0
+      "result": "not-configured",
+      "items": 1
     },
     "不調の通知": {
       "result": "no-items",
