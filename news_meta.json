@@ -1,6 +1,6 @@
 {
-  "checked_at": "2026-11-13T09:05+09:00",
-  "added": 3,
+  "checked_at": "2026-11-13T14:21+09:00",
+  "added": 4,
   "total": 200,
   "sources": {
     "医療機能評価機構": {
@@ -12,7 +12,7 @@
       "last_ok": "2026-11-13"
     },
     "日本放射線技術学会": {
-      "listed": 44,
+      "listed": 46,
       "picked": 5,
       "last_ok": "2026-11-13"
     },
@@ -27,7 +27,7 @@
       "last_ok": "2026-11-13"
     },
     "厚生労働省": {
-      "listed": 130,
+      "listed": 140,
       "picked": 1,
       "last_ok": "2026-11-13"
     },
@@ -93,10 +93,9 @@
       "last_ok": "2026-11-13"
     },
     "日本IVR学会": {
-      "error": "URLError: <urlopen error timed out>",
-      "last_ok": "2026-11-13",
-      "failing_since": "2026-11-13",
-      "failing_days": 1
+      "listed": 10,
+      "picked": 0,
+      "last_ok": "2026-11-13"
     },
     "日本超音波医学会": {
       "listed": 10,
@@ -135,7 +134,7 @@
     },
     "日本超音波検査学会": {
       "listed": 10,
-      "picked": 2,
+      "picked": 1,
       "last_ok": "2026-11-13"
     },
     "日本X線CT専門技師認定機構": {
@@ -145,7 +144,7 @@
     },
     "日本乳癌学会": {
       "listed": 10,
-      "picked": 2,
+      "picked": 3,
       "last_ok": "2026-11-13"
     },
     "MRIfan.net": {
@@ -289,8 +288,8 @@
       "last_ok": "2026-11-13"
     },
     "メール通知": {
-      "result": "not-configured",
-      "items": 1
+      "result": "no-items",
+      "items": 0
     },
     "不調の通知": {
       "result": "no-items",
