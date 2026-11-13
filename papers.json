@@ -1,6 +1,15 @@
 {
- "checked_at": "2026-11-13T14:21+09:00",
+ "checked_at": "2026-11-14T02:21+09:00",
  "items": [
+  {
+   "journal": "日本放射線技術学会雑誌",
+   "title": "Deep learning reconstructionがT 2 *強調画像における磁化率変化の検出に与える影響",
+   "url": "https://doi.org/10.6009/jjrt.26-1650",
+   "published": "2026-11-14",
+   "authors": "台丸谷 卓眞, 大湯 和彦, 船戸 陽平, 森 竜太朗, 掛田 伸吾",
+   "added": "2026-11-14",
+   "category": "その他"
+  },
   {
    "journal": "日本放射線技術学会雑誌",
    "title": "LLMと検索拡張生成を用いた造影CTプロトコル生成",

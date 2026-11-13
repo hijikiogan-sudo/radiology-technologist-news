@@ -1,6 +1,66 @@
 [
   {
     "date": "2026-11-13",
+    "category": "マンモグラフィ",
+    "importance": "中",
+    "headline": "周知依頼 一覧",
+    "summary": "本通知は、臨床研究法における利益相反（COI）管理の新ガイダンスを示したものであり、令和8年4月20日から適用されますので、ご確認ください。",
+    "why": "",
+    "source": "日本乳癌学会",
+    "url": "https://www.jbcs.gr.jp/modules/info/index.php?content_id=38",
+    "track": "general",
+    "summary_tried": "2026-11-14"
+  },
+  {
+    "date": "2026-11-13",
+    "category": "MRI",
+    "importance": "中",
+    "headline": "RADIOLOGY PODCAST NETWORK 2026年11月16日",
+    "summary": "【RADIOLOGY PODCAST NETWORKからのお知らせ】2026年11月16日(月) 19:00からのRADIOLOGY PODCAST NETWORKは生放送でお届けします！スペシャルゲストは五月女...",
+    "why": "",
+    "source": "MRIfan.net",
+    "url": "https://mrifan.net/events/23286",
+    "track": "official",
+    "summary_tried": "2026-11-14"
+  },
+  {
+    "date": "2026-11-13",
+    "category": "職能",
+    "importance": "中",
+    "headline": "【重要】「JARTIS」および告示研修等のオンライン受講(etudes)の完全復旧について (PHP脆弱性対応) - 日本診療放射線技師会",
+    "summary": "JARTISが完全復旧いたしました。オンライン受講や会員サービスが通常どおり利用可能となりました。",
+    "why": "業務範囲の拡大に伴う告示研修です。未受講なら日程と申込方法を確認しておきましょう。",
+    "source": "日本診療放射線技師会",
+    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE15Q0I5ZnhHcXR2dlV3OGtZRDJWYnhtVVdxZnlxXzRyMXBRRlNZdWZhQTMweFc3bVJTNzBabmdsY1dMdUF4YVJsWjVKclZzc3ZZV1pn?oc=5",
+    "track": "official",
+    "summary_tried": "2026-11-14"
+  },
+  {
+    "date": "2026-11-13",
+    "category": "マンモグラフィ",
+    "importance": "低",
+    "headline": "痛くない乳がん検査があるって知っていた？　50代ライターが無痛MRI乳がん検診を体験！ - ｄメニューニュース",
+    "summary": "痛くない、被ばくしない、今注目されている新しい乳がん検診って？ 年齢とともに気になってくる女性のが…",
+    "why": "",
+    "source": "ｄメニューニュース",
+    "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQZTk3ejVRM0I3U2IwVDlIakNQSEx2STJfVmQyUl8wSFR2Y3Q1blRnclZsMkNkeS1iM3NNc2JvTmdUa2M3a3BBcWdOcmlxOU9EbnVqYnZRZ0JfMEYyVGROVnAzMnZEZ29JQTVkbjR6VHF1OW5rTy12cFR4elYwdnhPd01B0gGHAUFVX3lxTE9Hb3hEOF9DTGFIWEhqWUlxQnlJX2xFbm9xUGk0RWNVUDhKWl9rbTRTNVdMN1c2a1IzVmE1SWp4TllLb2JJTjhKc3lTLVJvM1Y4NXhnRmdoOWxqMzlFTzRyc2xkamxnT0FKX05uNHJjWTc3ZFd1SE9Pcmt4NkRBb3NZS3BtUzlNSQ?oc=5",
+    "track": "general",
+    "summary_tried": "2026-11-14"
+  },
+  {
+    "date": "2026-11-13",
+    "category": "その他",
+    "importance": "低",
+    "headline": "【記者解説】沖縄北部のがん医療どう守る？ 放射線装置の見送り 丁寧な説明必要 - 琉球新報デジタル",
+    "summary": "2028年度開院の公立沖縄北部医療センターで、放射線装置の導入見送りが13日までに決まった。住民らへの丁寧な説明が求められる。",
+    "why": "",
+    "source": "琉球新報デジタル",
+    "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1mSS1EdzY4RnRmMG9zZjJhbDlEWGlZbnRlNTRCbnk3b0JiUk50dnAyOVNQRThWNWFSUExXbUtxRi11ZUJ0SGpPN1kwQnAxdmdWRzNHRGxpbnVtd0x6R09uNQ?oc=5",
+    "track": "general",
+    "summary_tried": "2026-11-14"
+  },
+  {
+    "date": "2026-11-13",
     "category": "その他",
     "importance": "中",
     "headline": "【事務局のメールシステムの障害に関するお知らせ】",
@@ -2365,71 +2425,5 @@
     "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE45MGVrenliWFF2dTZnMlA2WnZXTWs1Y0Y5eFA5N3hiTE1YUGFMYTNvdEI0UGRsNGZrb21YOGROaUh3Z1BZa2JmR2RXY19EX01vcEpSNVBteGVZa2dOVXVXT3ZQbUUyWEdXZk1CQw?oc=5",
     "track": "general",
     "summary_tried": "2026-11-03"
-  },
-  {
-    "date": "2026-10-14",
-    "category": "職能",
-    "importance": "中",
-    "headline": "告示研修（実技研修）2026年度 開催日程（2026/10/14更新） - 日本診療放射線技師会",
-    "summary": "告示研修（実技研修）の2026年度開催日程をお知らせします。最新情報を確認の上、お申し込みください。",
-    "why": "業務範囲の拡大に伴う告示研修です。未受講なら日程と申込方法を確認しておきましょう。",
-    "source": "日本診療放射線技師会",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBEeng5Q0ZjSUZpZlpNZ1AwUWN5bXVPci1ub1k1N0RQZUJDRk0waUJPUDhKMVU0S2ZHN3NCRFRQMTNTMEFsQUloX1pBeVVhSm5Lbzl3?oc=5",
-    "track": "official",
-    "summary_tried": "2026-11-03"
-  },
-  {
-    "date": "2026-10-14",
-    "category": "その他",
-    "importance": "中",
-    "headline": "【再掲】動画視聴システム更新に伴う一時休止のお知らせ（10/20 12：00〜14：00） - 日本診療放射線技師会",
-    "summary": "JARTISの動画視聴システムが10月20日にメンテナンスのため一時休止します。詳細は公式サイトをご確認ください。",
-    "why": "会員ページやeラーニングを使う予定があれば、止まる時間や再開の時期を確認しておきましょう。",
-    "source": "日本診療放射線技師会",
-    "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1sZ2JrcGRzQ3dqNjB4Z1VuMEMwMm9naVplN25kamJZb3NfWXBZY3VkbWs4R0dQS0Z1eXVDekoyTU9XWTc0c01tRXMyam5MY0ZtbDRz?oc=5",
-    "track": "official",
-    "also": [
-      {
-        "source": "日本診療放射線技師会",
-        "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE9QRHpDU0xRdGJBSzY5WG1ubk4xcDlWdGJLYzhnblF5WEQwZUtXdHFZVnRTbndwdi1TM25xbmFpU3c2amozdWFjMzhxZWF2MFJsVEE?oc=5"
-      }
-    ],
-    "summary_tried": "2026-11-03"
-  },
-  {
-    "date": "2026-10-14",
-    "category": "安全管理",
-    "importance": "中",
-    "headline": "【医療放射線防護連絡協議会】令和8年度「医療放射線安全管理講習会」開催のお知らせ - 日本医学放射線学会",
-    "summary": "",
-    "why": "",
-    "source": "日本医学放射線学会",
-    "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBtQXNGMW45OWxnbUoxVW56dEMyaGZ6cmFnN3ZlS1U4MDBZbEVZdmU4U1FPeDhQcDZJd29PMEE2R3B5aHVxVTU0dFhCMlAxN0FuRkF4NU4wNV9wOF9Nb3dSM2w4Z3hITXZ0U2JSZ3hYRQ?oc=5",
-    "track": "general",
-    "summary_tried": "2026-11-03"
-  },
-  {
-    "date": "2026-10-13",
-    "category": "学術",
-    "importance": "中",
-    "headline": "［お知らせ］専門部会誌-秋号（電子版）閲覧のご案内 - 公益社団法人 日本放射線技術学会",
-    "summary": "3）所属されている専門部会名が表示されますのでクリックしてください。 部会誌PDF閲覧ページにリンクしています。",
-    "why": "",
-    "source": "日本放射線技術学会",
-    "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE0tVTJSZzlJUGx4eUJLNlNCWDIta1JqcTR4R2Z6elNFUHpZT09QUFVDMlFqaUwtcElLaWhhOG1URFRucHdmb2ZaMlBYVDdBOXh2?oc=5",
-    "track": "general",
-    "summary_tried": "2026-11-04"
-  },
-  {
-    "date": "2026-10-13",
-    "category": "学術",
-    "importance": "中",
-    "headline": "【会員限定特典】JART会誌・学術論文を電子版でご覧いただけます！ - 日本診療放射線技師会",
-    "summary": "日本診療放射線技師会誌「JART」2026年10月号を公開しました。CTの被ばく低減に関する研究論文をはじめ、診療放射線技師に役立つ学術情報を掲載。会員限定の電子版をJARTISからぜひご覧ください。",
-    "why": "",
-    "source": "日本診療放射線技師会",
-    "url": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE4wOVVuT1k0UFJZWGxJdFdIVGxHNXczSkZrUHFWb3NtazVoSC0wVFczeXl3ckRldjZRMnZ4OTNSVUpER0R5NmFuR0d2NEJsREk?oc=5",
-    "track": "official",
-    "summary_tried": "2026-11-04"
   }
 ]
